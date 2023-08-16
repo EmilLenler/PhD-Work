@@ -26,7 +26,7 @@ def Dicke_Hamilton(rabi_freq,detuning,omega,t,m,amplitude,k):
   #States are written on vector form of ([0,e],[0,g],[1,e],[1,g])
   hbar = 1.05*1e-34
   H_11 = 0
-  H_12 = 0#np.exp(-1j*detuning*t) #Carrier excitation
+  H_12 = np.exp(-1j*detuning*t) #Carrier excitation
   H_13 = 0
   H_14 = np.exp(-1j*detuning*t)*1j*dicke_p*np.exp(-1j*omega*t) # red sideband
   H_21 = 0
@@ -36,7 +36,7 @@ def Dicke_Hamilton(rabi_freq,detuning,omega,t,m,amplitude,k):
   H_31 = 0
   H_32 = np.exp(-1j*detuning*t)*1j*dicke_p*np.exp(1j*omega*t) # Blue sideband
   H_33 = 0
-  H_34 = 0#np.exp(-1j*detuning*t)
+  H_34 = np.exp(-1j*detuning*t)
   H_41 = 0
   H_42 = 0
   H_43 = 0
