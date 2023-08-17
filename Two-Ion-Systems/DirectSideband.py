@@ -77,7 +77,7 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 
 t_end = 1e-3
 def TimeEv(t,phi):
-   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-1.5*frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
+   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-frequencies[2],frequencies[2]*+2*np.pi*1.4*1e3,t,m_ba,vectors[2][0],k),phi)
 UnExcitedEvolution = solve_ivp(TimeEv,[0,t_end],state,t_eval = np.linspace(0,t_end,10000),max_step = 1e-8)
 ExcitedEvolution = solve_ivp(TimeEv,[0,t_end],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
 print(UnExcitedEvolution.y)
@@ -127,13 +127,13 @@ ax[1].set_xlabel('Time / ms')
 # print(eigvecs[:,1])
 # print(eigvecs[:,2])
 # print(eigvecs[:,3])
-# def flopmax(Rabi_f):
-#     def FTimeEv(t,phi):
-#         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*Rabi_f*1e3,-frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
-#     flopsolve = solve_ivp(FTimeEv,[0,1e-3],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,1e-3,10000),max_step = 1e-8)
-#     return np.max(np.abs(flopsolve.y[0])**2)
-# goodflop = gssmax(flopmax,1,100,n_runs = 10)
-# print(' Good rabi frequency is',goodflop,'Hz')
+def flopmax(delta):
+    def FTimeEv(t,phi):
+        return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-frequencies[2],frequencies[2]-2*np.pi*1e3*delta,t,m_ba,vectors[2][0],k),phi)
+    flopsolve = solve_ivp(FTimeEv,[0,1e-3],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,1e-3,10000),max_step = 1e-8)
+    return np.max(np.abs(flopsolve.y[0])**2)
+goodflop = gssmax(flopmax,1,100,n_runs = 10)
+print(' Bonus detuning is -2pi',goodflop,'kHz')
 # t_end_L = 1e-1
 # def BigTimeEv(t,phi):
 #     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
