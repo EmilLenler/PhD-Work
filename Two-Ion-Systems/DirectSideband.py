@@ -34,6 +34,7 @@ k = 2*np.pi/(1762*1e-9) #wave vector for 1762nm
 dickes = np.array([TI.dicke_param(freq,k,m_ba,v[0]) for freq,v in zip(frequencies,vectors)])
 print('Lamb Dickes are', dickes)
 fig,ax = plt.subplots(figsize = (10,15))
+print('Plotting Dicke')
 ax.scatter(np.arange(0,12)+1,dickes)
 ax.set_xlabel('Number of porypherin rings')
 ax.set_ylabel('Lamb-dicke parameter for out-of-phase axial motion on Ba ion')
@@ -41,17 +42,20 @@ fig.suptitle('Lamb-Dicke parameters for two-ion system of barium and porypherine
 ax.set_xticks(np.arange(0,12)+1)
 
 fig,ax = plt.subplots(figsize = (10,15))
-ax.scatter(np.arange(0,12)+1,np.pi/(dickes*1*1e3))
+print('Plotting Pulse durations')
+ax.scatter(np.arange(0,12)+1,np.pi/(dickes*1*1e3*2*np.pi))
 ax.set_ylabel(r'$\pi$ pulse duration / s')
 ax.set_xlabel('Number of porypherin rings')
 ax.set_xticks(np.arange(0,12)+1)
 fig.suptitle(r'$\pi$ pulse durations for 1kHz carrier Rabi frequency')
 fig,ax = plt.subplots(figsize = (10,15))
+print('1ms pulse')
 ax.scatter(np.arange(0,12)+1,np.pi/(1e-3*dickes*2*np.pi)*1e-3)
 ax.set_xlabel('Number of porypherin rings')
 ax.set_ylabel('Carrier rabi frequency / kHz')
 fig.suptitle(r'Required carrier rabi frequency to achieve 1ms $\pi$ pulse on sideband')
 fig,ax = plt.subplots(figsize = (10,15))
+print('10ms pulse')
 ax.scatter(np.arange(0,12)+1,np.pi/(10*1e-3*dickes*2*np.pi)*1e-3)
 fig.suptitle(r'Required carrier rabi frequency to achieve 10ms $\pi$ pulse on sideband')
 ax.set_xticks(np.arange(0,12)+1)
@@ -71,13 +75,14 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 
 
 
-t_end = 1e-3
+t_end = 1e-2
 def TimeEv(t,phi):
-   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[2]-2*np.pi*0*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
+   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
 UnExcitedEvolution = solve_ivp(TimeEv,[0,t_end],state,t_eval = np.linspace(0,t_end,10000),max_step = 1e-8)
 ExcitedEvolution = solve_ivp(TimeEv,[0,t_end],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
 print(UnExcitedEvolution.y)
 fig,ax = plt.subplots(2,1,figsize = (10,15))
+print('UneXc Evo')
 ax[0].plot(UnExcitedEvolution.t/(1e-3),UnExcitedEvolution.y[0]*np.conjugate(UnExcitedEvolution.y[0]),label = r'$\vert 0,e\rangle$')
 ax[0].plot(UnExcitedEvolution.t/(1e-3),UnExcitedEvolution.y[1]*np.conjugate(UnExcitedEvolution.y[1]),label = r'$\vert 0,g\rangle$')
 ax[0].plot(UnExcitedEvolution.t/(1e-3),UnExcitedEvolution.y[2]*np.conjugate(UnExcitedEvolution.y[2]),label = r'$\vert 1,e\rangle$')
@@ -85,8 +90,11 @@ ax[0].plot(UnExcitedEvolution.t/(1e-3),UnExcitedEvolution.y[3]*np.conjugate(UnEx
 ax[0].plot(UnExcitedEvolution.t/(1e-3),np.abs(UnExcitedEvolution.y[0])**2+np.abs(UnExcitedEvolution.y[1])**2+np.abs(UnExcitedEvolution.y[2])**2+np.abs(UnExcitedEvolution.y[3])**2,color = 'k')
 ax[0].legend()
 ax[0].set_title(r'Initialization in ground state $\vert 0,g\rangle$ ')
-
-
+print(np.max(np.abs(np.imag(UnExcitedEvolution.y[0]*np.conjugate(UnExcitedEvolution.y[0])))))
+print(np.max(np.abs(np.imag(UnExcitedEvolution.y[1]*np.conjugate(UnExcitedEvolution.y[1])))))
+print(np.max(np.abs(np.imag(UnExcitedEvolution.y[2]*np.conjugate(UnExcitedEvolution.y[2])))))
+print(np.max(np.abs(np.imag(UnExcitedEvolution.y[3]*np.conjugate(UnExcitedEvolution.y[3])))))
+print('ExcEvo')
 ax[1].plot(ExcitedEvolution.t/(1e-3),ExcitedEvolution.y[0]*np.conjugate(ExcitedEvolution.y[0]),label = r'$\vert 0,e\rangle$')
 ax[1].plot(ExcitedEvolution.t/(1e-3),ExcitedEvolution.y[1]*np.conjugate(ExcitedEvolution.y[1]),label = r'$\vert 0,g\rangle$')
 ax[1].plot(ExcitedEvolution.t/(1e-3),ExcitedEvolution.y[2]*np.conjugate(ExcitedEvolution.y[2]),label = r'$\vert 1,e\rangle$')
@@ -101,8 +109,8 @@ ax[1].set_title(r'Initialization in 1st blue sideband $\vert 1,g\rangle$')
 
 
 fig,ax = plt.subplots(2,1,figsize = (10,15))
-# ax[0].plot(UnExcitedEvolution.t/1e-3,np.abs(UnExcitedEvolution.y[0])**2+np.abs(UnExcitedEvolution.y[2])**2)
-# ax[1].plot(UnExcitedEvolution.t/1e-3,np.abs(ExcitedEvolution.y[0])**2+np.abs(ExcitedEvolution.y[2])**2)
+ax[0].plot(UnExcitedEvolution.t/1e-3,np.abs(UnExcitedEvolution.y[0])**2+np.abs(UnExcitedEvolution.y[2])**2)
+ax[1].plot(UnExcitedEvolution.t/1e-3,np.abs(ExcitedEvolution.y[0])**2+np.abs(ExcitedEvolution.y[2])**2)
 ax[0].set_title(r'Initialization in ground state $\vert 0,g\rangle$ ')
 ax[1].set_title(r'Initialization in 1st blue sideband $\vert 1,g\rangle$')
 
@@ -112,13 +120,13 @@ for axe in ax:
 for axe in ax:
     axe.axhline(1,ls = '--',color = 'k')
 ax[1].set_xlabel('Time / ms')
-eigvals,eigvecs = LA.eig(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[2]-2*np.pi*0*1e3,frequencies[2],0,m_ba,vectors[2][0],k))
-print('Eigenvalues are:',eigvals)
-print('Eigenvectors are',eigvecs)
-print(eigvecs[:,0])
-print(eigvecs[:,1])
-print(eigvecs[:,2])
-print(eigvecs[:,3])
+# eigvals,eigvecs = LA.eig(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[2]-2*np.pi*0*1e3,frequencies[2],0,m_ba,vectors[2][0],k))
+# print('Eigenvalues are:',eigvals)
+# print('Eigenvectors are',eigvecs)
+# print(eigvecs[:,0])
+# print(eigvecs[:,1])
+# print(eigvecs[:,2])
+# print(eigvecs[:,3])
 # def flopmax(Rabi_f):
 #     def FTimeEv(t,phi):
 #         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*Rabi_f*1e3,-frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
@@ -126,14 +134,14 @@ print(eigvecs[:,3])
 #     return np.max(np.abs(flopsolve.y[0])**2)
 # goodflop = gssmax(flopmax,1,100,n_runs = 10)
 # print(' Good rabi frequency is',goodflop,'Hz')
-
+# t_end_L = 1e-1
 # def BigTimeEv(t,phi):
 #     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
-# BigUnExcited = solve_ivp(BigTimeEv,[0,t_end],state,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
-# BigExcited = solve_ivp(BigTimeEv,[0,t_end],ExcState,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
+# BigUnExcited = solve_ivp(BigTimeEv,[0,t_end_L],state,t_eval=np.linspace(0,t_end_L,10000),max_step = 1e-8)
+# BigExcited = solve_ivp(BigTimeEv,[0,t_end_L],ExcState,t_eval=np.linspace(0,t_end_L,10000),max_step = 1e-8)
 # fig,ax = plt.subplots(2,1,figsize = (10,15))
 # fig.suptitle('12 Porypherin System')
-labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
+# labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
 # for j,y_s in enumerate(BigUnExcited.y):
 #   ax[0].plot(BigUnExcited.t,np.abs(y_s)**2,label = labels[j])
 # for j,y_s in enumerate(BigExcited.y):
@@ -142,22 +150,22 @@ labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\
 # ax[1].plot(BigExcited.t,np.abs(BigExcited.y[0])**2+np.abs(BigExcited.y[1])**2+np.abs(BigExcited.y[2])**2+np.abs(BigExcited.y[3])**2,ls = '--',color = 'k')
 
 
-for axe in ax:
-    axe.legend()
-def BigLongExcitation(t,phi):
-     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(6.5*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
-LongUnexcited = solve_ivp(BigLongExcitation,[0,0.01],state,t_eval = np.arange(0,0.01,1e-7))
-LongExcited = solve_ivp(BigLongExcitation,[0,0.01],ExcState,t_eval = np.arange(0,0.01,1e-7))
+# for axe in ax:
+#     axe.legend()
+# def BigLongExcitation(t,phi):
+#      return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(6.5*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
+# LongUnexcited = solve_ivp(BigLongExcitation,[0,0.01],state,t_eval = np.arange(0,0.01,1e-7))
+# LongExcited = solve_ivp(BigLongExcitation,[0,0.01],ExcState,t_eval = np.arange(0,0.01,1e-7))
 
 
 
-fig,ax = plt.subplots(2,1,figsize = (10,15))
-for j,y_s in enumerate(LongUnexcited.y):
-    ax[0].plot(LongUnexcited.t,np.abs(y_s)**2,label = labels[j])
-for j,y_s in enumerate(LongExcited.y):
-    ax[1].plot(LongExcited.t,np.abs(y_s)**2,label = labels[j])
-for axe in ax:
-    axe.legend()
+# fig,ax = plt.subplots(2,1,figsize = (10,15))
+# for j,y_s in enumerate(LongUnexcited.y):
+#     ax[0].plot(LongUnexcited.t,np.abs(y_s)**2,label = labels[j])
+# for j,y_s in enumerate(LongExcited.y):
+#     ax[1].plot(LongExcited.t,np.abs(y_s)**2,label = labels[j])
+# for axe in ax:
+#     axe.legend()
 
 # print(1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.5*1e3,-frequencies[-1],frequencies[-1],0,m_ba,vectors[-1][0],k),ExcState)*1e-8)
 # print(1/(1j*hbar)*TI.Dicke_Hamilton(2*np.pi*6.5*1e3,-frequencies[-1],frequencies[-1],0,m_ba,vectors[-1][0],k))

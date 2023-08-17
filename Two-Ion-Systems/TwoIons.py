@@ -41,7 +41,7 @@ def Dicke_Hamilton(rabi_freq,detuning,omega,t,m,amplitude,k):
   H_42 = 0
   H_43 = 0
   H_44 = 0
-  H_plus = np.array([[H_11,H_12,H_13,H_14],[H_21,H_22,H_23,H_24],[H_31,H_32,H_33,H_34],[H_41,H_42,H_43,H_44]])#One half of the hamiltonian, add hermitian conjugate to get full.
+  H_plus = np.array([[H_11,H_12,H_13,H_14],[H_21,H_22,H_23,H_24],[H_31,H_32,H_33,H_34],[H_41,H_42,H_43,H_44]],dtype = np.clongdouble)#One half of the hamiltonian, add hermitian conjugate to get full.
   return hbar*rabi_freq/2*(H_plus+np.transpose(np.conjugate(H_plus)))
 
 class Trap:
