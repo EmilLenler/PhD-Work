@@ -75,9 +75,9 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 
 
 
-t_end = 1e-2
+t_end = 1e-3
 def TimeEv(t,phi):
-   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
+   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-1.5*frequencies[2],frequencies[2],t,m_ba,vectors[2][0],k),phi)
 UnExcitedEvolution = solve_ivp(TimeEv,[0,t_end],state,t_eval = np.linspace(0,t_end,10000),max_step = 1e-8)
 ExcitedEvolution = solve_ivp(TimeEv,[0,t_end],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
 print(UnExcitedEvolution.y)
