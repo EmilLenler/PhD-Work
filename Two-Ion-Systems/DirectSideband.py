@@ -126,14 +126,14 @@ ax[1].set_xlabel('Time / ms')
 # print(eigvecs[:,0])
 # print(eigvecs[:,1])
 # print(eigvecs[:,2])
-# print(eigvecs[:,3])
+# # print(eigvecs[:,3])
 # def flopmax(delta):
 #     def FTimeEv(t,phi):
-#         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-frequencies[2],frequencies[2]-2*np.pi*1e3*delta,t,m_ba,vectors[2][0],k),phi)
+#         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*3.5*1e3,-frequencies[2],frequencies[2]+1e3*delta,t,m_ba,vectors[2][0],k),phi)
 #     flopsolve = solve_ivp(FTimeEv,[0,1e-3],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,1e-3,10000),max_step = 1e-8)
-# #     return np.max(np.abs(flopsolve.y[0])**2)
-# # goodflop = gssmax(flopmax,1,100,n_runs = 10)
-# print(' Bonus detuning is -2pi',goodflop,'kHz')
+#     return np.max(np.abs(flopsolve.y[0])**2)
+# goodflop = gssmax(flopmax,1.5,2.5,n_runs = 10)
+# print(' Bonus detuning is ',goodflop,'kHz')
 # # t_end_L = 1e-1
 # # def BigTimeEv(t,phi):
 # #     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*6.61*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
