@@ -77,9 +77,9 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 #adding 3.24/2*1e3 works at a = -0.00074
 
 
-t_end = 1e-3
+t_end = 1e-2
 def TimeEv(t,phi):
-   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[2]-27.41*2*np.pi/2*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
+   return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[2]+17.5114*2*np.pi/2*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
 UnExcitedEvolution = solve_ivp(TimeEv,[0,t_end],state,t_eval = np.linspace(0,t_end,10000),max_step = 1e-8)
 ExcitedEvolution = solve_ivp(TimeEv,[0,t_end],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
 print(UnExcitedEvolution.y)
@@ -137,23 +137,21 @@ ax[1].set_xlabel('Time / ms')
 # # goodflop = gssmax(flopmax,-10,10,n_runs = 20)
 # # print(' Bonus detuning is ',goodflop,'kHz')
 # # # t_end_L = 1e-1
-# def BigTimeEv(t,phi):
-#     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[-1]+(-frequenices[-1]-),frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
-# BigUnExcited = solve_ivp(BigTimeEv,[0,t_end_L],state,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
-# BigExcited = solve_ivp(BigTimeEv,[0,t_end_L],ExcState,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
-# # fig,ax = plt.subplots(2,1,figsize = (10,15))
-# # fig.suptitle('12 Porypherin System')
-# # labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
-# # for j,y_s in enumerate(BigUnExcited.y):
-# #   ax[0].plot(BigUnExcited.t,np.abs(y_s)**2,label = labels[j])
-# # for j,y_s in enumerate(BigExcited.y):
-# #     ax[1].plot(BigExcited.t,np.abs(y_s)**2,label = labels[j])
-# # ax[0].plot(BigUnExcited.t,np.abs(BigUnExcited.y[0])**2+np.abs(BigUnExcited.y[1])**2+np.abs(BigUnExcited.y[2])**2+np.abs(BigUnExcited.y[3])**2,ls = '--',color = 'k')
-# # ax[1].plot(BigExcited.t,np.abs(BigExcited.y[0])**2+np.abs(BigExcited.y[1])**2+np.abs(BigExcited.y[2])**2+np.abs(BigExcited.y[3])**2,ls = '--',color = 'k')
-
-
-# # for axe in ax:
-# #     axe.legend()
+def BigTimeEv(t,phi):
+    return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[-1]+(2*np.pi*75*1e3)**2/(2*frequencies[-1]),frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
+BigUnExcited = solve_ivp(BigTimeEv,[0,t_end],state,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
+BigExcited = solve_ivp(BigTimeEv,[0,t_end],ExcState,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
+fig,ax = plt.subplots(2,1,figsize = (10,15))
+fig.suptitle('12 Porypherin System')
+labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
+for j,y_s in enumerate(BigUnExcited.y):
+  ax[0].plot(BigUnExcited.t,np.abs(y_s)**2,label = labels[j])
+for j,y_s in enumerate(BigExcited.y):
+    ax[1].plot(BigExcited.t,np.abs(y_s)**2,label = labels[j])
+ax[0].plot(BigUnExcited.t,np.abs(BigUnExcited.y[0])**2+np.abs(BigUnExcited.y[1])**2+np.abs(BigUnExcited.y[2])**2+np.abs(BigUnExcited.y[3])**2,ls = '--',color = 'k')
+ax[1].plot(BigExcited.t,np.abs(BigExcited.y[0])**2+np.abs(BigExcited.y[1])**2+np.abs(BigExcited.y[2])**2+np.abs(BigExcited.y[3])**2,ls = '--',color = 'k')
+for axe in ax:
+    axe.legend()
 # # def BigLongExcitation(t,phi):
 # #      return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(6.5*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
 # # LongUnexcited = solve_ivp(BigLongExcitation,[0,0.01],state,t_eval = np.arange(0,0.01,1e-7))
