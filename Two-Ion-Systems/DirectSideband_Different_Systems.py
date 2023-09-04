@@ -55,6 +55,18 @@ fig,ax = plt.subplots(figsize = (10,15))
 for alpha in alphas:
     dickes = np.array([TI.dicke_param(w,2*np.pi/(1762*1e-9),m_ba,v[0]) for w,v in zip(w_ins,v_ins)])
     print(np.shape(dickes))
-    ax.plot(r0s*1e3,w_ins/(2*np.pi*1e3*alpha)*dickes)
+    ax.plot(r0s*1e3,w_ins/(2*np.pi*1e3*alpha)*dickes,label = r'$\alpha = ${0}'.format(alpha))
 ax.set_ylim(0,1.8)
+ax.legend()
+ax.set_xlabel(r'$r_0$ / mm')
+ax.set_ylabel(r'$\eta\Omega_c$ / kHz')
+ax2 = ax.twiny()
+ax1ticks = ax.get_xticks()
+ax2ticks = ax1ticks
+ax2.set_xticks(ax2ticks)
+ax2.set_xticklabels(r0_to_rf_MHz_divide_2pi(ax2ticks))
+ax2.set_xbound(ax.get_xbound())
+ax2.set_xlabel('RF Frequency / MHz')
+
+
 plt.show()
