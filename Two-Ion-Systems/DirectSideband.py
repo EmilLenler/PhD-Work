@@ -10,7 +10,7 @@ plt.rc('font', size = 16)
 Trap1 = TI.Trap(2*np.pi*5.2*1e6,0.248,3/4*2.7*1e-3,3/4*3.5*1e-3)
 m_ba = 135*1.66*1e-27
 charge_ba = 1*1.6*1e-19
-a = -0.01
+a = -0.01*1e-2
 q = 0.4
 print('Secular Frequencies: ',Trap1.Trap_secular_frequencies(a,q)/(2*np.pi)*1e-3)
 System_Ba = TI.two_ion_system(m_ba,charge_ba,m_ba,charge_ba,Trap1)
