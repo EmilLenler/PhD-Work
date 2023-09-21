@@ -10,7 +10,7 @@ plt.rc('font', size = 16)
 Trap1 = TI.Trap(2*np.pi*5.2*1e6,0.248,3/4*2.7*1e-3,3/4*3.5*1e-3)
 m_ba = 135*1.66*1e-27
 charge_ba = 1*1.6*1e-19
-a = -0.01*1e-2
+a = -0.01#*1e-2
 q = 0.4
 print('Secular Frequencies: ',Trap1.Trap_secular_frequencies(a,q)/(2*np.pi)*1e-3)
 System_Ba = TI.two_ion_system(m_ba,charge_ba,m_ba,charge_ba,Trap1)
@@ -94,7 +94,7 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 #adding 3.24/2*1e3 works at a = -0.00074
 
 
-# t_end = 1e-3
+t_end = 1e-3
 # def TimeEv(t,phi):
 #    return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[2]+25.3*2*np.pi/2*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
 # UnExcitedEvolution = solve_ivp(TimeEv,[0,t_end],state,t_eval = np.linspace(0,t_end,10000),max_step = 1e-8)
@@ -146,29 +146,23 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 # # # print(eigvecs[:,1])
 # # # print(eigvecs[:,2])
 # # # # print(eigvecs[:,3])
-# # # def flopmax(delta):
-# # #     def FTimeEv(t,phi):
-# # #         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(35*1e3,-frequencies[2]+delta*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
-# # #     flopsolve = solve_ivp(FTimeEv,[0,1.5e-3],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,1.5e-3,10000),max_step = 1e-8)
-# # #     return np.max(np.abs(flopsolve.y[0])**2)
-# # # # goodflop = gssmax(flopmax,-10,10,n_runs = 20)
-# # # # print(' Bonus detuning is ',goodflop,'kHz')
+
 # # # # # t_end_L = 1e-1
-# def BigTimeEv(t,phi):
-#     return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[-1]+(2*np.pi*75*1e3)**2/(2*frequencies[-1]),frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
-# BigUnExcited = solve_ivp(BigTimeEv,[0,t_end],state,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
-# BigExcited = solve_ivp(BigTimeEv,[0,t_end],ExcState,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
-# fig,ax = plt.subplots(2,1,figsize = (10,15))
-# fig.suptitle('12 Porypherin System')
-# labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
-# for j,y_s in enumerate(BigUnExcited.y):
-#   ax[0].plot(BigUnExcited.t,np.abs(y_s)**2,label = labels[j])
-# for j,y_s in enumerate(BigExcited.y):
-#     ax[1].plot(BigExcited.t,np.abs(y_s)**2,label = labels[j])
-# ax[0].plot(BigUnExcited.t,np.abs(BigUnExcited.y[0])**2+np.abs(BigUnExcited.y[1])**2+np.abs(BigUnExcited.y[2])**2+np.abs(BigUnExcited.y[3])**2,ls = '--',color = 'k')
-# ax[1].plot(BigExcited.t,np.abs(BigExcited.y[0])**2+np.abs(BigExcited.y[1])**2+np.abs(BigExcited.y[2])**2+np.abs(BigExcited.y[3])**2,ls = '--',color = 'k')
-# for axe in ax:
-#     axe.legend()
+def BigTimeEv(t,phi):
+    return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(2*np.pi*75*1e3,-frequencies[-1]+(2*np.pi*75*1e3)**2/(2*frequencies[-1]),frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
+BigUnExcited = solve_ivp(BigTimeEv,[0,t_end],state,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
+BigExcited = solve_ivp(BigTimeEv,[0,t_end],ExcState,t_eval=np.linspace(0,t_end,10000),max_step = 1e-8)
+fig,ax = plt.subplots(2,1,figsize = (10,15))
+fig.suptitle('12 Porypherin System')
+labels = [r'$\vert 0,e\rangle$',r'$\vert 0,g\rangle$',r'$\vert 1,e\rangle$',r'$\vert 1,g\rangle$']
+for j,y_s in enumerate(BigUnExcited.y):
+  ax[0].plot(BigUnExcited.t,np.abs(y_s)**2,label = labels[j])
+for j,y_s in enumerate(BigExcited.y):
+    ax[1].plot(BigExcited.t,np.abs(y_s)**2,label = labels[j])
+ax[0].plot(BigUnExcited.t,np.abs(BigUnExcited.y[0])**2+np.abs(BigUnExcited.y[1])**2+np.abs(BigUnExcited.y[2])**2+np.abs(BigUnExcited.y[3])**2,ls = '--',color = 'k')
+ax[1].plot(BigExcited.t,np.abs(BigExcited.y[0])**2+np.abs(BigExcited.y[1])**2+np.abs(BigExcited.y[2])**2+np.abs(BigExcited.y[3])**2,ls = '--',color = 'k')
+for axe in ax:
+    axe.legend()
 # def BigLongExcitation(t,phi):
 #      return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(6.5*1e3,-frequencies[-1],frequencies[-1],t,m_ba,vectors[-1][0],k),phi)
 # LongUnexcited = solve_ivp(BigLongExcitation,[0,0.01],state,t_eval = np.arange(0,0.01,1e-7))
@@ -197,4 +191,12 @@ state4s = np.zeros(ts.size,dtype = np.clongdouble)
 # # Shelv_Probs = [Por_Systems[2].shelving_prob(GS_pop,32*1e3,t,frequencies[2],k,m_ba,vecs[2][0],) for t in ts]
 # # fig,ax = plt.subplots(figsize = (10,15))
 # # ax.plot(ts,Shelv_Probs)
+
+# # # def flopmax(delta):
+# # #     def FTimeEv(t,phi):
+# # #         return 1/(1j*hbar)*np.matmul(TI.Dicke_Hamilton(35*1e3,-frequencies[2]+delta*1e3,frequencies[2],t,m_ba,vectors[2][0],k),phi)
+# # #     flopsolve = solve_ivp(FTimeEv,[0,1.5e-3],np.array([0,0,0,1],dtype = np.clongdouble),t_eval=np.linspace(0,1.5e-3,10000),max_step = 1e-8)
+# # #     return np.max(np.abs(flopsolve.y[0])**2)
+# # # # goodflop = gssmax(flopmax,-10,10,n_runs = 20)
+# # # # print(' Bonus detuning is ',goodflop,'kHz')
 plt.show()
