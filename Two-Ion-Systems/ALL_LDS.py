@@ -15,12 +15,9 @@ a_set = -0.00075#-0.01
 por_masses = [(i+1)/12*m_por for i in range(12)]
 por_charges = [(i+1)/12*charge_por for i in range(12)]
 Por_Systems = [TI.two_ion_system(m_ba,charge_ba,por_m,por_c,trap) for (por_m,por_c) in zip(por_masses,por_charges)]
-<<<<<<< HEAD
 width = 20
 height = 0.4*width
-=======
 print(trap.Trap_secular_frequencies(a_set,q_set)/(2*np.pi*1e3))
->>>>>>> 8af5dfc9f06fd1f5283f406a463b4ad877c89c75
 
 k = 2*np.pi/(1762*1e-9)
 LD_inz = []

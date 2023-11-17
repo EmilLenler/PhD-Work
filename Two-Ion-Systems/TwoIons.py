@@ -128,7 +128,8 @@ class two_ion_system:
       Ion1_Stab_List_q = []
       Ion2_Stab_List_a = []
       Ion2_Stab_List_q = []
-
+      Both_Stable_plus_axis_a = []
+      Both_Stable_plus_axis_q = []
       for q in self.qrange:
         for a in a_list:
           ion1_stable = False
@@ -142,7 +143,12 @@ class two_ion_system:
             ion1_stable = True
           if rho/mu*a>self.lower_curve(rho/mu*q) and rho/mu*a<self.higher_curve(rho/mu*q):
             ion2_stable = True
-          if ion2_stable and ion1_stable:
+          if zeta_z<zeta_r:
+            along_axis = True
+          if ion2_stable and ion1_stable and along_axis:
+            Both_Stable_plus_axis_a.append(a)
+            Both_Stable_plus_axis_q.append(q)
+          elif ion2_stable and ion1_stable:
             Both_Stable_a.append(a)
             Both_Stable_q.append(q)
           elif ion2_stable:
@@ -152,7 +158,7 @@ class two_ion_system:
             Ion1_Stab_List_a.append(a)
             Ion1_Stab_List_q.append(q)
 
-      return [Both_Stable_a,Both_Stable_q],[Ion1_Stab_List_a,Ion1_Stab_List_q],[Ion2_Stab_List_a,Ion2_Stab_List_q]
+      return [Both_Stable_plus_axis_a,Both_Stable_plus_axis_q],[Both_Stable_a,Both_Stable_q],[Ion1_Stab_List_a,Ion1_Stab_List_q],[Ion2_Stab_List_a,Ion2_Stab_List_q]
   def create_stable_area(self): 
     #Create the stable two-ion stability area using the q's from self.qrange
     # The stability range is calculated as the area that fulfills stability of both ions if they were alone, while the two-ion system is still trapped along the trap axis
