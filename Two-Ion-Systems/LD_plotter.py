@@ -10,12 +10,14 @@ a_set = -0.01
 m_por = 9000*1.66*1e-27
 charge_por = 24*1.6*1e-19
 
+width = 10
+height = 15
 
 Trap1 = TI.Trap(2*np.pi*5.2*1e6,0.248,3/4*2.7*1e-3,3/4*3.5*1e-3)
 por_masses = [(i+1)/12*m_por for i in range(12)]
 por_charges = [(i+1)/12*charge_por for i in range(12)]
 Por_Systems = [TI.two_ion_system(m_ba,charge_ba,por_m,por_c,Trap1) for (por_m,por_c) in zip(por_masses,por_charges)]
-fig,ax = plt.subplots(figsize=(10,15))
+fig,ax = plt.subplots(figsize=(width,height))
 
 Number_as = 10
 LD_s = np.zeros((Number_as,np.size(Por_Systems)))

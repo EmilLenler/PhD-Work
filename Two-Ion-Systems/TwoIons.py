@@ -115,6 +115,44 @@ class two_ion_system:
     # q - array or single q parameter value
     return 1-q-1/8*q**2+1/64*q**3-1/1536*q**4-11/36864*q**5
 
+  def Master_Stability(self): #Create the stable area for a given q range
+      lower_as = self.lower_curve(self.qrange)
+      higher_as = self.higher_curve(self.qrange)
+      lowest_a = min(min(lower_as),min(higher_as))
+      a_list = np.linspace(0,lowest_a,1000)
+      mu = self.m2/self.m1
+      rho = self.q2/self.q1
+      Both_Stable_a = []
+      Both_Stable_q = []
+      Ion1_Stab_List_a = []
+      Ion1_Stab_List_q = []
+      Ion2_Stab_List_a = []
+      Ion2_Stab_List_q = []
+
+      for q in self.qrange:
+        for a in a_list:
+          ion1_stable = False
+          ion2_stable = False
+          along_axis = False #Reset bools
+          omega1z,omega2z,omega1r,omega2r = self.secular_frequencies(a,q)
+          zeta_z = self.m1*self.m2*omega1z**2*omega2z**2/(self.m1*omega1z**2+self.m2*omega2z**2)
+          zeta_r = self.m1*self.m2*omega1r**2*omega2r**2/(self.m1*omega1r**2+self.m2*omega2r**2)
+          #if a>self.lower_curve(q) and rho/mu*a>self.lower_curve(rho/mu*q) and a<self.higher_curve(q) and rho/mu*a<self.higher_curve(rho/mu*q):# and zeta_z<zeta_r:
+          if a>self.lower_curve(q) and a<self.higher_curve(q):
+            ion1_stable = True
+          if rho/mu*a>self.lower_curve(rho/mu*q) and rho/mu*a<self.higher_curve(rho/mu*q):
+            ion2_stable = True
+          if ion2_stable and ion1_stable:
+            Both_Stable_a.append(a)
+            Both_Stable_q.append(q)
+          elif ion2_stable:
+            Ion2_Stab_List_a.append(a)
+            Ion2_Stab_List_q.append(q)
+          elif ion1_stable:
+            Ion1_Stab_List_a.append(a)
+            Ion1_Stab_List_q.append(q)
+
+      return [Both_Stable_a,Both_Stable_q],[Ion1_Stab_List_a,Ion1_Stab_List_q],[Ion2_Stab_List_a,Ion2_Stab_List_q]
   def create_stable_area(self): 
     #Create the stable two-ion stability area using the q's from self.qrange
     # The stability range is calculated as the area that fulfills stability of both ions if they were alone, while the two-ion system is still trapped along the trap axis
