@@ -1,0 +1,15 @@
+C:\Users\Emil\Documents\PhD-Work\bin\Debug\net7.0\PhD-Work.exe
+C:\Users\Emil\Documents\PhD-Work\bin\Debug\net7.0\PhD-Work.deps.json
+C:\Users\Emil\Documents\PhD-Work\bin\Debug\net7.0\PhD-Work.runtimeconfig.json
+C:\Users\Emil\Documents\PhD-Work\bin\Debug\net7.0\PhD-Work.dll
+C:\Users\Emil\Documents\PhD-Work\bin\Debug\net7.0\PhD-Work.pdb
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.csproj.AssemblyReference.cache
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.AssemblyInfoInputs.cache
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.AssemblyInfo.cs
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.csproj.CoreCompileInputs.cache
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.dll
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\refint\PhD-Work.dll
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.pdb
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\PhD-Work.genruntimeconfig.cache
+C:\Users\Emil\Documents\PhD-Work\obj\Debug\net7.0\ref\PhD-Work.dll

@@ -1,0 +1,10 @@
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.deps.json
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.dll
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\bin\Debug\net7.0\ClassLibrary2.pdb
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.csproj.AssemblyReference.cache
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.csproj.CoreCompileInputs.cache
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.dll
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\refint\ClassLibrary2.dll
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ClassLibrary2.pdb
+C:\Users\Emil\Documents\PhD-Work\CS# Stuff\ClassLibrary2\obj\Debug\net7.0\ref\ClassLibrary2.dll
