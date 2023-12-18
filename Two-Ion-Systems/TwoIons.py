@@ -94,15 +94,6 @@ class two_ion_system:
       return 0
     else:
       return dicke_param*np.sqrt(math.factorial(np.max([n_start,n_end]))/(math.factorial(np.min([n_start,n_end]))))
-  def shelving_prob(self,ground_state_distr,rabi_freq,t,omega,k,m,amplitude,detuning = 0):
-    #Probability of shelving via 1st order red sideband given some distribution of motional quanta
-    LDP = dicke_param(omega,k,m,amplitude)
-    P_shelve = 0
-    for fock_number,population in enumerate(ground_state_distr):
-      Adjusted_Rabi_Freq = rabi_freq*self.xi_parameter(LDP,fock_number,fock_number-1)
-      delta_r = detuning + omega
-      P_shelve += np.sin(Adjusted_Rabi_Freq*t/2)**2*population
-    return P_shelve
 
   def lower_curve(self,q):
     #Returns the lower-stability line for a given q- parameter

@@ -29,5 +29,5 @@ N = len(rho_NORMAL)
 rho_MAT = np.zeros((N,N))
 
 
-# for n in range(rho_NORMAL):
-#     if n + N > 
+for n in range(rho_NORMAL):
+    
