@@ -1,4 +1,3 @@
 {
-    "dotnet.defaultSolution": "ClassLibrary1.sln",
-    "julia.environmentPath": "c:\\Users\\Emil\\Documents\\PhD-Work"
+    "dotnet.defaultSolution": "ClassLibrary1.sln"
 }
