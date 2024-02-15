@@ -458,6 +458,5 @@ function OptimizerFunc(delta)
     out_phase_v = sqrt(137).*(solu[1,:].-z1_eq).*vector_z_out[1]+sqrt(9000/12).*(solu[5,:].-z2_eq).*vector_z_out[2]
     return minimum(out_phase_v)
 end
-
 # optimize(OptimizerFunc,-2*pi*50,2*pi*50,GoldenSection())
 plot(p1)

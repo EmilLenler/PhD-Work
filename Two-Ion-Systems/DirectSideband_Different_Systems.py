@@ -69,4 +69,4 @@ ax2.set_xbound(ax.get_xbound())
 ax2.set_xlabel('RF Frequency / MHz')
 
 
-plt.show()
+plt.show()[
