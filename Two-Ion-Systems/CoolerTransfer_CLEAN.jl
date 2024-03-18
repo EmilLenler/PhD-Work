@@ -91,13 +91,13 @@ z_vecs = eigvecs(KZ)
 x_vecs = eigvecs(KX)
 y_vecs = eigvecs(KY)
 print_section()
-println("z frequencies are (kHz) : ", sqrt(z_freqs[1])/(2*pi*1e3),"     ", sqrt(z_freqs[2])/(2*pi*1e3))
+println("z frequencies are (kHz) : ", (z_freqs[1])/(2*pi*1e3),"     ", (z_freqs[2])/(2*pi*1e3))
 println("z eigenvectors are: ", z_vecs[1,:], "        ", z_vecs[2,:])
 print_section()
-println("x frequencies are (kHz) : ", sqrt(x_freqs[1])/(2*pi*1e3),"     ", sqrt(x_freqs[2])/(2*pi*1e3))
+println("x frequencies are (kHz) : ", (x_freqs[1])/(2*pi*1e3),"     ", (x_freqs[2])/(2*pi*1e3))
 println("x eigenvectors are: ", x_vecs[1,:], "        ", x_vecs[2,:])
 print_section()
-println("y frequencies are (kHz) : ", sqrt(y_freqs[1])/(2*pi*1e3),"     ", sqrt(y_freqs[2])/(2*pi*1e3))
+println("y frequencies are (kHz) : ", (y_freqs[1])/(2*pi*1e3),"     ", (y_freqs[2])/(2*pi*1e3))
 println("y eigenvectors are: ", y_vecs[1,:], "        ", y_vecs[2,:])
 print_section()
 function Force_RAD(x,y,t,DC,RF,Q)
@@ -127,8 +127,8 @@ function random_unit_vec()
     return [v_x,v_y,v_z]
 end
 t_init = 0
-t_end = 15*1e-3
-z1_init = zeq1+100*1e-6/sqrt(135)*z_vecs[1,1]#-sqrt(2*kb*T/(m1*omega_z1^2))
+t_end = 1*1e-3
+z1_init = zeq1#+1e-18/sqrt(m1)*z_vecs[1,1]#-sqrt(2*kb*T/(m1*omega_z1^2))
 r1_init = 0#sqrt(2*kb*T/(m1*omega_r1^2))
 vz1_init = 0#sqrt(2*kb*T/m1)
 y1_init = 0#-r1_init
@@ -136,7 +136,7 @@ vy1_init = 0#sqrt(2*kb*T/m1)
 x1_init = 0#r1_init
 vx1_init = 0#-sqrt(2*kb*T/m1)
 
-z2_init = zeq2+100*1e-6/sqrt(9000)*z_vecs[1,2]#sqrt(2*kb*T/(m2*omega_z2^2))
+z2_init = zeq2#+1e-18/sqrt(m2)*z_vecs[1,2]#sqrt(2*kb*T/(m2*omega_z2^2))
 y2_init = 0#sqrt(2*kb*T/(m2*omega_y2^2))
 x2_init = 0#sqrt(2*kb*T/(m2*omega_x2^2))
 vz2_init = 0#-sqrt(2*kb*T/m2)
@@ -238,10 +238,10 @@ while t < t_end
     Fc_now = Force_COULOMB(current_x1,current_x2,current_y1,current_y2,current_z1,current_z2,Q1,Q2)
     RadForce1 = Force_PSEUDO1(current_x1,current_y1)
     RadForce2 = Force_PSEUDO2(current_x2,current_y2)
-    next_z1 = current_z1 + current_vz1*dt + 1/(2*m1)*(Force_AX(current_z1,V_DC,Q1)+Force_AX(current_z1,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q1)+Fc_now[3])*dt^2
+    next_z1 = current_z1 + current_vz1*dt + 1/(2*m1)*(Force_AX(current_z1,V_DC,Q1))#+Force_AX(current_z1,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q1)+Fc_now[3])*dt^2
     next_y1 = current_y1 + current_vy1*dt + 1/(2*m1)*(RadForce1[2]+Fc_now[2])*dt^2
     next_x1 = current_x1 + current_vx1*dt + 1/(2*m1)*(RadForce1[1]+Fc_now[1])*dt^2
-    next_z2 = current_z2 + current_vz2*dt + 1/(2*m2)*(Force_AX(current_z2,V_DC,Q2)+Force_AX(current_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)-Fc_now[3])*dt^2
+    next_z2 = current_z2 + current_vz2*dt + 1/(2*m2)*(Force_AX(current_z2,V_DC,Q2))#+Force_AX(current_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)-Fc_now[3])*dt^2
     next_y2 = current_y2 + current_vy2*dt + 1/(2*m2)*(RadForce2[2]-Fc_now[2])*dt^2
     next_x2 = current_x1 + current_vx2*dt + 1/(2*m2)*(RadForce2[1]-Fc_now[1])*dt^2
 
@@ -252,7 +252,7 @@ while t < t_end
     next_vz1 = current_vz1 + 1/(2*m1)*(Force_AX(current_z1,V_DC,Q1)+Force_AX(next_z1,V_DC,Q1)+Force_AX(current_z1,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q1)+Force_AX(next_z1,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q1)+Fc_now[3]+Fc_next[3])*dt
     next_vy1 = current_vy1 + 1/(2*m1)*(RadForce1[2]+RadForce1_next[2]+Fc_now[2]+Fc_next[2])*dt
     next_vx1 = current_vx1 + 1/(2*m1)*(RadForce1[1]+RadForce1_next[1]+Fc_now[1]+Fc_next[1])*dt
-    next_vz2 = current_vz2 + 1/(2*m2)*(Force_AX(current_z2,V_DC,Q2)+Force_AX(current_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)+Force_AX(next_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)+Force_AX(next_z2,V_DC,Q2)-Fc_now[3]-Fc_next[3])*dt
+    next_vz2 = current_vz2 + 1/(2*m2)*(Force_AX(current_z2,V_DC,Q2)+Force_AX(next_z2,V_DC,Q2)+Force_AX(current_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)+Force_AX(next_z2,V_tickle*cos((z_freqs[1]-z_freqs[2])*t),Q2)-Fc_now[3]-Fc_next[3])*dt
     next_vy2 = current_vy2 + 1/(2*m2)*(RadForce2[2]+RadForce2_next[2]-Fc_now[2]-Fc_next[2])*dt
     next_vx2 = current_vx2 + 1/(2*m2)*(RadForce2[1]+RadForce2_next[1]-Fc_now[1]-Fc_next[1])*dt
     ### END OF VERLET BODY
@@ -320,15 +320,14 @@ while t < t_end
     global t += dt
     global data_counter +=1
 end
-vs = LinRange(-1000*sqrt(2*5*kb*t/m1),1000sqrt(2*5*kb*t/m1),1000)
 E_kin = 1/2*m1.*(vz1s.^2 .+ vx1s.^2 .+vy1s.^2)
 U_pot = 1/2*m1.*(z1s.^2 .*omega_z1^2 .+ omega_r1.^2 .*(y1s.^2 .+ x1s.^2))
 p1 = plot(ts*1e3,z1s*1e6,linewidth = 2,xlabel = "Time (ms)",ylabel = "\$z_1\$ (µm)",label = "\$z_1\$")
 p2 = plot(ts*1e3,y1s*1e6,linewidth = 2,xlabel = "Time (ms)",ylabel = "\$y_1\$ (µm)",label = "\$y_1\$")
 p3 = plot(ts*1e3,x1s*1e6,linewidth = 2,xlabel = "Time (ms)",ylabel = "\$x_1\$ (µm)",label = "\$x_1\$")
-# p4 = plot(ts .*1e3, 1/2*m1*omega_z1^2/kb .*z1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in z (mK)",ylimits = (0,2))
-# p5 = plot(ts .*1e3, 1/2*m1*omega_r1^2/kb .*y1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in y (mK)",ylimits = (0,2))
-# p6 = plot(ts .*1e3, 1/2*m1*omega_r1^2/kb .*x1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in x (mK)",ylimits = (0,2))
+p4 = plot(ts .*1e3, 1/2*m1*omega_z1^2/kb .*z1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in z (mK)",ylimits = (0,2))
+p5 = plot(ts .*1e3, 1/2*m1*omega_r1^2/kb .*y1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in y (mK)",ylimits = (0,2))
+p6 = plot(ts .*1e3, 1/2*m1*omega_r1^2/kb .*x1s.^2 .*1e3,xlabel = "Time (ms)",ylabel = "Potential energy in x (mK)",ylimits = (0,2))
 p9 = plot(ts*1e3,vz1s,xlabel = "Time (ms)", ylabel = L"\dot{z}_1" * "  (m/s)",label = L"\dot{z}_1")
 p10 = plot(ts*1e3,vy1s,xlabel = "Time (ms)", ylabel = L"\dot{y}_1" * "  (m/s)",label = L"\dot{y}_1")
 p11 = plot(ts*1e3,vx1s,xlabel = "Time (ms)", ylabel = L"\dot{x}_1" * "  (m/s)", label = L"\dot{x}_1")
@@ -341,7 +340,7 @@ savefig(p6,"x1_pot_in_mK")
 savefig(p9,"z1 velocity")
 savefig(p10,"y1 velocity")
 savefig(p11,"x1 velocity")
-
+println(z_vecs[1,1],z_vecs[1,2])
 
 z2pl = plot(ts*1e3,z2s*1e6,linewidth = 2,xlabel = "Time (ms)",ylabel = "\$z_2\$ (µm)")
 x2pl = plot(ts*1e3,x2s*1e6,linewidth = 2,xlabel = "Time (ms)",ylabel = "\$x_2\$ (µm)")
@@ -353,8 +352,8 @@ savefig(y2pl,"y2_plot")
 
 zpl_scale = maximum(vcat(proj_zi,proj_zo))
 println(zpl_scale)
-zipl = plot(ts*1e3,proj_zi,ylimits = (-2*zpl_scale,2*zpl_scale),label = "In-phase motion",ylabel = "Mass-weighted projection onto eigenmode (arb. units)")
-zopl = plot(ts*1e3,proj_zo,xlabel = "Time (ms)",ylimits = (-2*zpl_scale,2*zpl_scale), label ="Out of phase motion",ylabel = "Mass-weighted projection onto eigenmode (arb. units)")
+zipl = plot(ts*1e3,proj_zi,ylimits = (-2*zpl_scale,2*zpl_scale),label = "In-phase motion")
+zopl = plot(ts*1e3,proj_zo,xlabel = "Time (ms)",ylimits = (-2*zpl_scale,2*zpl_scale), label ="Out of phase motion")
 zpl = plot(zipl,zopl, layout = (2,1))
 savefig(zpl, "Both Z Projections")
 
