@@ -51,7 +51,7 @@ omega_y2 = sqrt(omega_pond2^2-(1-alpha)*omega_z2^2)
 
 zeq1 = cbrt(Q1*Q2/(4*pi*epsilon0*m1*omega_z1^2)*(1/(1+1/rho)^2))
 zeq2 = -1/rho * zeq1
-V_tickle = 0.5*V_DC
+V_tickle = 0#0.5*V_DC
 print_section()
 println("DC Voltage: ",V_DC)
 println("RF Voltage: ", V_RF )
@@ -170,7 +170,7 @@ println("Secular y-direction Barium Frequency (kHz):  ", omega_x1/(2*pi*1e3))
 print_section()
 state_init = 0
 t = t_init
-s = 0
+s = 0.1
 z1s = []
 ts = []
 vz1s = []
