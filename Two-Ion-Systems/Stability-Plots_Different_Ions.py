@@ -9,9 +9,9 @@ plt.rc('font', size = 16)
 Trap1 =TI.Trap(2*np.pi*5.2*1e6,0.248,3/4*2.7*1e-3,3/4*3.5*1e-3)
 
 m_ba = 135*1.66e-27
-m_por = 9000*1.66e-27
+m_por = 29000*1.66e-27
 charge_ba = 1*1.6e-19
-charge_por = 24*1.6e-19
+charge_por = 44*1.6e-19
 mu = m_por/m_ba
 rho = charge_por/charge_ba
 System1 = TI.two_ion_system(m_ba,charge_ba,m_por,charge_por,Trap1)
