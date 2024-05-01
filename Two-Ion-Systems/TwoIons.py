@@ -3,47 +3,6 @@ import numpy as np
 from scipy.optimize import fsolve
 import math
 
-def dicke_param(omega,k,m,amplitude):
-    hbar = 1.05*1e-34
-    # Calculates the Lamb-Dicke parameter on ion1 for a mode
-    #Variables:
-    #omega - frequency of the given mode, calculated via vibrational_freqs_and_modes
-    #k - wavevectyor of photon, light is assumed parallel to motion of ion
-    #m mass of ion1
-    #amplitude - amplitude of ion 1's motion, calculated via vibrational_freqs_and_modes
-    return k*amplitude*np.sqrt(hbar/(2*m*omega))
-def Dicke_Hamilton(rabi_freq,detuning,omega,t,m,amplitude,k):
-  #Evaluates the Hamiltonian for Lamb-Dicke Regime, assuming resonance between the detuning and a mode. Non-resonant sidebands are ignored, but off-resonant carrier is included.
-  #Variables:
-  #rabi_freq - rabi frequency defined via eq. 3.5 in Karins thesis
-  #detuning - detuning of laser light from carrier frequency
-  #omega - frequency of the vibrational mode, calculated via vibrational_freqs_and_modes
-  #t - time
-  #----------------------------------------------------------------------------------------------------------------------------------------
-  dicke_p = dicke_param(omega,k,m,amplitude)
-  #Matrix elements of one half of the Hamiltonian, the ..._ij denotes the i,j'th entry in the matrix.
-  #These are all for the half of the matrix that excites the atomic state. The other half is found by taking hermitian conjugate.
-  #States are written on vector form of ([0,e],[0,g],[1,e],[1,g])
-  hbar = 1.05*1e-34
-  H_11 = 0
-  H_12 = np.exp(-1j*detuning*t) #Carrier excitation
-  H_13 = 0
-  H_14 = np.exp(-1j*detuning*t)*1j*dicke_p*np.exp(-1j*omega*t) # red sideband
-  H_21 = 0
-  H_22 = 0
-  H_23 = 0
-  H_24 = 0
-  H_31 = 0
-  H_32 = np.exp(-1j*detuning*t)*1j*dicke_p*np.exp(1j*omega*t) # Blue sideband
-  H_33 = 0
-  H_34 = np.exp(-1j*detuning*t)
-  H_41 = 0
-  H_42 = 0
-  H_43 = 0
-  H_44 = 0
-  H_plus = np.array([[H_11,H_12,H_13,H_14],[H_21,H_22,H_23,H_24],[H_31,H_32,H_33,H_34],[H_41,H_42,H_43,H_44]],dtype = np.clongdouble)#One half of the hamiltonian, add hermitian conjugate to get full.
-  return hbar*rabi_freq/2*(H_plus+np.transpose(np.conjugate(H_plus)))
-
 class Trap:
   #Class that holds different constants relevant for the trap.
   def __init__(self,omega_RF,kappa,z0,r0):
