@@ -9,7 +9,7 @@
 
 \chapter{Introduction}
 \label{chap:intro}
-In the 1950's Wolfgang Paul invented the so-called Paul trap, which could be used to trap charged particles within a quadrupolar electromagnetic field.\textcolor{red}{CITE}. In 1989 he would go on
+In the 1950's Wolfgang Paul invented the so-called Paul trap, for trapping charged particles within a quadrupolar electromagnetic field.\textcolor{red}{CITE}. In 1989 he would go on
  to recieve the Nobel Prize in physics, alongside Hans Dehmelt, "for the development of the ion trap technique" \textcolor{red}{CITE}.
  With the many technological and scientific advancements since the Paul trap's inception, among which the laser is an especially important one,
  it is now possible to trap, and cool single ions to temperatures below 1mK \textcolor{red}{CITE Wineland}.
@@ -19,3 +19,20 @@ In the 1950's Wolfgang Paul invented the so-called Paul trap, which could be use
 Paul traps are also used for the study of fluorescence of molecules in the gas phase \textcolor{red}{CITE Steen?},
 where pulsed lasers can be used to excite large clouds of molecular ions, whose fluorescence spectrum may then be recorded and studied.
 However as most molecules lack the necessary energy level structure for laser cooling, the temperature of these experiments are limited by their cryogenic cooling environment.
+
+
+The aim of my PhD thesis is to build an experiment where single molecular ions from an electrospray ionization source \textcolor{red}{FENN} can be trapped in a linear Paul trap alongside a Ba$^+$ ion and cooled to their motional ground state.
+In such a setup we would like to investigate the molecules using a method called photon recoil spectroscopy \textcolor{red}{CITE EMILIE}. This method functions by using the momentum kick associated with the molecules absorption of light
+as a measure of whether absorption has occured, and is explained further in \cref{chap:PRS}. Directly applying this method to two-ion systems with large mismatches in mass and charge is challenging, since the motions of the ions are only very weakly coupled, and thus the absorption kick will predominantly excite the motion of the molecule, which is not sensitive to the readout performed by a laser on the 
+Ba$^+$ ion. Due to this issue I have been looking at \textcolor{red}{CITE}, and developing theory for how to transfer energy from one motional mode to another, to allow for efficient readout of the absorption kick.\medskip
+\newline
+\noindent\Large{\textbf{Outline of the report}}\newline
+\normalsize The report is divided into 6 different chapters. \Cref{chap:intro} is a brief introduction to the field, some of the challenges I face, and what I hope to accomplish with my PhD.
+
+\Cref{chap:LinTrap} describes the physics of trapping ions in a linear Paul trap and is split into two sections, the first describing the trapping of a single ion, while the latter derives the common motion of two ions in the trap.
+
+Next is \cref*{chap:ESI} which describes the electrospray ionization source, which is the source of molecular ions for the experiment. The first section of this chapter is an overview of the setup and the second contains a characterization of one of the octopoles guides within the setup.
+
+After that I move on to \cref*{chap:Cooling} which describes the laser cooling necessary for eventually reaching the motional ground state of a two-ion system. The first section contains the theory for doppler cooling, which allows the ions to reach a temperature of $\sim$1mK. The second section describes sideband cooling, which is necessary to cool the motion of the system to its quantum mechanical ground state. Finally the 3rd section of this chapter talks on how one can couple the motion of the ions by using fx. an external field, in order to improve the cooling of systems where the two ions have large differences in mass and charge.
+
+Finally \cref*{chap:future} gives a short plan of the work I plan to do in the latter half of my PhD studies here at Aarhus.
