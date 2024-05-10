@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  6 MAY 2024 15:13
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  8 MAY 2024 13:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1421,10 +1421,10 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
 <main/Paul_Trap.pdf, id=107, 321.51616pt x 99.58464pt>
 File: main/Paul_Trap.pdf Graphic file (type pdf)
 <use main/Paul_Trap.pdf>
-Package pdftex.def Info: main/Paul_Trap.pdf  used on input line 8.
+Package pdftex.def Info: main/Paul_Trap.pdf  used on input line 10.
 (pdftex.def)             Requested size: 321.51537pt x 99.58438pt.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 10.
+(Font)              scaled to size 10.95pt on input line 12.
  [6
 
 
@@ -1432,24 +1432,32 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/sc' will be
 
 {C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_omcwp2.enc} <./main/Paul_Trap.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 47.
+(Font)              scaled to size 8.0pt on input line 49.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 47.
+(Font)              scaled to size 6.0pt on input line 49.
 <main/Stability.png, id=123, 957.5775pt x 632.3625pt>
 File: main/Stability.png Graphic file (type png)
 <use main/Stability.png>
-Package pdftex.def Info: main/Stability.png  used on input line 58.
+Package pdftex.def Info: main/Stability.png  used on input line 61.
 (pdftex.def)             Requested size: 295.20113pt x 194.94pt.
  [7]
 <main/Micromotion.png, id=142, 921.4425pt x 623.6901pt>
 File: main/Micromotion.png Graphic file (type png)
 <use main/Micromotion.png>
-Package pdftex.def Info: main/Micromotion.png  used on input line 75.
+Package pdftex.def Info: main/Micromotion.png  used on input line 79.
 (pdftex.def)             Requested size: 295.20113pt x 199.80379pt.
- [8{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusSYM.enc} <./main/Stability.png> <./main/Micromotion.png>]) [9{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMR.enc}]
+ [8{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusSYM.enc} <./main/Stability.png> <./main/Micromotion.png>] [9{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMR.enc}]
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
+(Font)              scaled to size 10.95pt on input line 125.
+<main/Stability2.png, id=169, 1084.05pt x 722.7pt>
+File: main/Stability2.png Graphic file (type png)
+<use main/Stability2.png>
+Package pdftex.def Info: main/Stability2.png  used on input line 128.
+(pdftex.def)             Requested size: 369.0pt x 246.00146pt.
+ [10 <./main/Stability2.png>] [11]) [12]
 \openout2 = `main/ESI.aux'.
 
- (main/ESI.tex) [10
+ (main/ESI.tex) [13
 
 
 
@@ -1457,7 +1465,7 @@ Package pdftex.def Info: main/Micromotion.png  used on input line 75.
 ]
 \openout2 = `main/cooling.aux'.
 
- (main/cooling.tex) [11
+ (main/cooling.tex) [14
 
 
 
@@ -1465,7 +1473,7 @@ Package pdftex.def Info: main/Micromotion.png  used on input line 75.
 ]
 \openout2 = `main/RecoilSpec.aux'.
 
- (main/RecoilSpec.tex) [12
+ (main/RecoilSpec.tex) [15
 
 
 
@@ -1473,7 +1481,7 @@ Package pdftex.def Info: main/Micromotion.png  used on input line 75.
 ]
 \openout2 = `main/future.aux'.
 
- (main/future.tex) [13
+ (main/future.tex) [16
 
 
 
@@ -1498,23 +1506,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `parta_master.out' has not changed.
-(rerunfilecheck)             Checksum: 6E4E402787C4962D1A64E46D7910A25C;2500.
+(rerunfilecheck)             Checksum: 44CE94AEEBF14DDB6280E6511F3880C1;2500.
 Package logreq Info: Writing requests to 'parta_master.run.xml'.
 \openout1 = `parta_master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34550 strings out of 474424
- 671988 string characters out of 5741739
- 1946496 words of memory out of 5000000
- 56137 multiletter control sequences out of 15000+600000
- 708092 words of font info for 268 fonts, out of 8000000 for 9000
+ 34632 strings out of 474424
+ 673624 string characters out of 5741739
+ 1947496 words of memory out of 5000000
+ 56166 multiletter control sequences out of 15000+600000
+ 717645 words of font info for 290 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 85i,13n,93p,1209b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb>
-Output written on parta_master.pdf (13 pages, 764174 bytes).
+ 85i,15n,93p,1209b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathcal.pfb>
+Output written on parta_master.pdf (16 pages, 869960 bytes).
 PDF statistics:
- 243 PDF objects out of 1000 (max. 8388607)
- 43 named destinations out of 1000 (max. 500000)
- 77949 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 292 PDF objects out of 1000 (max. 8388607)
+ 67 named destinations out of 1000 (max. 500000)
+ 82050 words of extra memory for PDF output out of 89155 (max. 10000000)
 

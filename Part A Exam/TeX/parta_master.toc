@@ -3,12 +3,12 @@
 \contentsline {chapter}{\chapternumberline {2}The Linear Paul Trap}{6}{chapter.4}%
 \contentsline {section}{\numberline {2.1}Single ion in a linear Paul Trap}{6}{section.5}%
 \contentsline {section}{\numberline {2.2}Two ions in a linear Paul trap}{9}{section.19}%
-\contentsline {chapter}{\chapternumberline {3}Electrospray ionization source}{10}{chapter.21}%
-\contentsline {section}{\numberline {3.1}Overview of the electrospray and its components}{10}{section.22}%
-\contentsline {section}{\numberline {3.2}Experiments on the first octopole}{10}{section.23}%
-\contentsline {chapter}{\chapternumberline {4}Cooling}{11}{chapter.24}%
-\contentsline {section}{\numberline {4.1}Doppler cooling}{11}{section.25}%
-\contentsline {section}{\numberline {4.2}Sideband Cooling}{11}{section.26}%
-\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{11}{section.27}%
-\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{12}{chapter.28}%
-\contentsline {chapter}{\chapternumberline {6}Future Work}{13}{chapter.29}%
+\contentsline {chapter}{\chapternumberline {3}Electrospray ionization source}{13}{chapter.42}%
+\contentsline {section}{\numberline {3.1}Overview of the electrospray and its components}{13}{section.43}%
+\contentsline {section}{\numberline {3.2}Experiments on the first octopole}{13}{section.44}%
+\contentsline {chapter}{\chapternumberline {4}Cooling}{14}{chapter.45}%
+\contentsline {section}{\numberline {4.1}Doppler cooling}{14}{section.46}%
+\contentsline {section}{\numberline {4.2}Sideband Cooling}{14}{section.47}%
+\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{14}{section.48}%
+\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{15}{chapter.49}%
+\contentsline {chapter}{\chapternumberline {6}Future Work}{16}{chapter.50}%

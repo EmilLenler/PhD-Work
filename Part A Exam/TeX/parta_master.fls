@@ -495,6 +495,19 @@ INPUT .\main\Micromotion.png
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinust1math\libusSYM.enc
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinust1math\libusBMI.enc
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\enc\dvips\libertinust1math\libusBMR.enc
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1.tfm
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT .\main\Stability2.png
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\vf\public\libertine\LinLibertineTI-tlf-t1.vf
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\tfm\public\libertine\LinLibertineTI-tlf-t1--base.tfm
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\tfm\public\stix\stix-mathcal.tfm
 INPUT .\main\ESI.tex
 INPUT .\main\ESI.tex
 OUTPUT main\ESI.aux
@@ -558,3 +571,5 @@ INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTB.pfb
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
 INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\libertine\LinLibertineTI.pfb
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\stix-mathcal.pfb
+INPUT C:\Users\lenle\AppData\Local\Programs\MiKTeX\fonts\type1\public\stix\stix-mathcal.pfb
