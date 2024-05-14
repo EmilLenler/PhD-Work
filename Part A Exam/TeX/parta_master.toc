@@ -5,10 +5,10 @@
 \contentsline {section}{\numberline {2.2}Two ions in a linear Paul trap}{9}{section.19}%
 \contentsline {chapter}{\chapternumberline {3}Electrospray ionization source}{13}{chapter.42}%
 \contentsline {section}{\numberline {3.1}Overview of the electrospray and its components}{13}{section.43}%
-\contentsline {section}{\numberline {3.2}Experiments on the first octopole}{13}{section.44}%
-\contentsline {chapter}{\chapternumberline {4}Cooling}{14}{chapter.45}%
-\contentsline {section}{\numberline {4.1}Doppler cooling}{14}{section.46}%
-\contentsline {section}{\numberline {4.2}Sideband Cooling}{14}{section.47}%
-\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{14}{section.48}%
-\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{15}{chapter.49}%
-\contentsline {chapter}{\chapternumberline {6}Future Work}{16}{chapter.50}%
+\contentsline {section}{\numberline {3.2}Experiments on the first octopole}{15}{section.47}%
+\contentsline {chapter}{\chapternumberline {4}Cooling}{17}{chapter.49}%
+\contentsline {section}{\numberline {4.1}Doppler cooling}{17}{section.50}%
+\contentsline {section}{\numberline {4.2}Sideband Cooling}{17}{section.51}%
+\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{17}{section.52}%
+\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{18}{chapter.53}%
+\contentsline {chapter}{\chapternumberline {6}Future Work}{19}{chapter.54}%
