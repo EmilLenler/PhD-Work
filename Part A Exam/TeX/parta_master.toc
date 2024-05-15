@@ -6,9 +6,12 @@
 \contentsline {chapter}{\chapternumberline {3}Electrospray ionization source}{13}{chapter.42}%
 \contentsline {section}{\numberline {3.1}Overview of the electrospray and its components}{13}{section.43}%
 \contentsline {section}{\numberline {3.2}Experiments on the first octopole}{15}{section.47}%
-\contentsline {chapter}{\chapternumberline {4}Cooling}{17}{chapter.49}%
-\contentsline {section}{\numberline {4.1}Doppler cooling}{17}{section.50}%
-\contentsline {section}{\numberline {4.2}Sideband Cooling}{17}{section.51}%
-\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{17}{section.52}%
-\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{18}{chapter.53}%
-\contentsline {chapter}{\chapternumberline {6}Future Work}{19}{chapter.54}%
+\contentsline {subsection}{\numberline {3.2.1}Measuring the temporal shape of an ion bunch}{15}{subsection.48}%
+\contentsline {subsection}{\numberline {3.2.2}Measuring the fill time of the octopole}{17}{subsection.51}%
+\contentsline {chapter}{\chapternumberline {4}Cooling}{19}{chapter.53}%
+\contentsline {section}{\numberline {4.1}Doppler cooling}{19}{section.54}%
+\contentsline {section}{\numberline {4.2}Sideband Cooling}{19}{section.55}%
+\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{19}{section.56}%
+\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{20}{chapter.57}%
+\contentsline {chapter}{\chapternumberline {6}Future Work}{21}{chapter.58}%
+\contentsline {chapter}{Bibliography}{22}{section*.60}%

@@ -16,5 +16,216 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{BlumelHeating}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c2c85bc5c7ac6967b25e2f23309c8d63}{%
+           family={Blümel},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fda48bab01b6960ce41519cc89dd1445}{%
+           family={Kappler},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e0614f96ef620c49c6a890320777f892}{%
+           family={Quint},
+           familyi={Q\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=764d030cc61910476ca6dbe53db98395}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7669b513375f551a7997efde0b901933}
+      \strng{fullhash}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{fullhashraw}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{bibnamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authorbibnamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authornamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authorfullhash}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{authorfullhashraw}{d1be92cd8b21e947f0a925dcff45d2db}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{7}
+      \field{title}{Chaos and order of laser-cooled ions in a Paul trap}
+      \field{volume}{40}
+      \field{year}{1989}
+      \field{pages}{808\bibrangedash 823}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.40.808
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
+      \endverb
+    \endentry
+    \entry{MichaelIonIonHeating}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=47c08d1f3f21146048f15060a63740a2}{%
+           family={Hornekær},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=45a15607d62a12efe82f56550db924c4}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{fullhash}{5f4f34838057d781573eabf7124016d9}
+      \strng{fullhashraw}{5f4f34838057d781573eabf7124016d9}
+      \strng{bibnamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorbibnamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authornamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorfullhash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorfullhashraw}{5f4f34838057d781573eabf7124016d9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{7}
+      \field{title}{Formation process of large ion Coulomb crystals in linear Paul traps}
+      \field{volume}{66}
+      \field{year}{2002}
+      \field{pages}{013412}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.66.013412
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{BlumelHeating}{article}{}{}
+      \name{author}{4}{}{%
+        {{hash=c2c85bc5c7ac6967b25e2f23309c8d63}{%
+           family={Blümel},
+           familyi={B\bibinitperiod},
+           given={R.},
+           giveni={R\bibinitperiod}}}%
+        {{hash=fda48bab01b6960ce41519cc89dd1445}{%
+           family={Kappler},
+           familyi={K\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=e0614f96ef620c49c6a890320777f892}{%
+           family={Quint},
+           familyi={Q\bibinitperiod},
+           given={W.},
+           giveni={W\bibinitperiod}}}%
+        {{hash=764d030cc61910476ca6dbe53db98395}{%
+           family={Walther},
+           familyi={W\bibinitperiod},
+           given={H.},
+           giveni={H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{7669b513375f551a7997efde0b901933}
+      \strng{fullhash}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{fullhashraw}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{bibnamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authorbibnamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authornamehash}{7669b513375f551a7997efde0b901933}
+      \strng{authorfullhash}{d1be92cd8b21e947f0a925dcff45d2db}
+      \strng{authorfullhashraw}{d1be92cd8b21e947f0a925dcff45d2db}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{7}
+      \field{title}{Chaos and order of laser-cooled ions in a Paul trap}
+      \field{volume}{40}
+      \field{year}{1989}
+      \field{pages}{808\bibrangedash 823}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.40.808
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
+      \endverb
+    \endentry
+    \entry{MichaelIonIonHeating}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=47c08d1f3f21146048f15060a63740a2}{%
+           family={Hornekær},
+           familyi={H\bibinitperiod},
+           given={L.},
+           giveni={L\bibinitperiod}}}%
+        {{hash=45a15607d62a12efe82f56550db924c4}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{fullhash}{5f4f34838057d781573eabf7124016d9}
+      \strng{fullhashraw}{5f4f34838057d781573eabf7124016d9}
+      \strng{bibnamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorbibnamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authornamehash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorfullhash}{5f4f34838057d781573eabf7124016d9}
+      \strng{authorfullhashraw}{5f4f34838057d781573eabf7124016d9}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{7}
+      \field{title}{Formation process of large ion Coulomb crystals in linear Paul traps}
+      \field{volume}{66}
+      \field{year}{2002}
+      \field{pages}{013412}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.66.013412
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 
