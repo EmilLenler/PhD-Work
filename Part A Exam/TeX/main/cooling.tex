@@ -1,8 +1,49 @@
 \chapter{Cooling}
 \label{chap:Cooling}
+A prerequisite for performing photon recoil spectroscopy, is that the system which is investigated, is cooled to the quantum mechanical ground state of its motion.
+Cooling of ions in linear Paul traps usually occurs in two stages. First the ion(s) is cooled to approx. 1mK by Doppler cooling, as is described in \cref{sec:Doppler}.
 
+When the ion(s) has been cooled to mK tempearture by Doppler cooling, it starts exhibiting quantum mechanical properties. Since the potential in the trap is harmonic, the wavefunction of the ion(s), is that of the harmonic oscillator.
+To reach the quantum ground state, it is necessary to perorm sideband cooling which takes the ion(s) from whichever $\vert n\rangle$ state it starts in, and moves it to the state $\vert0\rangle$ of the harmonic oscillator. This process is described in \cref{sec:SBC}.
+
+Finally there may be some complications to the above cooling processes if we consider two ions with very large charge-to-mass mismatch as explained in \cref{sec:2Ion}. \Cref{sec:Coupling}
 \section{Doppler cooling}
+\label{sec:Doppler}
+The very first part of cooling two ions down consists of Doppler cooling \textcolor{red}{WINELAND}. This method of laser cooling was pioneered by David Wineland and relies on detuning laserlight with respect to an internal transition of the ion, in order to effectively generate a drag force on the ion, cooling it down.
+
+An ion in motion experiences, with a velocity $\vec{v}$, experiences a Doppler shift of laser light with wave vector $\vec{k}$ according to
+\begin{equation}
+    \omega_{obs} \approx (1-\vec{k}\cdot\vec{v})\omega_L,
+\end{equation}
+where $\omega_{obs}$ is the frequency seen by the ion, and $\omega_L$ is the frequency of the laser in the laboratory frame.
+Thus if we detune the light of the laser to be below the frequency of an electronic transition in the ion $\omega$, the ion will preferentially absorb photons, when it is propagating against the direction of the light.
+Due to conservation of momentum, the ion must change its momentum by
+\begin{equation}
+    \Delta\vec{p} = \hbar\vec{k}.
+\end{equation}
+After a short time the ion will decay to the ground state once again, but since the direction of the photon emitted during decay is symmetric, this will, if averaged over multiple emissions, lead to no change in momentum.
+Thus the momentum of the ion is effectively decreased, since the ion preferentially absorbs photons propagating in the oppsite direction of itself. At low velocities $kv\ll\Gamma$, where $\Gamma$ is the decay rate of the excited state, one can express this as a drag force (assuming 1D problem to ease notation) \textcolor{red}{KARIN}:
+\begin{equation}
+    F_{drag} = -\beta v,\quad \beta = \frac{8\hbar s k^2\delta / 2\Gamma}{\big(1+s+(2\delta/\Gamma)^2\big)^2},
+\end{equation}
+where $\beta$ is the drag coefficient, $\delta = \omega_L-\omega$ is the detuning of the laser with respect to the atomic transition, $s = I/I_{sat}$ is the saturation parameter, where $I$ is the intensity of the laser light, and $I_{sat} = \frac{\pi hc}{3\lambda}\Gamma$, with $\lambda$ being the wavelength of the laser, is the saturation intensity of the transition. 
+
+It is important to note, that while the equation above seems to indicate that there is no limit to Doppler cooling, that is far from the case. Indeed since the direction of an emitted photon is random, the ion will perform a random walk in momentum space over time.
+Thus, there is an intrinsic variation of velocity over time, meaning there is a lower limit to the temperature of the ion (typically referred to as the Doppler temperature or Doppler limit), which is given by
+\begin{equation}
+    T_D = \frac{\hbar\Gamma}{2k_b},
+\end{equation}
+which for the case of Ba$^+$ this temperature is approx. 0.5mK.
+
+Of course Doppler cooling only works for very specific ions, that have the proper level-scheme, and is thus not a very good candidate for cooling arbitrary molecular ions.
+The solution to this problem of not being able to doppler cool molecular ions comes in two parts. Firstly at high temperatures the hot molecular ion will interact with the cooled atomic ions, via the Coulomb interaction. Such interactions will cause the molecular ion to transfer energy to the atomic ion, from which the energy will then be removed by the system via Doppler cooling. This method of cooling is called sympathetic cooling \textcolor{red}{CITE MICHAEL (2000) AND REVIEW by Willitsch}
+In this case we imagine ideally trapping the molecule with a large amount of Ba$^+$ ions to offer the most cooling.
+
+As temperatures drop low enough that the motion truly becomes harmonic, the motion of the ions becomes coupled. As such, the ions will have common motional modes, and any energy extracted from the Ba$^+$ ion is extracted from the mode as a whole, thus cooling the molecular ion as well.
+This cooling mechanism is only effective if the ions share similar mass-to-charge ratios, however. In the case where the ion motions are nigh uncoupled, as described in \cref{sec:2Ion}, further steps must be taken to get the molecular ion to mK temperatures. This is described in \cref{sec:Coupling}.
+
 
 \section{Sideband Cooling}
-
+\label{sec:SBC}
 \section{Coupling of motional modes to enhance cooling}
+\label{sec:Coupling}

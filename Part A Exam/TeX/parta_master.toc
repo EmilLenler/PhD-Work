@@ -8,10 +8,11 @@
 \contentsline {section}{\numberline {3.2}Experiments on the first octopole}{15}{section.47}%
 \contentsline {subsection}{\numberline {3.2.1}Measuring the temporal shape of an ion bunch}{15}{subsection.48}%
 \contentsline {subsection}{\numberline {3.2.2}Measuring the fill time of the octopole}{17}{subsection.51}%
-\contentsline {chapter}{\chapternumberline {4}Cooling}{19}{chapter.53}%
-\contentsline {section}{\numberline {4.1}Doppler cooling}{19}{section.54}%
-\contentsline {section}{\numberline {4.2}Sideband Cooling}{19}{section.55}%
-\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{19}{section.56}%
-\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{20}{chapter.57}%
-\contentsline {chapter}{\chapternumberline {6}Future Work}{21}{chapter.58}%
-\contentsline {chapter}{Bibliography}{22}{section*.60}%
+\contentsline {subsection}{\numberline {3.2.3}Storage time of the octopole}{19}{subsection.57}%
+\contentsline {chapter}{\chapternumberline {4}Cooling}{22}{chapter.60}%
+\contentsline {section}{\numberline {4.1}Doppler cooling}{22}{section.61}%
+\contentsline {section}{\numberline {4.2}Sideband Cooling}{23}{section.66}%
+\contentsline {section}{\numberline {4.3}Coupling of motional modes to enhance cooling}{23}{section.67}%
+\contentsline {chapter}{\chapternumberline {5}Photon Recoil Spectroscopy (WHERE SHOULD THIS GO?)}{24}{chapter.68}%
+\contentsline {chapter}{\chapternumberline {6}Future Work}{25}{chapter.69}%
+\contentsline {chapter}{Bibliography}{26}{section*.71}%

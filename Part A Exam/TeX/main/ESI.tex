@@ -44,7 +44,7 @@ It has to be noted, however, that the 2nd detector sits where the connection to 
 \label{sec:octopoleExperiments}
 The need for getting only single molecular ions in our cryogenic Paul trap poses some very unique challenges for our ESI setup. The dominant one is that in principle ESI sources are usually made to maximize the amount of ions going through. This means that we will need to have a very good understanding of the different parts of the electrospray in order to be able to tailor a protocol for getting single ions to our linear quadropole trap.
 For this reason we have spent some time making a characterization of the very first octopole in the experiment. 
-This section contains the results of these measurements.
+This section contains the results of these measurements. All measurements are performed on rhodamine 6G, since it sprays particularly well.
 
 \subsection{Measuring the temporal shape of an ion bunch}
 One of the first characterizations we perform is the temporal shape of an ion bunch leaving the octopole.
@@ -91,12 +91,69 @@ Another characterization that has been performed of the first octopole of the se
 In order to test this, the octopole is allowed to fill for a variable time $\tau$, after which the ions are released, and the channeltron detector records the total number of ions.
 By doing this for increasing times we expect to see a behaviour where the number of ions increases linearly in time initially, until eventually space charge effects start to play a role.
 When these effects come into the picture the loading of ions will progress slower as new ions arriving become able to knock "old" ions out of the octopole, until eventually a steady state is realized.
-An illustration of the experimental sequence can be seen on \textcolor{red}{ADD FIGURE}. 
+An illustration of the experimental sequence can be seen on \cref{fig:storageSequence}. 
 
-
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.9\textwidth]{main/StoragePulse.pdf}
+    \caption{Illustration (not to scale) of the measurement sequence used to obtain the results of this subsection. The octopole is allowed to fill with ions for variable times. The octopole is allowed to open for 2 ms, which is sufficient to let all the ions leave (see \cref{fig:bunchShape}). During the time when the octopole is open,
+    the channeltron detector is turned on, to count the number of ions. For each fill time this procedure is repeated 20 times.}
+    \label{fig:storageSequence}
+\end{figure}
 All measurements for this experiment were taken at an ion current of approx 300 ions/second, measured at the channeltron detector.
 The ion current measured at the detector usually varies within 10\% due to fluctuations in flow from the electrospray. Thus, any measurements of how long it takes to fill the octopole have to be adjusted for the ion flux during the loading phase.  This adjustment is done by multiplying the physical loading time by the ratio between the reference of 300 ions/s and the mean of the measured current before and after the experiment giving
 \begin{equation}
     \tau'= \frac{I_{reference}}{I_{measured}}\tau,\quad I_{measured} = \frac{I_{before}+I_{after}}{2}.
 \end{equation}
-An illustration of the experimental sequence may be seen on 
+Results from the experiment with the time-axis adjsuted as described above can be seen on \cref{fig:fillTimeGraph}. From this we can make a very rough estimate of the ion current entering the octopole.
+The density of ions in an octopole, where space-charge effects are included, can be written \textcolor{red}{CITE MAJIMA}
+\begin{equation}
+    n(r) = \frac{144\epsilon_0 V_{RF}^2}{m\Omega^2r_0^4}\bigg(\frac{r}{r_0}\bigg)^4,
+\end{equation}
+where $V_{rf}$ is the RF voltage of the octopole (170V), $m$ is the mass of the ion (479 amu), $\Omega$ is the frequency of the octopole RF voltage ($2\pi\times2.7$MHz) and $r_0$ is half the distance between opposing octopole rods (2.75mm).
+
+
+In order to get the linear density one has to integrate this in the radial plane.
+It is of course important to ensure that we integrate out to the right distance from the center axis. Gerlich suggests that the ions can be stored out to $r = 0.8r_0$, by geometric considerations \textcolor{red}{GERLICH}. We use this as it is an easy bound to implement. However the cutoff radius of the ion cloud might become more complex to describe when we are in the 
+space-charge dominated regime \textcolor{red}{CITE MAJIMA}, as is the case when the octopole is full. We find the number of ions held in the octopole (length of 133mm) to be
+\begin{equation}
+    N = \frac{48\pi\epsilon_0V_{RF}^2L}{m\Omega^2r_0^2}\bigg(\frac{4}{5}\bigg)^6\approx 7.77\times 10^8.
+\end{equation}
+Again this number is likely to be lower in reality, but gives a ballpark figure for the number of ions that can be stored in the trap. Assuming the trap is full after 45 seconds of accumulation, we find there is a current of approx. $17\times 10^6$ ions/s entering the octopole while the electrospray is turned on.
+
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.8\textwidth]{main/FillingTimeGraph.pdf}
+    \caption{Results of the measurement of filling time of the octopole. For very low fill times there seems to be a very rapid increase in signal, which then becomes linear until approx. 15 seconds. After this the curve starts tapering off as the number of ions in the detector starts capping out in the mid-late 40s range}
+    \label{fig:fillTimeGraph}
+\end{figure}
+\subsection{Storage time of the octopole}
+The final measurement that has been performed on the first octopole aims to determine the period of time, in which ions can be kept in the octopole. Since the the electrospray setup is open to atmosphere, the pumps in the setup have to work hard to ensure low pressure at the end of the setup.
+If the ions can be stored in the octopole for sufficiently long periods of time, that experiments may be performed using only the ions stored in the octopole, then it is possible to plug the opening of the electrospray, allowing for better vaccuum in the system.
+
+In order to measure the lifetime of ions stored in the octopole, we allow the ions to accumulate in the octopole for 25 seconds after which we turn off the ion current into the octopole, by increasing the voltage on the skimmer to 200V.
+An illustration of the experimental sequence can be found on \cref{fig:decaySequence}.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.7\textwidth]{main/decayPulse.pdf}
+    \caption{Illustration of the experimental sequence for measuring lieftime of ions in the octopole. The octopole (blue) is set to its accumulation voltage initially. The skimmer (green) is set to a low voltage of 40V for 25 seconds, allowing ions to enter the octopole. After 25 seconds have passed a voltage of 200V is applied to the skimmer. This blocks ions from entering the octopole.
+    The ions are then kept in the octopole for a time, which is varied for each measurement, after which the ions are released and measured at the detector (red). Measurement is only performed once for the majority of timestamps.}    
+    \label{fig:decaySequence}
+\end{figure}
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.8\textwidth]{main/DecayTimes.pdf}
+    \caption{Measurements of the lifetime of ions in the octopole. There clearly appear to be two timescales. At the short timescale (see inset), the number of ions in the octopole appear to be decaying with a half-life on the order of magnitude of minutes (dashed-dotted line). Conversely for longer timescales the rapid decay is no longer present and instead the population in the trap is decaying on the scale of hours (dahsed line).
+    The cause for the initial rapid loss of population is likely ion-ion collisions within the trap, as the internal dynamics in the trap are initially dominated by space-charge effects. Eventually the ion density becomes sufficiently low to the point where the ions no longer feel one another, and instead losses are dominated by collisions with the background gas.}
+    \label{fig:decayResults}
+\end{figure}
+Experimental results are seen on \cref{fig:decayResults}. From the figure it is evident, that there are two timescales at play, when determining the lifetimes of the ions.
+For the first two minutes there is a rapid loss of ions, which if fitted to an exponential curve leads to a half of $359\pm249$s. After the heavy losses in the first few minutes the curve flattens out considerably. If an exponential decay is fitted to this part of the data a half life of $5243\pm2782$s is obtained. The reason for the large uncertainties in the half lives is that the statistics for the data aren't very good. Especially for the measurements at high storage times, data acquisition times become prohibitve
+as a single measurement takes an upwards of an hour.
+
+The fact that there are two timescales at play indicates that space-charge effects are important when the octopole is full. A possible explanation for why the ions die off as they do, is that initially the ions are experiencing ion-ion collisions, causing heavy losses on the time-scale of minutes.
+As more and more ions are lost, the density within the octopole drops to a point, where ion-ion interactions no longer dominate losses in the octopole.
+At this point the losses will be largely due to ion collisions with the neutral background gas. The measurements indicate that the timescale of this process is on the scale of hours.
+Thus, it will likely be possible to use the octopole as an ion storage device, allowing for the closing of the electrosapray after an initial loading.
+Closing off the electrospray to atmosphere is even likely to improve the storage time in the octopole since the long-term storage is determined by collisions with atmospheric air. The lower pressure obtained when the electrospray should lower the rate of collisions, and thus further minimize losses.
