@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  16 MAY 2024 16:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  17 MAY 2024 13:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1621,10 +1621,22 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 
-]) [23]
+] [23] [24]
+<main/coolingScheme.pdf, id=522, 116.78804pt x 79.42749pt>
+File: main/coolingScheme.pdf Graphic file (type pdf)
+<use main/coolingScheme.pdf>
+Package pdftex.def Info: main/coolingScheme.pdf  used on input line 91.
+(pdftex.def)             Requested size: 295.20113pt x 200.77643pt.
+ [25 <./main/coolingScheme.pdf>]
+<main/WCM_SCM_Temp.pdf, id=540, 462.52798pt x 346.89601pt>
+File: main/WCM_SCM_Temp.pdf Graphic file (type pdf)
+<use main/WCM_SCM_Temp.pdf>
+Package pdftex.def Info: main/WCM_SCM_Temp.pdf  used on input line 104.
+(pdftex.def)             Requested size: 369.0pt x 276.76555pt.
+ [26 <./main/WCM_SCM_Temp.pdf>]) [27]
 \openout2 = `main/RecoilSpec.aux'.
 
- (main/RecoilSpec.tex) [24
+ (main/RecoilSpec.tex) [28
 
 
 
@@ -1632,7 +1644,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 ]
 \openout2 = `main/future.aux'.
 
- (main/future.tex) [25
+ (main/future.tex) [29
 
 
 
@@ -1658,7 +1670,7 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[26
+[30
 
 
 
@@ -1673,23 +1685,23 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `parta_master.out' has not changed.
-(rerunfilecheck)             Checksum: 1EAC7AE1C8917451251EE55118181080;2605.
+(rerunfilecheck)             Checksum: 958988E23A8508047196212033E9B219;2605.
 Package logreq Info: Writing requests to 'parta_master.run.xml'.
 \openout1 = `parta_master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37125 strings out of 474424
- 731928 string characters out of 5741739
+ 37180 strings out of 474424
+ 733286 string characters out of 5741739
  1949496 words of memory out of 5000000
- 58448 multiletter control sequences out of 15000+600000
- 747141 words of font info for 361 fonts, out of 8000000 for 9000
+ 58476 multiletter control sequences out of 15000+600000
+ 747966 words of font info for 367 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,15n,96p,1299b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtxtt/newtxtt.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathcal.pfb>
-Output written on parta_master.pdf (26 pages, 1420054 bytes).
+Output written on parta_master.pdf (30 pages, 1473765 bytes).
 PDF statistics:
- 610 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
- 94915 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 709 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 94925 words of extra memory for PDF output out of 106986 (max. 10000000)
 

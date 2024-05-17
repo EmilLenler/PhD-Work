@@ -45,5 +45,91 @@ This cooling mechanism is only effective if the ions share similar mass-to-charg
 
 \section{Sideband Cooling}
 \label{sec:SBC}
+Unfortunately, Doppler cooling is not sufficient for reaching the motional ground state. In order to do this we employ yet another method of laser cooling, called sideband cooling \textcolor{red}{cite}. When the ions are at the doppler temperature, they will be cold enough that they behave as a quantum mechanical harmonic oscillator, with their wave function
+being a thermal distribution over the Fock states $\vert n \rangle$. By coupling the state $\vert g,n\rangle$ to the state $\vert e,n-1\rangle$ where $(e,g)$ denotes the excited and ground states of the atom, we are able to remove one quanta of energy from the motion under an excitation of the electronic state.
+Since the electronic state predominantly decays to the same $n$, this allows us to cool the ion's motion by moving down the "ladder" seen on \cref{fig:SBC}
+
+
+We initially consider a single atomic ion in the Paul trap, and neglect the radial modes of motion in order to ease notation. The Hamiltonian can be written as
+\begin{equation}
+    \hat{H}_0 = \hbar\omega_{z}(\hat{n}+1/2)+\hat{H}_a,
+\end{equation}
+where $\hat{n}$ is the Fock state number operator, and $\hat{H}_a$ is the Hamiltonian for the atomic system. If a laser field is turned on at some detuning $\delta = \omega_L -\omega$ with respect to the electronic transition of the ion, the interaction with the laser in the interaction picture is described by:
+\begin{equation}
+    H_{I} = \frac{\hbar\Omega_0}{2}\hat{\sigma}_+\big(e^{ik_z\hat{z_I}}e^{-i\delta t}\big) + h.c.,
+    \label{eq:interaction}
+\end{equation}
+where $\hat{\sigma}_+ = \vert e \rangle \langle g \vert$ is the excitation operator responsible for exciting the electronic state of the ion, and $\Omega_0 = \frac{eE_0}{\hbar}\langle g \vert \hat{\epsilon}\cdot\hat{z}\vert e\rangle$ is the Rabi frequency of the transition, being driven by an electric field of amplitude $E_0$, and direction $\hat{\epsilon}$. Note that the rotating wave approximation has been applied to the expression above, keeping only slowly rotating terms.
+
+We may express $\hat{z}_I$ in terms of the ladder operators yielding
+\begin{equation}
+    \hat{z}_I = \sqrt{\frac{\hbar}{2m\omega_z}}(\hat{a}e^{-i\omega_z t}+\hat{a}^\dagger e^{i\omega_z t})
+\end{equation}
+Before inserting this expression back into \cref{eq:interaction}, it will be useful to first define the Lamb-Dicke parameter
+\begin{equation}
+    \eta = k_z\sqrt{\frac{\hbar}{2m\omega_z}},
+\end{equation}
+which in the so-called Lamb-Dicke regime, where $\eta\sqrt{\langle n \rangle +1} \ll 1$ \textcolor{red}{EMILIE} allows us to write
+\begin{equation}
+    H_I = \frac{\hbar\Omega_0}{2}\hat{\sigma}_+\bigg[e^{-i\delta t} + i\eta\big(\hat{a}^\dagger e^{i(\omega_z -\delta)t}+\hat{a}e^{-i(\omega_z+\delta)t}\big)\bigg] + h.c.
+\end{equation}
+Here the first term is resonant when $\delta = 0$ and corresponds to the laser being resonant with the atomic transition, driving it with no change in motional quantum number. The second term is resonant when the laser is blue detuned by  $\delta = \omega_z$, and increases the motional quantum number while exciting the system, thus heating the system, corresponding to walking up the ladder of \cref{fig:SBC}.
+Finally the third term is resonant when $\delta = -\omega_z$, and removes a phonon at by performing an electronic excitation. Repeatedly performing this process will eventually cool the ion to the ground state, as seen on \cref{fig:SBC}.
+
+If we instead consider two ions, the picture changes ever so slightly. In the case where only one of the ions interacts with the laser light, as would be the case for Ba$^+$ cotrapped with a molecule, we simply have to include the mode structure when writing out $\hat{z}_1$. In the case of two ions with in-phase and out-of-phase frequencies of $\omega_i,\omega_o$, the motional state of the system is described by the product space $\vert n_i,n_o\rangle$.
+Where the subscript ($i/o$) denotes the in-phase and out-of-phase mode respectively. The position operator for the barium ion in this system can be expressed as
+
+\begin{equation}
+    \hat{z}_1 = \sqrt{\frac{\hbar}{2m_1}}\bigg(\alpha_{i,1}\frac{a_i+a_i^\dagger}{\sqrt{\omega_i}}+\alpha_{o,1}\frac{a_o+a_o^\dagger}{\sqrt{\omega_o}}\bigg),
+\end{equation}
+where $\alpha_{i/o,1}$ is the participation of the atomic ion in the motion of the mode, as calculated in \cref{sec:2Ion}. This operator may be inserted in the place of $z_I$ (remembering to switch to the interaction picture) in equation \cref{eq:interaction}. Following an identical derivation we see that sideband cooling is still possible for all modes, provided that $\alpha_{i/o}$ does not get so small, that the coupling becomes too weak.
+
+This clearly poses a problem for systems where the mass-to-charge ratios of the two ions differ considerably, as $\alpha_{i,1}\ll \frac{1}{\sqrt{2}}$ for such systems. Effectively making cooling of the in-phase motion impossible.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = 0.8\textwidth]{main/coolingScheme.pdf}
+    \caption{Illustration of the concept behind sideband laser cooling. The laser (red) is detuned with respect to the electronic transition, by exactly $\omega_z$. Thus transitions are driven at the cost of a phonon. The atom is most likely to decay to the same Fock state, effectively causing it to lose phonons, as several excitations occur. This makes the ion "climb down the ladder" until it reaches the quantum ground state.}
+    \label{fig:SBC}
+\end{figure}
+
 \section{Coupling of motional modes to enhance cooling}
 \label{sec:Coupling}
+As mentioned in both \cref{sec:Doppler} and \cref{sec:SBC}, laser cooling becomes very difficult once the charge-to-mass ratios of the two differ considerably. The reason for this is relatively easy to understand.
+Since the laser cooling only interacts with the atomic ion, this is the only ion whose motion is cooled through the interaction with the light. In the case where the ions have similar charge-to-mass ratios however, their motions are so strongly coupled, that any cooling of the atomic ion, will cool the molecular ion as well.
+As the ratios start to differ the motions quickly become uncoupled, and thus the cooling of the atom, no longer affects the molecule in any appreciative way. This is clearly seen on \cref{fig:WCMSCM}, which shows the temperature of Ba$^+$ ion, cotrapped with a polyporphyrine ($m_2 = 9000$ amu, $q_2 = 24$e). The blue curve shows the temperature of the motional modes, that have a large contribution from the atom. Clearly these modes are effectively cooled. In stark contrast we have the orange curve, which displays the temperature of all the modes that have low contribution from the atom, whose temperature remains effectively unchanged.
+
+\begin{figure}
+    \centering
+    \includegraphics[width = \textwidth]{main/WCM_SCM_Temp.pdf}
+    \caption{Simulation of Doppler cooling of a two/ion system, containing of a Ba$^+$ ion, and a polyporphyrin. Two curves are plotted, corresponding to the tempearture of the modes with high (blue), and low (orange) participation from the Ba$^+$ ion. Clearly only the modes with a high participation are cooled by the Doppler cooling}
+    \label{fig:WCMSCM}
+\end{figure}
+
+In fact, this problem reaches further than simply cooling. For example, it is the molecular ion we wish to investigate with photon recoil spectroscopy (PRS). However the momentum kick gained from absorption on the molecule, will predominantly excite the motional modes with high participation from the molecule.
+Unfortunately the readout method for PRS is very similar to the side-band pulses described in \cref{sec:SBC}, and thus for the same reasons, readout becomes impossible when the coupling grows too weak, since these modes have very small participation from the atomic ion, on which readout is performed.
+
+
+The solution to this problem is to find some way to couple the two modes, allowing for the transfer energy from one to the other. Curiously enough the need for coupling such modes was present in Penning traps many years ago, in order to cool the so-called magnetron mode of such a trap \cite{PenningTrap,DehmeltPenningCool}. For the Pennin trap the solution found was to add another quadrupole field, oscillating at the frequency difference between the two modes to be coupled, such a solution also works for the case of the Paul trap as has been demonstrated very recently \textcolor{red}{CITE REFEREE}.
+
+It is easiest to understand the coupling that occurs, when we consider the quantum mechanical case. Suppose we introduce some additional potential (by modulating a slight additional voltage on the endcap electrodes)
+\begin{equation}
+    V'(z_1,z_2,t) = \frac{\kappa V_0}{z_0^2}(q_1z_1^2+q_2z_2^2)\cos{\big([\omega_i-\omega_o]t\big)},
+\end{equation}
+where $V_0$ is the additional voltage put onto the endcap electrodes. We note that $V_0$ is kept small with respect to $V_{DC}$, such that the eigenmodes of the system are not considerably changed.
+
+If we perform a Taylor expansion to second order around the equilibrium (at $V_0= 0$) positions is performed similarly to \cref{sec:2Ion}, we may write (neglecting the offest term)
+\begin{align}
+    V'(\delta z_1,\delta z_2,t)\approx &\frac{\partial V'}{\partial z_1}\bigg\vert_{eq}\delta z_1+\frac{\partial V'}{\partial z_2}\bigg\vert_{eq}\delta z_2
+    +\frac{1}{2}\frac{\partial^2 V'}{\partial z_1^2}\bigg\vert_{eq}\delta z_1^2\nonumber\\+&\frac{1}{2}\frac{\partial^2 V'}{\partial z_2^2}\bigg\vert_{eq}\delta z_2^2
+    +\frac{\partial^2 V'}{\partial z_1\partial z_2}\bigg\vert_{eq}\delta z_1\delta z_2.
+\end{align}
+For now, we only wish to consider the coupling of the modes, and thus neglect the first-order terms. Clearly these terms cannot couple the modes as $\delta\hat{z}_j\propto (\alpha_{j,o}\hat{a}_o+\alpha_{j,i}\hat{a}_i)+h.c.$ is not sufficient to transfer energy from one mode to another. If we instead consider solely the 2nd. order terms we find
+\begin{align}
+    \hat{V}'^{(2)} = \nonumber \frac{\hbar\kappa V_0}{2z_0^2}\cos{\big([\omega_i-\omega_o]t\big)}\bigg(&q_1\big(\frac{\alpha_{1,i}(\hat{a}_i+\hat{a}_i^\dagger)}{\sqrt{m_1\omega_i}}+\frac{\alpha_{1,o}(\hat{a}_o+\hat{a}_o^\dagger)}{\sqrt{m_1\omega_o}}\big)^2\\
+    &+q_2\big(\frac{\alpha_{2,i}(\hat{a}_i+\hat{a}_i^\dagger)}{\sqrt{m_2\omega_i}}+\frac{\alpha_{2,o}(\hat{a}_o+\hat{a}_o^\dagger)}{\sqrt{m_2\omega_o}}\big)^2\bigg).
+\end{align}
+If the cosine is expanded using Euler's formula, and we move to the interaction picture, keeping only the non-rotating terms, we may massage the expression and eventually arrive at
+\begin{equation}
+    \hat{V}'^{(2)}_I = \frac{\hbar\kappa V_0\alpha_{1,o}\alpha_{1,i}}{4z_0^2\sqrt{\omega_i\omega_o}}\big(\frac{q_1}{m_1}-\frac{q_2}{m_2}\big)(\hat{a}_o^\dagger \hat{a}_i + h.c.)
+\end{equation}

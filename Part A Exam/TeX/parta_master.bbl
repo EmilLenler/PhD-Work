@@ -75,6 +75,54 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
       \endverb
     \endentry
+    \entry{PenningTrap}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d14359ae09ded36ff65a911e5fa5997}{%
+           family={F.\bibnamedelimi Crimin},
+           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={B.\bibnamedelimi M.\bibnamedelimi Garraway},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a1713da14c0e46d05aad943c2d21bec4}{%
+           family={Verdú},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{fullhash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{fullhashraw}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{bibnamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorbibnamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authornamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorfullhash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorfullhashraw}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modern Optics}
+      \field{number}{4}
+      \field{title}{The quantum theory of the Penning trap}
+      \field{volume}{65}
+      \field{year}{2018}
+      \field{pages}{427\bibrangedash 440}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/09500340.2017.1393570
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -119,6 +167,57 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+    \endentry
+    \entry{DehmeltPenningCool}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e1a34c0ebf50e1dd800c6622a2b4a269}{%
+           family={Van\bibnamedelima Dyck},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3a4519a8a4a3d44386f502361d9268d8}{%
+           family={Schwinberg},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=08ff7280f733df6af6a4e795b54bfd1c}{%
+           family={Dehmelt},
+           familyi={D\bibinitperiod},
+           given={Hans\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{fullhash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{fullhashraw}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{bibnamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorbibnamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authornamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorfullhash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorfullhashraw}{87c001c61d28b8df3195d15a12f095c6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{7}
+      \field{title}{New high-precision comparison of electron and positron g factors}
+      \field{volume}{59}
+      \field{year}{1987}
+      \field{pages}{26\bibrangedash 29}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.59.26
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.26
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.26
       \endverb
     \endentry
   \enddatalist
@@ -179,6 +278,54 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
       \endverb
     \endentry
+    \entry{PenningTrap}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=8d14359ae09ded36ff65a911e5fa5997}{%
+           family={F.\bibnamedelimi Crimin},
+           familyi={F\bibinitperiod\bibinitdelim C\bibinitperiod},
+           given={B.\bibnamedelimi M.\bibnamedelimi Garraway},
+           giveni={B\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a1713da14c0e46d05aad943c2d21bec4}{%
+           family={Verdú},
+           familyi={V\bibinitperiod},
+           given={J.},
+           giveni={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Taylor \& Francis}%
+      }
+      \strng{namehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{fullhash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{fullhashraw}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{bibnamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorbibnamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authornamehash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorfullhash}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \strng{authorfullhashraw}{ccc7a192d17a7c7f25da7064e38d0d1d}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Modern Optics}
+      \field{number}{4}
+      \field{title}{The quantum theory of the Penning trap}
+      \field{volume}{65}
+      \field{year}{2018}
+      \field{pages}{427\bibrangedash 440}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1080/09500340.2017.1393570
+      \endverb
+      \verb{eprint}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1080/09500340.2017.1393570
+      \endverb
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -223,6 +370,57 @@
       \endverb
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
+      \endverb
+    \endentry
+    \entry{DehmeltPenningCool}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=e1a34c0ebf50e1dd800c6622a2b4a269}{%
+           family={Van\bibnamedelima Dyck},
+           familyi={V\bibinitperiod\bibinitdelim D\bibinitperiod},
+           given={Robert\bibnamedelima S.},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=3a4519a8a4a3d44386f502361d9268d8}{%
+           family={Schwinberg},
+           familyi={S\bibinitperiod},
+           given={Paul\bibnamedelima B.},
+           giveni={P\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=08ff7280f733df6af6a4e795b54bfd1c}{%
+           family={Dehmelt},
+           familyi={D\bibinitperiod},
+           given={Hans\bibnamedelima G.},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{fullhash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{fullhashraw}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{bibnamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorbibnamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authornamehash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorfullhash}{87c001c61d28b8df3195d15a12f095c6}
+      \strng{authorfullhashraw}{87c001c61d28b8df3195d15a12f095c6}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{1}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{7}
+      \field{title}{New high-precision comparison of electron and positron g factors}
+      \field{volume}{59}
+      \field{year}{1987}
+      \field{pages}{26\bibrangedash 29}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.59.26
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.26
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.59.26
       \endverb
     \endentry
   \enddatalist
