@@ -1,30 +1,30 @@
 [0] Config.pm:308> INFO - This is Biber 2.20
 [0] Config.pm:311> INFO - Logfile is 'parta_master.blg'
-[88] biber-MSWIN64:340> INFO - === 
-[117] Biber.pm:420> INFO - Reading 'parta_master.bcf'
-[208] Biber.pm:994> INFO - Found 20 citekeys in bib section 0
-[225] Biber.pm:4463> INFO - Processing section 0
-[236] Biber.pm:4654> INFO - Looking for bibtex file 'bibliography.bib' for section 0
-[276] bibtex.pm:1713> INFO - LaTeX decoding ...
-[307] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
-[435] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[436] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[436] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
-[436] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-GB'
-[465] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[465] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
-[466] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-GB'
-[466] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-GB'
-[485] bbl.pm:676> INFO - Writing 'parta_master.bbl' with encoding 'UTF-8'
-[513] bbl.pm:779> INFO - Output to parta_master.bbl
-[514] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'WinelandSideband' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'King2022' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'May' in entry 'ZiracZoller' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'Kielpinski2002' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PRS' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy year field '[2005]' in entry 'Taylor[2005]' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'BlumelHeating' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'MichaelIonIonHeating' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'DehmeltPenningCool' is not an integer - this will probably not sort properly.
-[514] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'WeaklyCoupled' is not an integer - this will probably not sort properly.
-[514] Biber.pm:133> INFO - WARNINGS: 10
+[122] biber-MSWIN64:340> INFO - === 
+[167] Biber.pm:420> INFO - Reading 'parta_master.bcf'
+[320] Biber.pm:994> INFO - Found 20 citekeys in bib section 0
+[341] Biber.pm:4463> INFO - Processing section 0
+[354] Biber.pm:4654> INFO - Looking for bibtex file 'bibliography.bib' for section 0
+[402] bibtex.pm:1713> INFO - LaTeX decoding ...
+[437] bibtex.pm:1519> INFO - Found BibTeX data source 'bibliography.bib'
+[624] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[624] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[624] Biber.pm:4283> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'en-GB'
+[624] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-GB'
+[784] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'variable = shifted' with 'variable = non-ignorable'
+[785] UCollate.pm:68> INFO - Overriding locale 'en-GB' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[785] Biber.pm:4283> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'en-GB'
+[785] Biber.pm:4289> INFO - No sort tailoring available for locale 'en-GB'
+[843] bbl.pm:676> INFO - Writing 'parta_master.bbl' with encoding 'UTF-8'
+[913] bbl.pm:779> INFO - Output to parta_master.bbl
+[914] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'WinelandSideband' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy month field 'Nov' in entry 'King2022' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy month field 'May' in entry 'ZiracZoller' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'Kielpinski2002' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy month field 'Jun' in entry 'PRS' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy year field '[2005]' in entry 'Taylor[2005]' is not an integer - this will probably not sort properly.
+[914] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'BlumelHeating' is not an integer - this will probably not sort properly.
+[915] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'MichaelIonIonHeating' is not an integer - this will probably not sort properly.
+[915] Biber.pm:131> WARN - legacy month field 'Jul' in entry 'DehmeltPenningCool' is not an integer - this will probably not sort properly.
+[915] Biber.pm:131> WARN - legacy month field 'Apr' in entry 'WeaklyCoupled' is not an integer - this will probably not sort properly.
+[915] Biber.pm:133> INFO - WARNINGS: 10
