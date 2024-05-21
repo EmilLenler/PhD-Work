@@ -76,8 +76,18 @@
 \section*{Abstract}
 \thispagestyle{empty}
 
-An abstract...
+Spectroscopy of molecular ions has been carried out by physicists for centuries. However, there is a constant push towards performing these measurements at colder temperatures, in order to allow for higher precision.
+Most spectroscopic methods are limited to temperatures of a few kelvin by cooling with He. If the molecules are however trapped in a linear Paul trap, their motions can be cooled to sub-milikelvin temperatures by applying laser-cooling to a co-trapped atomic ion, with suitable transitions.
 
+The work presented in this report covers the basics of trapping ions in a linear Paul trap, briefly describing the trap we use here in Aarhus, as well as going over the dynamics of systems consisting of one or two ions.
+In addition, there is a description of the molecular ion source, a so-called electrospray ionization (ESI) source, which we plan to use for providing the molecular ions for our experiments.
+The working concept of ESI is briefly explained, while results from a characterization of one of the octopoles within the setup are shown and discussed. Notably we find that ions may be stored in the octopole for several hours, meaning that once the ESI instrument has been filled, it can be closed off and used a sort of "second storage" device for experiments.
+
+Finally, we discuss how to cool down a system consisting of an atomic, and a molecular ion down to the sub-milikelvin temperatures desired. Doppler cooling is used to cool the ions down to their so-called Doppler temperature, which is 0.5 mK for Ba$^+$ ions. When the ions near the Doppler temperature, they start behaving like a harmonic oscillator, at which point sideband cooling can be performed to reach the motional quantum ground state.
+While Doppler cooling and sideband cooling are suitable for the case of ions with similar charge-to-mass ratios, they become unfeasible (without modification) when the ratios change too much, as the motion of the ions will become uncoupled.
+In order to solve this issue, we introduce theory for how the motional modes of the ions can be coupled by an external field oscillating at the difference of the two motional frequencies. This allows transfer of energy from hard-to-cool modes into easy-to-cool modes, allowing for quantum ground state cooling of all motional modes.
+
+In addition to the works that have been carried out as discussed above, there is a brief section, explaining how we aim to proceed in the next two years, at the very end of the report.
 
 % ~~~~~~~~~~~~
 % The colophon
@@ -88,28 +98,28 @@ An abstract...
 \edef\fontandleading{\@memptsize.0/\the\baselineskip}
 \makeatother
 
-% Push to bottom of page and locally set indents
-\strut\vfill
-{
-  \setlength{\parindent}{0pt}
-  \addtolength{\parskip}{.6em}
+% % Push to bottom of page and locally set indents
+% \strut\vfill
+% {
+%   \setlength{\parindent}{0pt}
+%   \addtolength{\parskip}{.6em}
 
-  \begin{center}
-    \bfseries\sffamily Colophon
-  \end{center}
+%   \begin{center}
+%     \bfseries\sffamily Colophon
+%   \end{center}
 
-  \small
+%   \small
 
-  \textsl{\projecttitle}
+%   \textsl{\projecttitle}
 
-  \smallskip
+%   \smallskip
 
-  PhD progress report by Emil Lenler-Eriksen.
+%   PhD progress report by Emil Lenler-Eriksen.
 
-  The PhD project is supervised by Michael Drewsen
+%   The PhD project is supervised by Michael Drewsen
 
-  Typeset by the author using \LaTeX{} and the \textsf{memoir} document class,
-  using Linux Libertine and Linux Biolinum {\fontandleading}.
+%   Typeset by the author using \LaTeX{} and the \textsf{memoir} document class,
+%   using Linux Libertine and Linux Biolinum {\fontandleading}.
 
-  %Printed at Aarhus University
-}
+%   %Printed at Aarhus University
+% }

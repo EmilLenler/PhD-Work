@@ -19,6 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
+    \entry{NobelPrize.org}{misc}{}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{journaltitle}{NobelPrize.org}
+      \verb{urlraw}
+      \verb https://www.nobelprize.org/prizes/physics/1989/press-release/
+      \endverb
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/physics/1989/press-release/
+      \endverb
+    \endentry
+    \entry{Abramowitz_1972}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b30c3e9da438d36efb5827b2fe852284}{%
+           family={Abramowitz},
+           familyi={A\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {US Government Print. Off.}%
+      }
+      \strng{namehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{fullhash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{fullhashraw}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{bibnamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorbibnamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authornamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorfullhash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorfullhashraw}{b30c3e9da438d36efb5827b2fe852284}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Mathematical Functions: With formulars, graphs, and mathematical tables}
+      \field{year}{1972}
+    \endentry
     \entry{BlumelHeating}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c2c85bc5c7ac6967b25e2f23309c8d63}{%
@@ -75,6 +112,146 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
       \endverb
     \endentry
+    \entry{ZiracZoller}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=0d147340235c2166e4699ddc95c9fbe5}{%
+           family={Zoller},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{bibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorbibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authornamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Quantum Computations with Cold Trapped Ions}
+      \field{volume}{74}
+      \field{year}{1995}
+      \field{pages}{4091\bibrangedash 4094}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+    \endentry
+    \entry{PRS}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c5270c41736b4808355cea6549baf69d}{%
+           family={Clausen},
+           familyi={C\bibinitperiod},
+           given={Emilie\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=37f26889515b0abc9e69f8f63c0f57a6}{%
+           family={Jarlaud},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8d459189d29ff0d0832a60f2687e6207}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3aca924baf392ab31d96067fff97266f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50b8eb676f0c30cc2cacdf49bb3b9603}{%
+           family={Solaro},
+           familyi={S\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b49f7a715ec33247ca5e26e211ea99c8}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{fullhash}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{fullhashraw}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{bibnamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authorbibnamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authornamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authorfullhash}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{authorfullhashraw}{d1d0ab82531eb4babf8cd29363c446ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{6}
+      \field{title}{Unresolved sideband photon recoil spectroscopy of molecular ions}
+      \field{volume}{105}
+      \field{year}{2022}
+      \field{pages}{063709}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.105.063709
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.105.063709
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.105.063709
+      \endverb
+    \endentry
+    \entry{EarnshawOnTN}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=93b12acfea40ef49e1855fa1fe478d9f}{%
+           family={Earnshaw},
+           familyi={E\bibinitperiod},
+           given={Sameul},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{fullhash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{fullhashraw}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{bibnamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorbibnamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authornamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorfullhash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorfullhashraw}{93b12acfea40ef49e1855fa1fe478d9f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Nature of the Molecular Forces which Regulate the Constitution of the Luminiferous Ether}
+      \verb{urlraw}
+      \verb https://archive.org/details/transactionsofca07camb/page/96/mode/2up
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/transactionsofca07camb/page/96/mode/2up
+      \endverb
+    \endentry
     \entry{PenningTrap}{article}{}{}
       \name{author}{2}{}{%
         {{hash=8d14359ae09ded36ff65a911e5fa5997}{%
@@ -123,6 +300,91 @@
       \verb https://doi.org/10.1080/09500340.2017.1393570
       \endverb
     \endentry
+    \entry{FennEsi}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=bb4b7b2dc2089df3c01073e32c524d20}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=dc690b5ff4f7ac183fcfadcc49715b23}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b589643df97328d990a05ed8c2a19ac}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Chin\bibnamedelima Kai},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=094e0fcfe307f7a4b356ffb629f8d464}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Shek\bibnamedelima Fu},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=e978fc4f5a9a207419ff196534c312c5}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Craig\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{fullhash}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{fullhashraw}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{bibnamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authorbibnamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authornamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authorfullhash}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{authorfullhashraw}{90e6996b90d61e00bb36f31f97aaafaf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electrospray ionization has recently emerged as a powerful technique for producing intact ions in vacuo from large and complex species in solution. To an extent greater than has previously been possible with the more familiar "soft" ionization methods, this technique makes the power and elegance of mass spectrometric analysis applicable to the large and fragile polar molecules that play such vital roles in biological systems. The distinguishing features of electrospray spectra for large molecules are coherent sequences of peaks whose component ions are multiply charged, the ions of each peak differing by one charge from those of adjacent neighbors in the sequence. Spectra have been obtained for biopolymers including oligonucleotides and proteins, the latter having molecular weights up to 130,000, with as yet no evidence of an upper limit.}
+      \field{journaltitle}{Science}
+      \field{number}{4926}
+      \field{title}{Electrospray Ionization for Mass Spectrometry of Large Biomolecules}
+      \field{volume}{246}
+      \field{year}{1989}
+      \field{pages}{64\bibrangedash 71}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.2675315
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.2675315
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.2675315
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.2675315
+      \endverb
+    \endentry
+    \entry{Fisher_2017}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d459189d29ff0d0832a60f2687e6207}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{fullhash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{fullhashraw}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{bibnamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorbibnamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authornamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorfullhash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorfullhashraw}{8d459189d29ff0d0832a60f2687e6207}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adiabatic Cooling for Rovibrational Spectroscopy of Molecular Ions}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -168,6 +430,545 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
       \endverb
+    \endentry
+    \entry{hou2022coherently}{misc}{}{}
+      \name{author}{9}{}{%
+        {{hash=5128ea2c2af002c1360aafd112d0ba31}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Pan-Yu},
+           giveni={P\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=de3e45a30d25461071d5faf072d669f9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jenny\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ffd4661214c9992cea11b0fd4824bbc}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d28819e123d8cec14718ddfc82751dd9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9e9fffb15cc9e7d563c2d63c46546449}{%
+           family={Zarantonello},
+           familyi={Z\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e081df927ece31c4f0f28ea8c3c96c34}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b9c0f45953b64aac5b8ec312598255bf}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=59fb5637f248fe8dcdb44507f74ac990}{%
+           family={Slichter},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d703924db470065973485b6be54d5ed9}{%
+           family={Leibfried},
+           familyi={L\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{fullhash}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{fullhashraw}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{bibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorbibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authornamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorfullhash}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{authorfullhashraw}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Coherently Coupled Mechanical Oscillators in the Quantum Regime}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2205.14841
+      \endverb
+    \endentry
+    \entry{WeaklyCoupled}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=5128ea2c2af002c1360aafd112d0ba31}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Pan-Yu},
+           giveni={P\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=de3e45a30d25461071d5faf072d669f9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jenny\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ffd4661214c9992cea11b0fd4824bbc}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9e9fffb15cc9e7d563c2d63c46546449}{%
+           family={Zarantonello},
+           familyi={Z\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e081df927ece31c4f0f28ea8c3c96c34}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d28819e123d8cec14718ddfc82751dd9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b9c0f45953b64aac5b8ec312598255bf}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=59fb5637f248fe8dcdb44507f74ac990}{%
+           family={Slichter},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d703924db470065973485b6be54d5ed9}{%
+           family={Leibfried},
+           familyi={L\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{fullhash}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{fullhashraw}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{bibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorbibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authornamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorfullhash}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{authorfullhashraw}{0b0ac6217ce9b011648710c3dba70664}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{month}{4}
+      \field{title}{Indirect Cooling of Weakly Coupled Trapped-Ion Mechanical Oscillators}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{021003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.14.021003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.14.021003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.14.021003
+      \endverb
+    \endentry
+    \entry{Kielpinski2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ba25dccbe77d9b2ceb3300167837dff1}{%
+           family={Kielpinski},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{fullhash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{fullhashraw}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{bibnamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorbibnamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authornamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorfullhash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorfullhashraw}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Among the numerous types of architecture being explored for quantum computers are systems utilizing ion traps, in which quantum bits (qubits) are formed from the electronic states of trapped ions and coupled through the Coulomb interaction. Although the elementary requirements for quantum computation have been demonstrated in this system, there exist theoretical and technical obstacles to scaling up the approach to large numbers of qubits. Therefore, recent efforts have been concentrated on using quantum communication to link a number of small ion-trap quantum systems. Developing the array-based approach, we show how to achieve massively parallel gate operation in a large-scale quantum computer, based on techniques already demonstrated for manipulating small quantum registers. The use of decoherence-free subspaces significantly reduces decoherence during ion transport, and removes the requirement of clock synchronization between the interaction regions.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{6890}
+      \field{title}{Architecture for a large-scale ion-trap quantum computer}
+      \field{volume}{417}
+      \field{year}{2002}
+      \field{pages}{709\bibrangedash 711}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/nature00784
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nature00784
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nature00784
+      \endverb
+    \endentry
+    \entry{King2022}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=25f885a9649f3a7f3c8242165e0d87d1}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=db90b59a6910c3173fb6f5142fc304e9}{%
+           family={Spie{ß}},
+           familyi={S\bibinitperiod},
+           given={Lukas\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=334e97a742a834ebfcebda28c1d27735}{%
+           family={Micke},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6fe82f748d8300447684aad26afcb7de}{%
+           family={Wilzewski},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=261f23b7de3e70aef6d51e83ff653aab}{%
+           family={Leopold},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=05f1e58b399c0cf8b8c8d6a1c4cabd1e}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6e448d24e159fb46f86180aa26d9fa1c}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c1f81d3955fd79701683e64296e038e}{%
+           family={Huntemann},
+           familyi={H\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=df1a2575204357ebf75f1e84e5cf05b7}{%
+           family={Surzhykov},
+           familyi={S\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=553f363066174cbde8cf501f5301c665}{%
+           family={Yerokhin},
+           familyi={Y\bibinitperiod},
+           given={Vladimir\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ca321797afeea5c2c41048ee322431ea}{%
+           family={Crespo\bibnamedelima López-Urrutia},
+           familyi={C\bibinitperiod\bibinitdelim L\bibinithyphendelim U\bibinitperiod},
+           given={José\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f930eb0dfe4e10e34007020ea7855180}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Piet\bibnamedelima O.},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{fullhash}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{fullhashraw}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{bibnamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authorbibnamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authornamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authorfullhash}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{authorfullhashraw}{8a440d3fe695a426a1b8165a8000bbd2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Optical atomic clocks are the most accurate measurement devices ever constructed and have found many applications in fundamental science and technology1--3. The use of highly charged ions (HCI) as a new class of references for highest-accuracy clocks and precision tests of fundamental physics4--11 has long been motivated by their extreme atomic properties and reduced sensitivity to perturbations from external electric and magnetic fields compared with singly charged ions or neutral atoms. Here we present the realization of this new class of clocks, based on an optical magnetic-dipole transition in Ar13+. Its comprehensively evaluated systematic frequency uncertainty of 2.2{\thinspace}{\texttimes}{\thinspace}10−17 is comparable with that of many optical clocks in operation. From clock comparisons, we improve by eight and nine orders of magnitude on the uncertainties for the absolute transition frequency12 and isotope shift (40Ar versus 36Ar) (ref. 13), respectively. These measurements allow us to investigate the largely unexplored quantum electrodynamic (QED) nuclear recoil, presented as part of improved calculations of the isotope shift, which reduce the uncertainty of previous theory14 by a factor of three. This work establishes forbidden optical transitions in HCI as references for cutting-edge optical clocks and future high-sensitivity searches for physics beyond the standard model.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{number}{7934}
+      \field{title}{An optical atomic clock based on a highly charged ion}
+      \field{volume}{611}
+      \field{year}{2022}
+      \field{pages}{43\bibrangedash 47}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41586-022-05245-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-022-05245-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-022-05245-4
+      \endverb
+    \endentry
+    \entry{Kjaer2021-lm}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4ed5ab7058459c5bfdfac6b3ecc64a5a}{%
+           family={Kj{æ}r},
+           familyi={K\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=883780a0702775c7d6011f7d6bf1678f}{%
+           family={Langeland},
+           familyi={L\bibinitperiod},
+           given={Jeppe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1343246d4afca5aca3288644360d93f0}{%
+           family={Lindkvist},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima Toft},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f0c69e22946e380980dbd0d78251b1d8}{%
+           family={S{ø}rensen},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima Rostal},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=44b3a2ecc4b3688ebc9d94b42ccd2040}{%
+           family={Stockett},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=04958be0c279f4ab3d8c47309a03176f}{%
+           family={Kjaergaard},
+           familyi={K\bibinitperiod},
+           given={Henrik\bibnamedelima G},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a237fa754ca55aa3d2fb79e979634fcb}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Steen\bibnamedelima Br{ø}ndsted},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{fullhash}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{fullhashraw}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{bibnamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authorbibnamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authornamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authorfullhash}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{authorfullhashraw}{3425b613127f1f1a1e4ed4dac71788f4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Here, we present a new instrument named LUNA2 (LUminescence iNstrument in Aarhus 2), which is purpose-built to measure dispersed fluorescence spectra of gaseous ions produced by electrospray ionization and cooled to low temperatures (<100 K). LUNA2 is, as an earlier room-temperature setup (LUNA), optimized for a high collection efficiency of photons and includes improvements based on our operational experience with LUNA. The fluorescence cell is a cylindrical Paul trap made of copper with a hole in the ring electrode to permit laser light to interact with the trapped ions, and one end-cap electrode is a mesh grid combined with an aspheric condenser lens. The entrance and exit electrodes are both in physical contact with the liquid-nitrogen cooling unit to reduce cooling times. Mass selection is done in a two-step scheme where, first, high-mass ions are ejected followed by low-mass ions according to the Mathieu stability region. This scheme may provide a higher mass resolution than when only one DC voltage is used. Ions are irradiated by visible light delivered from a nanosecond 20-Hz pulsed laser, and dispersed fluorescence is measured with a spectrometer combined with an iCCD camera that allows intensification of the signal for a short time interval. LUNA2 contains an additional Paul trap that can be used for mass selection before ions enter the fluorescence cell, which potentially is relevant to diminishing RF heating in the cold trap. Successful operation of the setup is demonstrated from experiments with rhodamine dyes and oxazine-4, and spectral changes with temperature are identified.}
+      \field{journaltitle}{Rev. Sci. Instrum.}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{A new setup for low-temperature gas-phase ion fluorescence spectroscopy}
+      \field{volume}{92}
+      \field{year}{2021}
+    \endentry
+    \entry{lenlereriksen2023testing}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=71f027fd0e1189b870ebcd9f04d2b874}{%
+           family={Lenler-Eriksen},
+           familyi={L\bibinithyphendelim E\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b49f7a715ec33247ca5e26e211ea99c8}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4cd1d7c3ace4fc0714a6e1fd03b8702}{%
+           family={Carlesso},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{fullhash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{fullhashraw}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{bibnamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorbibnamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authornamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorfullhash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorfullhashraw}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Testing Continuous Spontaneous Localization model with charged macro-molecules}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2311.13966
+      \endverb
+    \endentry
+    \entry{WinelandSideband}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a3a6463ddaeb090aa8d19af5dee659a}{%
+           family={Meekhof},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0fb5f95c07813d117f54d056b9322b9d}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd5ee416b7591762e262b278159441c2}{%
+           family={Jefferts},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4539bd748af41832d08db3384e7af341}{%
+           family={Itano},
+           familyi={I\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=941a277108399982b910fd70c97bad31}{%
+           family={Gould},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{fullhash}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{fullhashraw}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{bibnamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorbibnamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorfullhash}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{authorfullhashraw}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{22}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Resolved-Sideband Raman Cooling of a Bound Atom to the 3D Zero-Point Energy}
+      \field{volume}{75}
+      \field{year}{1995}
+      \field{pages}{4011\bibrangedash 4014}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.75.4011
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.75.4011
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.75.4011
+      \endverb
+    \endentry
+    \entry{PaulTrap}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d4d0e7870e0293a25e7f6dcd7d6ec82}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{fullhash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{fullhashraw}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{bibnamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorbibnamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authornamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorfullhash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorfullhashraw}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Individual atomic and subatomic particles may be observed over long periods by confining them in “traps without material walls”. The Nobel Prize in physics was awarded in 1989 to Hans Dehmelt and Wolfgang Paul (together with Nor-man F. Ramsey) for first introducing this concept. Such traps are made possible by extending the principles of two-dimensional focusing of particles to three dimensions. This led, in turn, to precision radiofrequency spectroscopy and quadrupole mass spectrometry. For example, side-band cooling, in which electrons absorb photons with an energy just below the resonance energy and use their kinetic energy to supply the balance, allowed an electron to be held for ten months in the center of a magnetic trap. In this way, ½ g was determined to be 1.001159652188(4).}
+      \field{journaltitle}{Angewandte Chemie International Edition in English}
+      \field{number}{7}
+      \field{title}{Electromagnetic Traps for Charged and Neutral Particles (Nobel Lecture)}
+      \field{volume}{29}
+      \field{year}{1990}
+      \field{pages}{739\bibrangedash 748}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1002/anie.199007391
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.199007391
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199007391
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199007391
+      \endverb
+      \keyw{Nobel lecture,Ion traps,Precision spectroscopy}
+    \endentry
+    \entry{Taylor[2005]}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=13cd2b5c9128bffc38d1f40b64e3f67c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Sausalito, Calif. : University Science Books, [2005] {©}2005}%
+      }
+      \strng{namehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{bibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{xiv, 786 pages : illustrations ; 27 cm}
+      \field{note}{Includes bibliographical references (pages 747-748) and index.}
+      \field{title}{Classical mechanics}
+      \field{year}{[2005]}
     \endentry
     \entry{DehmeltPenningCool}{article}{}{}
       \name{author}{3}{}{%
@@ -222,6 +1023,43 @@
     \endentry
   \enddatalist
   \datalist[entry]{nty/global//global/global/global}
+    \entry{NobelPrize.org}{misc}{}{}
+      \field{sortinit}{}
+      \field{sortinithash}{495dc9894017a8b12cafa9c619d10c0c}
+      \field{journaltitle}{NobelPrize.org}
+      \verb{urlraw}
+      \verb https://www.nobelprize.org/prizes/physics/1989/press-release/
+      \endverb
+      \verb{url}
+      \verb https://www.nobelprize.org/prizes/physics/1989/press-release/
+      \endverb
+    \endentry
+    \entry{Abramowitz_1972}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=b30c3e9da438d36efb5827b2fe852284}{%
+           family={Abramowitz},
+           familyi={A\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {US Government Print. Off.}%
+      }
+      \strng{namehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{fullhash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{fullhashraw}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{bibnamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorbibnamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authornamehash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorfullhash}{b30c3e9da438d36efb5827b2fe852284}
+      \strng{authorfullhashraw}{b30c3e9da438d36efb5827b2fe852284}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Handbook of Mathematical Functions: With formulars, graphs, and mathematical tables}
+      \field{year}{1972}
+    \endentry
     \entry{BlumelHeating}{article}{}{}
       \name{author}{4}{}{%
         {{hash=c2c85bc5c7ac6967b25e2f23309c8d63}{%
@@ -278,6 +1116,146 @@
       \verb https://link.aps.org/doi/10.1103/PhysRevA.40.808
       \endverb
     \endentry
+    \entry{ZiracZoller}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=e95cc0745e2fbc83da963e5d6ab9c104}{%
+           family={Cirac},
+           familyi={C\bibinitperiod},
+           given={J.\bibnamedelimi I.},
+           giveni={J\bibinitperiod\bibinitdelim I\bibinitperiod}}}%
+        {{hash=0d147340235c2166e4699ddc95c9fbe5}{%
+           family={Zoller},
+           familyi={Z\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{fullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{bibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorbibnamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authornamehash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhash}{fb8c79c5103f1d00069139ab0ea78421}
+      \strng{authorfullhashraw}{fb8c79c5103f1d00069139ab0ea78421}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{20}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{5}
+      \field{title}{Quantum Computations with Cold Trapped Ions}
+      \field{volume}{74}
+      \field{year}{1995}
+      \field{pages}{4091\bibrangedash 4094}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.74.4091
+      \endverb
+    \endentry
+    \entry{PRS}{article}{}{}
+      \name{author}{6}{}{%
+        {{hash=c5270c41736b4808355cea6549baf69d}{%
+           family={Clausen},
+           familyi={C\bibinitperiod},
+           given={Emilie\bibnamedelima H.},
+           giveni={E\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=37f26889515b0abc9e69f8f63c0f57a6}{%
+           family={Jarlaud},
+           familyi={J\bibinitperiod},
+           given={Vincent},
+           giveni={V\bibinitperiod}}}%
+        {{hash=8d459189d29ff0d0832a60f2687e6207}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+        {{hash=3aca924baf392ab31d96067fff97266f}{%
+           family={Meyer},
+           familyi={M\bibinitperiod},
+           given={Steffen},
+           giveni={S\bibinitperiod}}}%
+        {{hash=50b8eb676f0c30cc2cacdf49bb3b9603}{%
+           family={Solaro},
+           familyi={S\bibinitperiod},
+           given={Cyrille},
+           giveni={C\bibinitperiod}}}%
+        {{hash=b49f7a715ec33247ca5e26e211ea99c8}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{fullhash}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{fullhashraw}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{bibnamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authorbibnamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authornamehash}{d3cfb05cf1243e4f01e095fb104861ce}
+      \strng{authorfullhash}{d1d0ab82531eb4babf8cd29363c446ca}
+      \strng{authorfullhashraw}{d1d0ab82531eb4babf8cd29363c446ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{6}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{month}{6}
+      \field{title}{Unresolved sideband photon recoil spectroscopy of molecular ions}
+      \field{volume}{105}
+      \field{year}{2022}
+      \field{pages}{063709}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.105.063709
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.105.063709
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.105.063709
+      \endverb
+    \endentry
+    \entry{EarnshawOnTN}{inproceedings}{}{}
+      \name{author}{1}{}{%
+        {{hash=93b12acfea40ef49e1855fa1fe478d9f}{%
+           family={Earnshaw},
+           familyi={E\bibinitperiod},
+           given={Sameul},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{fullhash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{fullhashraw}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{bibnamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorbibnamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authornamehash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorfullhash}{93b12acfea40ef49e1855fa1fe478d9f}
+      \strng{authorfullhashraw}{93b12acfea40ef49e1855fa1fe478d9f}
+      \field{sortinit}{E}
+      \field{sortinithash}{8da8a182d344d5b9047633dfc0cc9131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{On the Nature of the Molecular Forces which Regulate the Constitution of the Luminiferous Ether}
+      \verb{urlraw}
+      \verb https://archive.org/details/transactionsofca07camb/page/96/mode/2up
+      \endverb
+      \verb{url}
+      \verb https://archive.org/details/transactionsofca07camb/page/96/mode/2up
+      \endverb
+    \endentry
     \entry{PenningTrap}{article}{}{}
       \name{author}{2}{}{%
         {{hash=8d14359ae09ded36ff65a911e5fa5997}{%
@@ -326,6 +1304,91 @@
       \verb https://doi.org/10.1080/09500340.2017.1393570
       \endverb
     \endentry
+    \entry{FennEsi}{article}{}{}
+      \name{author}{5}{}{%
+        {{hash=bb4b7b2dc2089df3c01073e32c524d20}{%
+           family={Fenn},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima B.},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+        {{hash=dc690b5ff4f7ac183fcfadcc49715b23}{%
+           family={Mann},
+           familyi={M\bibinitperiod},
+           given={Matthias},
+           giveni={M\bibinitperiod}}}%
+        {{hash=6b589643df97328d990a05ed8c2a19ac}{%
+           family={Meng},
+           familyi={M\bibinitperiod},
+           given={Chin\bibnamedelima Kai},
+           giveni={C\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+        {{hash=094e0fcfe307f7a4b356ffb629f8d464}{%
+           family={Wong},
+           familyi={W\bibinitperiod},
+           given={Shek\bibnamedelima Fu},
+           giveni={S\bibinitperiod\bibinitdelim F\bibinitperiod}}}%
+        {{hash=e978fc4f5a9a207419ff196534c312c5}{%
+           family={Whitehouse},
+           familyi={W\bibinitperiod},
+           given={Craig\bibnamedelima M.},
+           giveni={C\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{fullhash}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{fullhashraw}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{bibnamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authorbibnamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authornamehash}{1ee72b1fe14ffcbfdb6d15f828df2030}
+      \strng{authorfullhash}{90e6996b90d61e00bb36f31f97aaafaf}
+      \strng{authorfullhashraw}{90e6996b90d61e00bb36f31f97aaafaf}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Electrospray ionization has recently emerged as a powerful technique for producing intact ions in vacuo from large and complex species in solution. To an extent greater than has previously been possible with the more familiar "soft" ionization methods, this technique makes the power and elegance of mass spectrometric analysis applicable to the large and fragile polar molecules that play such vital roles in biological systems. The distinguishing features of electrospray spectra for large molecules are coherent sequences of peaks whose component ions are multiply charged, the ions of each peak differing by one charge from those of adjacent neighbors in the sequence. Spectra have been obtained for biopolymers including oligonucleotides and proteins, the latter having molecular weights up to 130,000, with as yet no evidence of an upper limit.}
+      \field{journaltitle}{Science}
+      \field{number}{4926}
+      \field{title}{Electrospray Ionization for Mass Spectrometry of Large Biomolecules}
+      \field{volume}{246}
+      \field{year}{1989}
+      \field{pages}{64\bibrangedash 71}
+      \range{pages}{8}
+      \verb{doi}
+      \verb 10.1126/science.2675315
+      \endverb
+      \verb{eprint}
+      \verb https://www.science.org/doi/pdf/10.1126/science.2675315
+      \endverb
+      \verb{urlraw}
+      \verb https://www.science.org/doi/abs/10.1126/science.2675315
+      \endverb
+      \verb{url}
+      \verb https://www.science.org/doi/abs/10.1126/science.2675315
+      \endverb
+    \endentry
+    \entry{Fisher_2017}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{hash=8d459189d29ff0d0832a60f2687e6207}{%
+           family={Fisher},
+           familyi={F\bibinitperiod},
+           given={Karin},
+           giveni={K\bibinitperiod}}}%
+      }
+      \strng{namehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{fullhash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{fullhashraw}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{bibnamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorbibnamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authornamehash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorfullhash}{8d459189d29ff0d0832a60f2687e6207}
+      \strng{authorfullhashraw}{8d459189d29ff0d0832a60f2687e6207}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Adiabatic Cooling for Rovibrational Spectroscopy of Molecular Ions}
+      \field{type}{phdthesis}
+      \field{year}{2017}
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -371,6 +1434,545 @@
       \verb{url}
       \verb https://link.aps.org/doi/10.1103/PhysRevA.66.013412
       \endverb
+    \endentry
+    \entry{hou2022coherently}{misc}{}{}
+      \name{author}{9}{}{%
+        {{hash=5128ea2c2af002c1360aafd112d0ba31}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Pan-Yu},
+           giveni={P\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=de3e45a30d25461071d5faf072d669f9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jenny\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ffd4661214c9992cea11b0fd4824bbc}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d28819e123d8cec14718ddfc82751dd9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=9e9fffb15cc9e7d563c2d63c46546449}{%
+           family={Zarantonello},
+           familyi={Z\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e081df927ece31c4f0f28ea8c3c96c34}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=b9c0f45953b64aac5b8ec312598255bf}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=59fb5637f248fe8dcdb44507f74ac990}{%
+           family={Slichter},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d703924db470065973485b6be54d5ed9}{%
+           family={Leibfried},
+           familyi={L\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{fullhash}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{fullhashraw}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{bibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorbibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authornamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorfullhash}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \strng{authorfullhashraw}{d4c1320dfecd5d87b72e51ba5c8123a0}
+      \field{extraname}{1}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Coherently Coupled Mechanical Oscillators in the Quantum Regime}
+      \field{year}{2022}
+      \verb{eprint}
+      \verb 2205.14841
+      \endverb
+    \endentry
+    \entry{WeaklyCoupled}{article}{}{}
+      \name{author}{9}{}{%
+        {{hash=5128ea2c2af002c1360aafd112d0ba31}{%
+           family={Hou},
+           familyi={H\bibinitperiod},
+           given={Pan-Yu},
+           giveni={P\bibinithyphendelim Y\bibinitperiod}}}%
+        {{hash=de3e45a30d25461071d5faf072d669f9}{%
+           family={Wu},
+           familyi={W\bibinitperiod},
+           given={Jenny\bibnamedelima J.},
+           giveni={J\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=2ffd4661214c9992cea11b0fd4824bbc}{%
+           family={Erickson},
+           familyi={E\bibinitperiod},
+           given={Stephen\bibnamedelima D.},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=9e9fffb15cc9e7d563c2d63c46546449}{%
+           family={Zarantonello},
+           familyi={Z\bibinitperiod},
+           given={Giorgio},
+           giveni={G\bibinitperiod}}}%
+        {{hash=e081df927ece31c4f0f28ea8c3c96c34}{%
+           family={Brandt},
+           familyi={B\bibinitperiod},
+           given={Adam\bibnamedelima D.},
+           giveni={A\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+        {{hash=d28819e123d8cec14718ddfc82751dd9}{%
+           family={Cole},
+           familyi={C\bibinitperiod},
+           given={Daniel\bibnamedelima C.},
+           giveni={D\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=b9c0f45953b64aac5b8ec312598255bf}{%
+           family={Wilson},
+           familyi={W\bibinitperiod},
+           given={Andrew\bibnamedelima C.},
+           giveni={A\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+        {{hash=59fb5637f248fe8dcdb44507f74ac990}{%
+           family={Slichter},
+           familyi={S\bibinitperiod},
+           given={Daniel\bibnamedelima H.},
+           giveni={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=d703924db470065973485b6be54d5ed9}{%
+           family={Leibfried},
+           familyi={L\bibinitperiod},
+           given={Dietrich},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{fullhash}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{fullhashraw}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{bibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorbibnamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authornamehash}{10c42a9882f8ae073951341ff5d427e9}
+      \strng{authorfullhash}{0b0ac6217ce9b011648710c3dba70664}
+      \strng{authorfullhashraw}{0b0ac6217ce9b011648710c3dba70664}
+      \field{extraname}{2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{2}
+      \field{journaltitle}{Phys. Rev. X}
+      \field{month}{4}
+      \field{title}{Indirect Cooling of Weakly Coupled Trapped-Ion Mechanical Oscillators}
+      \field{volume}{14}
+      \field{year}{2024}
+      \field{pages}{021003}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevX.14.021003
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.14.021003
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevX.14.021003
+      \endverb
+    \endentry
+    \entry{Kielpinski2002}{article}{}{}
+      \name{author}{3}{}{%
+        {{hash=ba25dccbe77d9b2ceb3300167837dff1}{%
+           family={Kielpinski},
+           familyi={K\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{fullhash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{fullhashraw}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{bibnamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorbibnamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authornamehash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorfullhash}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \strng{authorfullhashraw}{f4314f762f2319cdbb05dbd44bc3c46c}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Among the numerous types of architecture being explored for quantum computers are systems utilizing ion traps, in which quantum bits (qubits) are formed from the electronic states of trapped ions and coupled through the Coulomb interaction. Although the elementary requirements for quantum computation have been demonstrated in this system, there exist theoretical and technical obstacles to scaling up the approach to large numbers of qubits. Therefore, recent efforts have been concentrated on using quantum communication to link a number of small ion-trap quantum systems. Developing the array-based approach, we show how to achieve massively parallel gate operation in a large-scale quantum computer, based on techniques already demonstrated for manipulating small quantum registers. The use of decoherence-free subspaces significantly reduces decoherence during ion transport, and removes the requirement of clock synchronization between the interaction regions.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{6}
+      \field{number}{6890}
+      \field{title}{Architecture for a large-scale ion-trap quantum computer}
+      \field{volume}{417}
+      \field{year}{2002}
+      \field{pages}{709\bibrangedash 711}
+      \range{pages}{3}
+      \verb{doi}
+      \verb 10.1038/nature00784
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/nature00784
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/nature00784
+      \endverb
+    \endentry
+    \entry{King2022}{article}{}{}
+      \name{author}{12}{}{%
+        {{hash=25f885a9649f3a7f3c8242165e0d87d1}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={Steven\bibnamedelima A.},
+           giveni={S\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=db90b59a6910c3173fb6f5142fc304e9}{%
+           family={Spie{ß}},
+           familyi={S\bibinitperiod},
+           given={Lukas\bibnamedelima J.},
+           giveni={L\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=334e97a742a834ebfcebda28c1d27735}{%
+           family={Micke},
+           familyi={M\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod}}}%
+        {{hash=6fe82f748d8300447684aad26afcb7de}{%
+           family={Wilzewski},
+           familyi={W\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+        {{hash=261f23b7de3e70aef6d51e83ff653aab}{%
+           family={Leopold},
+           familyi={L\bibinitperiod},
+           given={Tobias},
+           giveni={T\bibinitperiod}}}%
+        {{hash=05f1e58b399c0cf8b8c8d6a1c4cabd1e}{%
+           family={Benkler},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod}}}%
+        {{hash=6e448d24e159fb46f86180aa26d9fa1c}{%
+           family={Lange},
+           familyi={L\bibinitperiod},
+           given={Richard},
+           giveni={R\bibinitperiod}}}%
+        {{hash=6c1f81d3955fd79701683e64296e038e}{%
+           family={Huntemann},
+           familyi={H\bibinitperiod},
+           given={Nils},
+           giveni={N\bibinitperiod}}}%
+        {{hash=df1a2575204357ebf75f1e84e5cf05b7}{%
+           family={Surzhykov},
+           familyi={S\bibinitperiod},
+           given={Andrey},
+           giveni={A\bibinitperiod}}}%
+        {{hash=553f363066174cbde8cf501f5301c665}{%
+           family={Yerokhin},
+           familyi={Y\bibinitperiod},
+           given={Vladimir\bibnamedelima A.},
+           giveni={V\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=ca321797afeea5c2c41048ee322431ea}{%
+           family={Crespo\bibnamedelima López-Urrutia},
+           familyi={C\bibinitperiod\bibinitdelim L\bibinithyphendelim U\bibinitperiod},
+           given={José\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=f930eb0dfe4e10e34007020ea7855180}{%
+           family={Schmidt},
+           familyi={S\bibinitperiod},
+           given={Piet\bibnamedelima O.},
+           giveni={P\bibinitperiod\bibinitdelim O\bibinitperiod}}}%
+      }
+      \strng{namehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{fullhash}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{fullhashraw}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{bibnamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authorbibnamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authornamehash}{3ad8d9a99785328018486e02b0bb047d}
+      \strng{authorfullhash}{8a440d3fe695a426a1b8165a8000bbd2}
+      \strng{authorfullhashraw}{8a440d3fe695a426a1b8165a8000bbd2}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Optical atomic clocks are the most accurate measurement devices ever constructed and have found many applications in fundamental science and technology1--3. The use of highly charged ions (HCI) as a new class of references for highest-accuracy clocks and precision tests of fundamental physics4--11 has long been motivated by their extreme atomic properties and reduced sensitivity to perturbations from external electric and magnetic fields compared with singly charged ions or neutral atoms. Here we present the realization of this new class of clocks, based on an optical magnetic-dipole transition in Ar13+. Its comprehensively evaluated systematic frequency uncertainty of 2.2{\thinspace}{\texttimes}{\thinspace}10−17 is comparable with that of many optical clocks in operation. From clock comparisons, we improve by eight and nine orders of magnitude on the uncertainties for the absolute transition frequency12 and isotope shift (40Ar versus 36Ar) (ref. 13), respectively. These measurements allow us to investigate the largely unexplored quantum electrodynamic (QED) nuclear recoil, presented as part of improved calculations of the isotope shift, which reduce the uncertainty of previous theory14 by a factor of three. This work establishes forbidden optical transitions in HCI as references for cutting-edge optical clocks and future high-sensitivity searches for physics beyond the standard model.}
+      \field{issn}{1476-4687}
+      \field{journaltitle}{Nature}
+      \field{month}{11}
+      \field{number}{7934}
+      \field{title}{An optical atomic clock based on a highly charged ion}
+      \field{volume}{611}
+      \field{year}{2022}
+      \field{pages}{43\bibrangedash 47}
+      \range{pages}{5}
+      \verb{doi}
+      \verb 10.1038/s41586-022-05245-4
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1038/s41586-022-05245-4
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1038/s41586-022-05245-4
+      \endverb
+    \endentry
+    \entry{Kjaer2021-lm}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=4ed5ab7058459c5bfdfac6b3ecc64a5a}{%
+           family={Kj{æ}r},
+           familyi={K\bibinitperiod},
+           given={Christina},
+           giveni={C\bibinitperiod}}}%
+        {{hash=883780a0702775c7d6011f7d6bf1678f}{%
+           family={Langeland},
+           familyi={L\bibinitperiod},
+           given={Jeppe},
+           giveni={J\bibinitperiod}}}%
+        {{hash=1343246d4afca5aca3288644360d93f0}{%
+           family={Lindkvist},
+           familyi={L\bibinitperiod},
+           given={Thomas\bibnamedelima Toft},
+           giveni={T\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=f0c69e22946e380980dbd0d78251b1d8}{%
+           family={S{ø}rensen},
+           familyi={S\bibinitperiod},
+           given={Emma\bibnamedelima Rostal},
+           giveni={E\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=44b3a2ecc4b3688ebc9d94b42ccd2040}{%
+           family={Stockett},
+           familyi={S\bibinitperiod},
+           given={Mark\bibnamedelima H},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=04958be0c279f4ab3d8c47309a03176f}{%
+           family={Kjaergaard},
+           familyi={K\bibinitperiod},
+           given={Henrik\bibnamedelima G},
+           giveni={H\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=a237fa754ca55aa3d2fb79e979634fcb}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Steen\bibnamedelima Br{ø}ndsted},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod}}}%
+      }
+      \list{language}{1}{%
+        {en}%
+      }
+      \list{publisher}{1}{%
+        {AIP Publishing}%
+      }
+      \strng{namehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{fullhash}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{fullhashraw}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{bibnamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authorbibnamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authornamehash}{0ae3d564fe380db815a83b47665f8adc}
+      \strng{authorfullhash}{3425b613127f1f1a1e4ed4dac71788f4}
+      \strng{authorfullhashraw}{3425b613127f1f1a1e4ed4dac71788f4}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Here, we present a new instrument named LUNA2 (LUminescence iNstrument in Aarhus 2), which is purpose-built to measure dispersed fluorescence spectra of gaseous ions produced by electrospray ionization and cooled to low temperatures (<100 K). LUNA2 is, as an earlier room-temperature setup (LUNA), optimized for a high collection efficiency of photons and includes improvements based on our operational experience with LUNA. The fluorescence cell is a cylindrical Paul trap made of copper with a hole in the ring electrode to permit laser light to interact with the trapped ions, and one end-cap electrode is a mesh grid combined with an aspheric condenser lens. The entrance and exit electrodes are both in physical contact with the liquid-nitrogen cooling unit to reduce cooling times. Mass selection is done in a two-step scheme where, first, high-mass ions are ejected followed by low-mass ions according to the Mathieu stability region. This scheme may provide a higher mass resolution than when only one DC voltage is used. Ions are irradiated by visible light delivered from a nanosecond 20-Hz pulsed laser, and dispersed fluorescence is measured with a spectrometer combined with an iCCD camera that allows intensification of the signal for a short time interval. LUNA2 contains an additional Paul trap that can be used for mass selection before ions enter the fluorescence cell, which potentially is relevant to diminishing RF heating in the cold trap. Successful operation of the setup is demonstrated from experiments with rhodamine dyes and oxazine-4, and spectral changes with temperature are identified.}
+      \field{journaltitle}{Rev. Sci. Instrum.}
+      \field{month}{3}
+      \field{number}{3}
+      \field{title}{A new setup for low-temperature gas-phase ion fluorescence spectroscopy}
+      \field{volume}{92}
+      \field{year}{2021}
+    \endentry
+    \entry{lenlereriksen2023testing}{misc}{}{}
+      \name{author}{3}{}{%
+        {{hash=71f027fd0e1189b870ebcd9f04d2b874}{%
+           family={Lenler-Eriksen},
+           familyi={L\bibinithyphendelim E\bibinitperiod},
+           given={Emil},
+           giveni={E\bibinitperiod}}}%
+        {{hash=b49f7a715ec33247ca5e26e211ea99c8}{%
+           family={Drewsen},
+           familyi={D\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod}}}%
+        {{hash=b4cd1d7c3ace4fc0714a6e1fd03b8702}{%
+           family={Carlesso},
+           familyi={C\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{fullhash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{fullhashraw}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{bibnamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorbibnamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authornamehash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorfullhash}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \strng{authorfullhashraw}{770c45d90fb17cd56b1d7ffdb12f81cd}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{eprintclass}{quant-ph}
+      \field{eprinttype}{arXiv}
+      \field{title}{Testing Continuous Spontaneous Localization model with charged macro-molecules}
+      \field{year}{2023}
+      \verb{eprint}
+      \verb 2311.13966
+      \endverb
+    \endentry
+    \entry{WinelandSideband}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=74ebfc3b4e582a44afe3631a345d75b2}{%
+           family={Monroe},
+           familyi={M\bibinitperiod},
+           given={C.},
+           giveni={C\bibinitperiod}}}%
+        {{hash=1a3a6463ddaeb090aa8d19af5dee659a}{%
+           family={Meekhof},
+           familyi={M\bibinitperiod},
+           given={D.\bibnamedelimi M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=0fb5f95c07813d117f54d056b9322b9d}{%
+           family={King},
+           familyi={K\bibinitperiod},
+           given={B.\bibnamedelimi E.},
+           giveni={B\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+        {{hash=dd5ee416b7591762e262b278159441c2}{%
+           family={Jefferts},
+           familyi={J\bibinitperiod},
+           given={S.\bibnamedelimi R.},
+           giveni={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+        {{hash=4539bd748af41832d08db3384e7af341}{%
+           family={Itano},
+           familyi={I\bibinitperiod},
+           given={W.\bibnamedelimi M.},
+           giveni={W\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=7e1cc1aeb5e45f657d533ecad9747f29}{%
+           family={Wineland},
+           familyi={W\bibinitperiod},
+           given={D.\bibnamedelimi J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+        {{hash=941a277108399982b910fd70c97bad31}{%
+           family={Gould},
+           familyi={G\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{fullhash}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{fullhashraw}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{bibnamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorbibnamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authornamehash}{17de335944f22fa365445a8b67db6e84}
+      \strng{authorfullhash}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \strng{authorfullhashraw}{dedde4cc38c1919d5b1a2ecf80cf3f66}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{22}
+      \field{journaltitle}{Phys. Rev. Lett.}
+      \field{month}{11}
+      \field{title}{Resolved-Sideband Raman Cooling of a Bound Atom to the 3D Zero-Point Energy}
+      \field{volume}{75}
+      \field{year}{1995}
+      \field{pages}{4011\bibrangedash 4014}
+      \range{pages}{4}
+      \verb{doi}
+      \verb 10.1103/PhysRevLett.75.4011
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.75.4011
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevLett.75.4011
+      \endverb
+    \endentry
+    \entry{PaulTrap}{article}{}{}
+      \name{author}{1}{}{%
+        {{hash=4d4d0e7870e0293a25e7f6dcd7d6ec82}{%
+           family={Paul},
+           familyi={P\bibinitperiod},
+           given={Wolfgang},
+           giveni={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{fullhash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{fullhashraw}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{bibnamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorbibnamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authornamehash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorfullhash}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \strng{authorfullhashraw}{4d4d0e7870e0293a25e7f6dcd7d6ec82}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Individual atomic and subatomic particles may be observed over long periods by confining them in “traps without material walls”. The Nobel Prize in physics was awarded in 1989 to Hans Dehmelt and Wolfgang Paul (together with Nor-man F. Ramsey) for first introducing this concept. Such traps are made possible by extending the principles of two-dimensional focusing of particles to three dimensions. This led, in turn, to precision radiofrequency spectroscopy and quadrupole mass spectrometry. For example, side-band cooling, in which electrons absorb photons with an energy just below the resonance energy and use their kinetic energy to supply the balance, allowed an electron to be held for ten months in the center of a magnetic trap. In this way, ½ g was determined to be 1.001159652188(4).}
+      \field{journaltitle}{Angewandte Chemie International Edition in English}
+      \field{number}{7}
+      \field{title}{Electromagnetic Traps for Charged and Neutral Particles (Nobel Lecture)}
+      \field{volume}{29}
+      \field{year}{1990}
+      \field{pages}{739\bibrangedash 748}
+      \range{pages}{10}
+      \verb{doi}
+      \verb https://doi.org/10.1002/anie.199007391
+      \endverb
+      \verb{eprint}
+      \verb https://onlinelibrary.wiley.com/doi/pdf/10.1002/anie.199007391
+      \endverb
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199007391
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/abs/10.1002/anie.199007391
+      \endverb
+      \keyw{Nobel lecture,Ion traps,Precision spectroscopy}
+    \endentry
+    \entry{Taylor[2005]}{book}{}{}
+      \name{author}{1}{}{%
+        {{hash=13cd2b5c9128bffc38d1f40b64e3f67c}{%
+           family={Taylor},
+           familyi={T\bibinitperiod},
+           given={John\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Sausalito, Calif. : University Science Books, [2005] {©}2005}%
+      }
+      \strng{namehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{fullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{bibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorbibnamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authornamehash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhash}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \strng{authorfullhashraw}{13cd2b5c9128bffc38d1f40b64e3f67c}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{xiv, 786 pages : illustrations ; 27 cm}
+      \field{note}{Includes bibliographical references (pages 747-748) and index.}
+      \field{title}{Classical mechanics}
+      \field{year}{[2005]}
     \endentry
     \entry{DehmeltPenningCool}{article}{}{}
       \name{author}{3}{}{%

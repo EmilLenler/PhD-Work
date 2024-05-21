@@ -31,7 +31,7 @@ where $\beta$ is the drag coefficient, $\delta = \omega_L-\omega$ is the detunin
 It is important to note, that while the equation above seems to indicate that there is no limit to Doppler cooling, that is far from the case. Indeed since the direction of an emitted photon is random, the ion will perform a random walk in momentum space over time.
 Thus, there is an intrinsic variation of velocity over time, meaning there is a lower limit to the temperature of the ion (typically referred to as the Doppler temperature or Doppler limit), which is given by
 \begin{equation}
-    T_D = \frac{\hbar\Gamma}{2k_b},
+    T_D = \frac{\hbar\Gamma}{2k_b}\label{eq:DopplerTemp},
 \end{equation}
 which for the case of Ba$^+$ this temperature is approx. 0.5mK.
 
@@ -114,7 +114,7 @@ The solution to this problem is to find some way to couple the two modes, allowi
 
 It is easiest to understand the coupling that occurs, when we consider the quantum mechanical case. Suppose we introduce some additional potential (by modulating a slight additional voltage on the endcap electrodes)
 \begin{equation}
-    V'(z_1,z_2,t) = \frac{\kappa V_0}{z_0^2}(q_1z_1^2+q_2z_2^2)\cos{\big([\omega_i-\omega_o]t\big)},
+    V'(z_1,z_2,t) = \frac{\kappa V_0}{z_0^2}(q_1z_1^2+q_2z_2^2)\cos{\big([\omega_i-\omega_o]t\big)}\label{eq:couplingPot},
 \end{equation}
 where $V_0$ is the additional voltage put onto the endcap electrodes. We note that $V_0$ is kept small with respect to $V_{DC}$, such that the eigenmodes of the system are not considerably changed.
 
@@ -131,5 +131,45 @@ For now, we only wish to consider the coupling of the modes, and thus neglect th
 \end{align}
 If the cosine is expanded using Euler's formula, and we move to the interaction picture, keeping only the non-rotating terms, we may massage the expression and eventually arrive at
 \begin{equation}
-    \hat{V}'^{(2)}_I = \frac{\hbar\kappa V_0\alpha_{1,o}\alpha_{1,i}}{4z_0^2\sqrt{\omega_i\omega_o}}\big(\frac{q_1}{m_1}-\frac{q_2}{m_2}\big)(\hat{a}_o^\dagger \hat{a}_i + h.c.)
+    \hat{V}'^{(2)}_I = \frac{\hbar\kappa V_0\alpha_{1,o}\alpha_{1,i}}{4z_0^2\sqrt{\omega_i\omega_o}}\big(\frac{q_1}{m_1}-\frac{q_2}{m_2}\big)(\hat{a}_o^\dagger \hat{a}_i + h.c.),
 \end{equation}
+for which it is clear that the two modes of motion are coupled. We define $g_0 = \frac{\kappa V_0\alpha_{1,i}\alpha_{1,o}}{4z_0^2\sqrt{\omega_i\omega_o}}(\frac{q_1}{m_1}-\frac{q_2}{m_2})$, that we may write the coupling potential as 
+\begin{equation}
+    \hat{V}_I'^{(2)} = \hbar g_0(\hat{a}_i^\dagger \hat{a}_o + h.c.).
+\end{equation}
+It can be shown, that in the coupled system the time-dependent operators $\hat{a}_{i/o}^\dagger(t)$, are given by \cite{hou2022coherently}
+\begin{align}
+    &\hat{a_i}^\dagger(t) = \hat{a}_i^\dagger(0)\cos(g_0t) + i\hat{a}_o^\dagger\sin(g_0t),\\
+    &\hat{a_o}^\dagger(t) = \hat{a}_o^\dagger(0)\cos(g_0t) + i\hat{a}_i^\dagger\sin(g_0t).
+\end{align}
+For which it is particularly interesting to note that for times $\tau_n = \frac{(2n+1)\pi}{2g_0}$, where $n$ is an integer, we find that $\hat{a}_i^\dagger(\tau_n) = \hat{a}_o^\dagger(0)$, and similarly for $\hat{a}_o^\dagger(\tau_n)$. In addition, we may write any arbitrary state of the system as
+\begin{equation}
+    \vert \Psi(t)\rangle = \sum_{m,n = 0}^\infty \frac{c_{mn}}{\sqrt{m!n!}}\big(a_i^\dagger(t)\big)^m\big(a_o^\dagger(t)\big)^n\vert 0\rangle_i\vert 0\rangle_o,
+\end{equation}
+where the values $c_{mn}$ are determined by the initial state of the system, and $\sum c_{mn} =1$.
+The action of the coupling is thus clear. In general the cause the two states to oscillate in and out of entanglement, and specifically for times $t = \tau_n$ the states for the two modes become swapped.
+This is very beneficial for cooling, since we may cool the mode with high participation from the Ba$^+$ ion, perform a swap, and then cool again. This procedure should, in principle, lead to both modes being in their ground states.
+
+
+The mode coupling also exists in the classical regime. \Cref{fig:polyPorCooling} shows a simulation of Doppler cooling of a system consisting of a  Ba$^+$ ion, and a polyporphyrin, while the coupling $V'$ is turned on. The results from this simulation stand in stark contrast to those of \cref{fig:WCMSCM}, where the temperature of the molecule is largely unchanged.
+\begin{figure}[h]
+    \centering
+    \includegraphics[width = 0.8\textwidth]{main/PolyPorCooling.pdf}
+    \caption{Simulation results for Doppler cooling of a system consisting of Ba$^+$ ion and polyporphyrin, while the coupling potential from \cref{eq:couplingPot} is turned on. Unlike the case with no coupling \cref{fig:WCMSCM}, the molecule is cooled efficiently.
+    The inset shows temperatures in the span $ t = $10ms to $t = $20ms, as temperatures grow so small that they are not clearly seen on the full figure. The black dotted line shows $T = 0.5$mK, which is the Doppler temperature, calculated by \cref{eq:DopplerTemp}.}
+    \label{fig:polyPorCooling}
+\end{figure}
+
+In the derivations of this chapter we have ignored the 1st order terms of the Taylor expansion of the potential. In reality, these terms will play a role in the dynamics of the system, since they drive the ions at a frequency, which is similar to their motional frequencies. There are several ways to combat these first order driving terms.
+One option, which has been implemented for the case of segmented microtraps, is engineering the field curvature in order to ensure the first order derivatives go to zero at the equilibrium locations of the ions \cite{WeaklyCoupled}. 
+
+Since our trap has considerably fewer segments, such an approach is expected to be difficult to realize in our setup.
+The second approach accepts that the driving terms will lead to heating, but attempts to move this heating into the modes, which are easily cooled, i.e. the ones with high participation from Ba$^+$. This can be done by biasing voltages slightly, such that the transfer potential $V'(z_1,,z_2,t)$ has its minimum at $z_{2,eq}$, instead of $z=0$.
+We believe this would be relatively simple to implement in the current trap, as a similar thing is already done in order to compensate for micromotion.
+
+
+
+The usefulness of this mode-coupling doesn't stop at laser cooling. As mentioned previously when performing PRS, we will largely excite the motion of the molecule, due to the absorption of light via the molecule. Mode-coupling allows for the efficient mapping of the motion of the molecule onto the motion of the ion, resulting in much higher measurement efficiency, and speed.
+
+
+In addition to the contents of this report, the contents of \cref{chap:LinTrap} and the current chapter have also been used in the authoring of a paper, proposing an experiment to set bounds on a quantum collapse model, known as the continuous spontaneous localization model \cite{lenlereriksen2023testing}. Using the theory of \cref{sec:2Ion}, we found the strongest bounds on the models parameters could be set by performing measurements on the modes with high participation from the molecular ion, yielding another case where mode-coupling can be highly beneficial.

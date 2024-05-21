@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  17 MAY 2024 13:14
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.4.29)  21 MAY 2024 11:52
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1218,7 +1218,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'british'.
- (parta_master.aux (front/frontpages.aux) (main/intro.aux) (main/PaulTrap.aux) (main/ESI.aux) (main/cooling.aux) (main/RecoilSpec.aux) (main/future.aux))
+ (parta_master.aux (front/frontpages.aux) (main/intro.aux) (main/PaulTrap.aux) (main/ESI.aux) (main/cooling.aux) (main/future.aux))
 \openout1 = `parta_master.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1339,7 +1339,7 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 26.0pt on input line 29.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 18.0pt on input line 35.
-<front/segla1b.pdf, id=62, 54.2025pt x 54.2025pt>
+<front/segla1b.pdf, id=58, 54.2025pt x 54.2025pt>
 File: front/segla1b.pdf Graphic file (type pdf)
 <use front/segla1b.pdf>
 Package pdftex.def Info: front/segla1b.pdf  used on input line 41.
@@ -1357,118 +1357,64 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 76.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
 (Font)              scaled to size 14.4pt on input line 76.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 98.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 10.95pt on input line 98.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 101.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sl' in size <10> not available
-(Font)              Font shape `T1/LinuxLibertineT-TLF/m/it' tried instead on input line 103.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.0pt on input line 103.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 5.0pt on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 5.0pt on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 5.0pt on input line 111.
-LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
+LaTeX Font Info:    Trying to load font information for LS2+libertinust1mathex on input line 86.
  (C:\Users\lenle\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls2libertinust1mathex.fd
 File: ls2libertinust1mathex.fd 2016/03/15 v1.0.0-latex LibertinusMath extensions LS2 font definitions
 )
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 5.0pt on input line 111.
-LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
+LaTeX Font Info:    Trying to load font information for LS1+libertinust1mathbb on input line 86.
  (C:\Users\lenle\AppData\Local\Programs\MiKTeX\tex/latex/libertinust1math\ls1libertinust1mathbb.fd
 File: ls1libertinust1mathbb.fd 2016/08/22 latex LibertinusT1Mathbb LS1 font definitions
 )
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 5.0pt on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 5.0pt on input line 111.
+(Font)              scaled to size 6.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 10.0pt on input line 111.
+(Font)              scaled to size 10.95pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 7.0pt on input line 111.
+(Font)              scaled to size 8.0pt on input line 86.
 LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 5.0pt on input line 111.
-LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 7.0pt on input line 111.
-LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
-(Font)              scaled to size 10.0pt on input line 111.
-) [2{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}]
+(Font)              scaled to size 6.0pt on input line 86.
+) [2{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_76gpa5.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusMR.enc}]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 72.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
 (Font)              scaled to size 24.88pt on input line 72.
  (parta_master.toc
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
 (Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
-(Font)              scaled to size 6.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 10.95pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 8.0pt on input line 2.
-LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
-(Font)              scaled to size 6.0pt on input line 2.
 ) [3
 
 
@@ -1484,17 +1430,19 @@ LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
  [4
 
 
-{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusMR.enc}]) [5]
+{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_ncsllp.enc}]) [5]
 \openout2 = `main/PaulTrap.aux'.
 
  (main/PaulTrap.tex
-<main/Paul_Trap.pdf, id=115, 321.51616pt x 99.58464pt>
+<main/Paul_Trap.pdf, id=129, 321.51616pt x 99.58464pt>
 File: main/Paul_Trap.pdf Graphic file (type pdf)
 <use main/Paul_Trap.pdf>
 Package pdftex.def Info: main/Paul_Trap.pdf  used on input line 10.
 (pdftex.def)             Requested size: 321.51537pt x 99.58438pt.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/sc' will be
 (Font)              scaled to size 10.95pt on input line 12.
+LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/n' will be
+(Font)              scaled to size 10.0pt on input line 12.
  [6
 
 
@@ -1502,33 +1450,75 @@ LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/m/sc' will be
 
 {C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusEX.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_omcwp2.enc} <./main/Paul_Trap.pdf>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 8.0pt on input line 49.
+(Font)              scaled to size 8.0pt on input line 64.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 6.0pt on input line 49.
-<main/Stability.png, id=131, 957.5775pt x 632.3625pt>
+(Font)              scaled to size 6.0pt on input line 64.
+<main/Stability.png, id=150, 957.5775pt x 632.3625pt>
 File: main/Stability.png Graphic file (type png)
 <use main/Stability.png>
-Package pdftex.def Info: main/Stability.png  used on input line 61.
+Package pdftex.def Info: main/Stability.png  used on input line 76.
 (pdftex.def)             Requested size: 295.20113pt x 194.94pt.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/n' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/m/it' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathsym/m/n' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS2/libertinust1mathex/m/n' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1mathbb/m/n' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/n' will be
+(Font)              scaled to size 5.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 10.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 7.0pt on input line 77.
+LaTeX Font Info:    Font shape `LS1/libertinust1math/b/it' will be
+(Font)              scaled to size 5.0pt on input line 77.
  [7]
-<main/Micromotion.png, id=150, 921.4425pt x 623.6901pt>
+<main/Micromotion.png, id=172, 921.4425pt x 623.6901pt>
 File: main/Micromotion.png Graphic file (type png)
 <use main/Micromotion.png>
-Package pdftex.def Info: main/Micromotion.png  used on input line 79.
+Package pdftex.def Info: main/Micromotion.png  used on input line 94.
 (pdftex.def)             Requested size: 295.20113pt x 199.80379pt.
- [8{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusSYM.enc} <./main/Stability.png> <./main/Micromotion.png>] [9{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMR.enc}]
+ [8{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusSYM.enc} <./main/Stability.png>] [9{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMI.enc}{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertinust1math/libusBMR.enc} <./main/Micromotion.png>]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/it' will be
-(Font)              scaled to size 10.95pt on input line 126.
-<main/Stability2.png, id=177, 1084.05pt x 722.7pt>
+(Font)              scaled to size 10.95pt on input line 141.
+<main/Stability2.png, id=199, 1084.05pt x 722.7pt>
 File: main/Stability2.png Graphic file (type png)
 <use main/Stability2.png>
-Package pdftex.def Info: main/Stability2.png  used on input line 129.
+Package pdftex.def Info: main/Stability2.png  used on input line 144.
 (pdftex.def)             Requested size: 369.0pt x 246.00146pt.
- [10 <./main/Stability2.png>] [11]) [12]
+ [10{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_7grukw.enc}] [11 <./main/Stability2.png>]) [12]
 \openout2 = `main/ESI.aux'.
 
  (main/ESI.tex
-<main/spray.pdf, id=211, 596.93088pt x 230.84177pt>
+<main/spray.pdf, id=240, 596.93088pt x 230.84177pt>
 File: main/spray.pdf Graphic file (type pdf)
 <use main/spray.pdf>
 Package pdftex.def Info: main/spray.pdf  used on input line 8.
@@ -1538,20 +1528,20 @@ Overfull \hbox (36.90225pt too wide) in paragraph at lines 8--9
  [][] 
  []
 
-<main/electrospray_elements.pdf, id=213, 1292.57906pt x 241.65282pt>
+<main/electrospray_elements.pdf, id=242, 1292.57906pt x 241.65282pt>
 File: main/electrospray_elements.pdf Graphic file (type pdf)
 <use main/electrospray_elements.pdf>
-Package pdftex.def Info: main/electrospray_elements.pdf  used on input line 17.
+Package pdftex.def Info: main/electrospray_elements.pdf  used on input line 19.
 (pdftex.def)             Requested size: 405.90225pt x 75.88504pt.
 
-Overfull \hbox (36.90225pt too wide) in paragraph at lines 17--19
+Overfull \hbox (36.90225pt too wide) in paragraph at lines 19--21
  [][] 
  []
 
-<main/evaporation.pdf, id=215, 262.57341pt x 76.71718pt>
+<main/evaporation.pdf, id=244, 262.57341pt x 76.71718pt>
 File: main/evaporation.pdf Graphic file (type pdf)
 <use main/evaporation.pdf>
-Package pdftex.def Info: main/evaporation.pdf  used on input line 26.
+Package pdftex.def Info: main/evaporation.pdf  used on input line 28.
 (pdftex.def)             Requested size: 262.57275pt x 76.71698pt.
 [13
 
@@ -1563,48 +1553,48 @@ Package pdftex.def Info: main/evaporation.pdf  used on input line 26.
 pdfTeX warning: pdflatex (file ./main/evaporation.pdf): PDF inclusion: multiple pdfs with page group included in a single page
 >]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 51.
 LaTeX Font Info:    Font shape `T1/LinuxBiolinumT-TLF/b/n' will be
-(Font)              scaled to size 12.0pt on input line 49.
+(Font)              scaled to size 12.0pt on input line 51.
  [15]
-<main/ShapePulse.pdf, id=272, 224.99176pt x 83.4987pt>
+<main/ShapePulse.pdf, id=301, 224.99176pt x 83.4987pt>
 File: main/ShapePulse.pdf Graphic file (type pdf)
 <use main/ShapePulse.pdf>
-Package pdftex.def Info: main/ShapePulse.pdf  used on input line 58.
+Package pdftex.def Info: main/ShapePulse.pdf  used on input line 60.
 (pdftex.def)             Requested size: 295.20113pt x 109.56499pt.
-<main/chargeShape.pdf, id=274, 462.52798pt x 346.89601pt>
+<main/chargeShape.pdf, id=304, 462.52798pt x 346.89601pt>
 File: main/chargeShape.pdf Graphic file (type pdf)
 <use main/chargeShape.pdf>
-Package pdftex.def Info: main/chargeShape.pdf  used on input line 73.
+Package pdftex.def Info: main/chargeShape.pdf  used on input line 75.
 (pdftex.def)             Requested size: 332.09775pt x 249.0874pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [16 <./main/ShapePulse.pdf>]
-<main/StoragePulse.pdf, id=309, 225.84375pt x 84.315pt>
+<main/StoragePulse.pdf, id=340, 225.84375pt x 84.315pt>
 File: main/StoragePulse.pdf Graphic file (type pdf)
 <use main/StoragePulse.pdf>
-Package pdftex.def Info: main/StoragePulse.pdf  used on input line 98.
+Package pdftex.def Info: main/StoragePulse.pdf  used on input line 100.
 (pdftex.def)             Requested size: 332.09775pt x 123.99942pt.
  [17 <./main/chargeShape.pdf>]
-<main/FillingTimeGraph.pdf, id=361, 462.52798pt x 346.89601pt>
+<main/FillingTimeGraph.pdf, id=392, 462.52798pt x 346.89601pt>
 File: main/FillingTimeGraph.pdf Graphic file (type pdf)
 <use main/FillingTimeGraph.pdf>
-Package pdftex.def Info: main/FillingTimeGraph.pdf  used on input line 127.
+Package pdftex.def Info: main/FillingTimeGraph.pdf  used on input line 129.
 (pdftex.def)             Requested size: 295.20113pt x 221.40926pt.
  [18 <./main/StoragePulse.pdf>]
-<main/decayPulse.pdf, id=379, 161.378pt x 109.647pt>
+<main/decayPulse.pdf, id=409, 161.378pt x 109.647pt>
 File: main/decayPulse.pdf Graphic file (type pdf)
 <use main/decayPulse.pdf>
-Package pdftex.def Info: main/decayPulse.pdf  used on input line 139.
+Package pdftex.def Info: main/decayPulse.pdf  used on input line 141.
 (pdftex.def)             Requested size: 258.29887pt x 175.50067pt.
-<main/DecayTimes.pdf, id=380, 462.52798pt x 346.89601pt>
+<main/DecayTimes.pdf, id=410, 462.52798pt x 346.89601pt>
 File: main/DecayTimes.pdf Graphic file (type pdf)
 <use main/DecayTimes.pdf>
-Package pdftex.def Info: main/DecayTimes.pdf  used on input line 146.
+Package pdftex.def Info: main/DecayTimes.pdf  used on input line 148.
 (pdftex.def)             Requested size: 295.20113pt x 221.40926pt.
 
 
@@ -1622,44 +1612,58 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [23] [24]
-<main/coolingScheme.pdf, id=522, 116.78804pt x 79.42749pt>
+<main/coolingScheme.pdf, id=552, 116.78804pt x 79.42749pt>
 File: main/coolingScheme.pdf Graphic file (type pdf)
 <use main/coolingScheme.pdf>
 Package pdftex.def Info: main/coolingScheme.pdf  used on input line 91.
 (pdftex.def)             Requested size: 295.20113pt x 200.77643pt.
  [25 <./main/coolingScheme.pdf>]
-<main/WCM_SCM_Temp.pdf, id=540, 462.52798pt x 346.89601pt>
+<main/WCM_SCM_Temp.pdf, id=570, 462.52798pt x 346.89601pt>
 File: main/WCM_SCM_Temp.pdf Graphic file (type pdf)
 <use main/WCM_SCM_Temp.pdf>
 Package pdftex.def Info: main/WCM_SCM_Temp.pdf  used on input line 104.
 (pdftex.def)             Requested size: 369.0pt x 276.76555pt.
- [26 <./main/WCM_SCM_Temp.pdf>]) [27]
-\openout2 = `main/RecoilSpec.aux'.
-
- (main/RecoilSpec.tex) [28
-
-
-
-
-]
+ [26 <./main/WCM_SCM_Temp.pdf>] [27]
+<main/PolyPorCooling.pdf, id=632, 462.52798pt x 346.89601pt>
+File: main/PolyPorCooling.pdf Graphic file (type pdf)
+<use main/PolyPorCooling.pdf>
+Package pdftex.def Info: main/PolyPorCooling.pdf  used on input line 157.
+(pdftex.def)             Requested size: 295.20113pt x 221.40926pt.
+ [28 <./main/PolyPorCooling.pdf>]) [29]
 \openout2 = `main/future.aux'.
 
- (main/future.tex) [29
+ (main/future.tex) [30
 
 
 
 
 ]
 LaTeX Font Info:    Font shape `T1/LinuxLibertineT-TLF/m/sc' will be
-(Font)              scaled to size 10.95pt on input line 109.
-LaTeX Font Info:    Trying to load font information for T1+newtxtt on input line 109.
+(Font)              scaled to size 10.95pt on input line 107.
+LaTeX Font Info:    Trying to load font information for T1+newtxtt on input line 107.
  (C:\Users\lenle\AppData\Local\Programs\MiKTeX\tex/fonts/newtxtt\t1newtxtt.fd
 File: t1newtxtt.fd 2020/02/15 Font definitions for T1/newtxtt.
 )
 LaTeX Font Info:    Font shape `T1/newtxtt/m/n' will be
-(Font)              scaled to size 10.40245pt on input line 109.
+(Font)              scaled to size 10.40245pt on input line 107.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `newtxtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [31
+
+
+
+
+{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtxtt/txttAec.enc}]
+LaTeX Font Info:    Trying to load font information for TS1+LinuxLibertineT-TLF on input line 107.
+ (C:\Users\lenle\AppData\Local\Programs\MiKTeX\tex/latex/libertine\ts1linuxlibertinet-tlf.fd
+File: TS1LinuxLibertineT-TLF.fd 2017/03/20 (autoinst) Font definitions for TS1/LinuxLibertineT-TLF.
+)
+LaTeX Font Info:    Font shape `TS1/LinuxLibertineT-TLF/m/n' will be
+(Font)              scaled to size 10.95pt on input line 107.
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `LinuxLibertineT-TLF' (encoding: TS1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
@@ -1670,38 +1674,33 @@ FiXme Summary: Number of notes: 0,
 (FiXme)        Number of fatal errors: 0,
 (FiXme)        Total: 0.
 
-[30
-
-
-
-
-{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/newtxtt/txttAec.enc}]
+[32{C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/libertine/lbtn_naooyc.enc}]
 \tf@toc=\write7
 \openout7 = `parta_master.toc'.
 
- (parta_master.aux (front/frontpages.aux) (main/intro.aux) (main/PaulTrap.aux) (main/ESI.aux) (main/cooling.aux) (main/RecoilSpec.aux) (main/future.aux))
+ (parta_master.aux (front/frontpages.aux) (main/intro.aux) (main/PaulTrap.aux) (main/ESI.aux) (main/cooling.aux) (main/future.aux))
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2020/03/25>
  ***********
 Package rerunfilecheck Info: File `parta_master.out' has not changed.
-(rerunfilecheck)             Checksum: 958988E23A8508047196212033E9B219;2605.
+(rerunfilecheck)             Checksum: 33CD02960B0391A5F1DCCE376D934ACE;2287.
 Package logreq Info: Writing requests to 'parta_master.run.xml'.
 \openout1 = `parta_master.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 37180 strings out of 474424
- 733286 string characters out of 5741739
- 1949496 words of memory out of 5000000
- 58476 multiletter control sequences out of 15000+600000
- 747966 words of font info for 367 fonts, out of 8000000 for 9000
+ 37304 strings out of 474424
+ 737671 string characters out of 5741739
+ 1952496 words of memory out of 5000000
+ 58561 multiletter control sequences out of 15000+600000
+ 729783 words of font info for 379 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,15n,96p,1299b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,15n,96p,1786b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtxtt/newtxtt.pfb><C:/Users/lenle/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathcal.pfb>
-Output written on parta_master.pdf (30 pages, 1473765 bytes).
+Output written on parta_master.pdf (32 pages, 1652306 bytes).
 PDF statistics:
- 709 PDF objects out of 1000 (max. 8388607)
- 118 named destinations out of 1000 (max. 500000)
- 94925 words of extra memory for PDF output out of 106986 (max. 10000000)
+ 847 PDF objects out of 1000 (max. 8388607)
+ 141 named destinations out of 1000 (max. 500000)
+ 82634 words of extra memory for PDF output out of 89155 (max. 10000000)
 
