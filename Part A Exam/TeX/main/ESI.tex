@@ -107,7 +107,10 @@ The ion current measured at the detector usually varies within 10\% due to fluct
 \begin{equation}
     \tau'= \frac{I_{reference}}{I_{measured}}\tau,\quad I_{measured} = \frac{I_{before}+I_{after}}{2}.
 \end{equation}
-Results from the experiment with the time-axis adjsuted as described above can be seen on \cref{fig:fillTimeGraph}. From this, a very rough estimate of the ion current entering the octopole.
+Results from the experiment with the time-axis adjsuted as described above can be seen on \cref{fig:fillTimeGraph}. If the point at 0 seconds is neglected (this is just the DC configuration of the setup), it is clear that the number of ions increases linearly, as expected, for the first $\sim$25 seconds seconds.
+After this the curve tapers off considerably, until it seems to have reached its asymptote after $\sim$1 minute. Thus, we conclude it takes approximately a minute to fill the octopole.
+
+From the measurements, a rough estimate of the ion current entering the octopole can be made.
 The density of ions in an octopole, where space-charge effects are included, can be written \cite{MajimaDensity}
 \begin{equation}
     n(r) = \frac{144\epsilon_0 V_{RF}^2}{m\Omega^2r_0^4}\bigg(\frac{r}{r_0}\bigg)^4,
@@ -117,7 +120,7 @@ where $V_{rf}$ is the RF voltage of the octopole (170V), $m$ is the mass of the 
 
 To obtain the linear density this has to be integrated this in the radial plane.
 Of course the ions within the trap are unlikely to go all the way out to the electrodes, so there is the question of how far one sohuld integrate. Gerlich suggests that the ions can be stored out to $r = 0.8r_0$, by geometric considerations \cite{Gerlich1992}. We use this as it is an easy bound to implement. However the cutoff radius of the ion cloud might become more complex to describe when we are in the 
-space-charge dominated regime \textcolor{red}{CITE MAJIMA}, as is the case when the octopole is full. We find the number of ions held in the octopole (length of 133mm) to be
+space-charge dominated regime \cite{MajimaDensity}, as is the case when the octopole is full. We find the number of ions held in the octopole (length of 133mm) to be
 \begin{equation}
     N = \frac{48\pi\epsilon_0V_{RF}^2L}{m\Omega^2r_0^2}\bigg(\frac{4}{5}\bigg)^6\approx 7.77\times 10^8.
 \end{equation}

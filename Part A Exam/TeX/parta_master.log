@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.14)  22 MAY 2024 09:59
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.5.14)  22 MAY 2024 10:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1579,22 +1579,21 @@ File: main/StoragePulse.pdf Graphic file (type pdf)
 <use main/StoragePulse.pdf>
 Package pdftex.def Info: main/StoragePulse.pdf  used on input line 100.
 (pdftex.def)             Requested size: 332.09775pt x 123.99942pt.
- [17 <./main/chargeShape.pdf>]
-<main/FillingTimeGraph.pdf, id=394, 462.52798pt x 346.89601pt>
+ [17 <./main/chargeShape.pdf>] [18 <./main/StoragePulse.pdf>]
+<main/FillingTimeGraph.pdf, id=412, 462.52798pt x 346.89601pt>
 File: main/FillingTimeGraph.pdf Graphic file (type pdf)
 <use main/FillingTimeGraph.pdf>
-Package pdftex.def Info: main/FillingTimeGraph.pdf  used on input line 129.
+Package pdftex.def Info: main/FillingTimeGraph.pdf  used on input line 132.
 (pdftex.def)             Requested size: 295.20113pt x 221.40926pt.
- [18 <./main/StoragePulse.pdf>]
-<main/decayPulse.pdf, id=413, 161.378pt x 109.647pt>
+<main/decayPulse.pdf, id=414, 161.378pt x 109.647pt>
 File: main/decayPulse.pdf Graphic file (type pdf)
 <use main/decayPulse.pdf>
-Package pdftex.def Info: main/decayPulse.pdf  used on input line 141.
+Package pdftex.def Info: main/decayPulse.pdf  used on input line 144.
 (pdftex.def)             Requested size: 258.29887pt x 175.50067pt.
-<main/DecayTimes.pdf, id=414, 462.52798pt x 346.89601pt>
+<main/DecayTimes.pdf, id=415, 462.52798pt x 346.89601pt>
 File: main/DecayTimes.pdf Graphic file (type pdf)
 <use main/DecayTimes.pdf>
-Package pdftex.def Info: main/DecayTimes.pdf  used on input line 148.
+Package pdftex.def Info: main/DecayTimes.pdf  used on input line 151.
 (pdftex.def)             Requested size: 295.20113pt x 221.40926pt.
 
 
@@ -1603,7 +1602,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) [19 <./main/FillingTimeGraph.pdf>] [20 <./main/decayPulse.pdf>] [21 <./main/DecayTimes.pdf>]
+[19 <./main/FillingTimeGraph.pdf>]) [20 <./main/decayPulse.pdf>] [21 <./main/DecayTimes.pdf>]
 \openout2 = `main/cooling.aux'.
 
  (main/cooling.tex [22
@@ -1612,19 +1611,19 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 ] [23] [24]
-<main/coolingScheme.pdf, id=556, 116.78804pt x 79.42749pt>
+<main/coolingScheme.pdf, id=557, 116.78804pt x 79.42749pt>
 File: main/coolingScheme.pdf Graphic file (type pdf)
 <use main/coolingScheme.pdf>
 Package pdftex.def Info: main/coolingScheme.pdf  used on input line 91.
 (pdftex.def)             Requested size: 295.20113pt x 200.77643pt.
  [25 <./main/coolingScheme.pdf>]
-<main/WCM_SCM_Temp.pdf, id=574, 462.52798pt x 346.89601pt>
+<main/WCM_SCM_Temp.pdf, id=575, 462.52798pt x 346.89601pt>
 File: main/WCM_SCM_Temp.pdf Graphic file (type pdf)
 <use main/WCM_SCM_Temp.pdf>
 Package pdftex.def Info: main/WCM_SCM_Temp.pdf  used on input line 104.
 (pdftex.def)             Requested size: 369.0pt x 276.76555pt.
  [26 <./main/WCM_SCM_Temp.pdf>] [27]
-<main/PolyPorCooling.pdf, id=636, 462.52798pt x 346.89601pt>
+<main/PolyPorCooling.pdf, id=638, 462.52798pt x 346.89601pt>
 File: main/PolyPorCooling.pdf Graphic file (type pdf)
 <use main/PolyPorCooling.pdf>
 Package pdftex.def Info: main/PolyPorCooling.pdf  used on input line 157.
@@ -1698,9 +1697,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  99i,15n,96p,1779b,2459s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertinust1math/LibertinusT1Math.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumT.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinBiolinumTB.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineT.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTB.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/libertine/LinLibertineTI.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/newtxtt/newtxtt.pfb><C:/Users/au581149/AppData/Local/Programs/MiKTeX/fonts/type1/public/stix/stix-mathcal.pfb>
-Output written on parta_master.pdf (32 pages, 1654460 bytes).
+Output written on parta_master.pdf (32 pages, 1655295 bytes).
 PDF statistics:
- 855 PDF objects out of 1000 (max. 8388607)
+ 857 PDF objects out of 1000 (max. 8388607)
  143 named destinations out of 1000 (max. 500000)
  82634 words of extra memory for PDF output out of 89155 (max. 10000000)
 
