@@ -385,6 +385,45 @@
       \field{type}{phdthesis}
       \field{year}{2017}
     \endentry
+    \entry{Gerlich1992}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=66a48bab4e57c0f5fc52ee79c5b68b0e}{%
+           family={Gerlich},
+           familyi={G\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{fullhash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{fullhashraw}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{bibnamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorbibnamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authornamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorfullhash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorfullhashraw}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary This chapter contains sections titled: Introduction Motion of Charged Particles in Fast Oscillatory Fields Experimental Applications and Tests of Several rf Devices Description of Several Instruments Studies of Ion Processes in RF Fields: A Sampling Conclusions and Future Developments}
+      \field{isbn}{9780470141397}
+      \field{month}{1}
+      \field{series}{Advances in Chemical Physics}
+      \field{title}{Inhomogeneous RF Fields: A Versatile Tool for the Study of Processes with Slow Ions}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 176}
+      \range{pages}{176}
+      \verb{doi}
+      \verb 10.1002/9780470141397.ch1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/9780470141397.ch1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/9780470141397.ch1
+      \endverb
+      \keyw{charged particles; fast oscillatory fields; adiabatic approximation; special field geometries; energy distributions}
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -827,6 +866,76 @@
       \field{year}{2023}
       \verb{eprint}
       \verb 2311.13966
+      \endverb
+    \endentry
+    \entry{MajimaDensity}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=061cf8f05a3542526db55c853f29a1e7}{%
+           family={Majima},
+           familyi={M\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ee8c55def4d33bc2d281f08772171a86}{%
+           family={Santambrogio},
+           familyi={S\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=91bb15f6a829a8daf59bbf767e126931}{%
+           family={Bartels},
+           familyi={B\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2f2e9bcae4393de957c57bc5bb3a9bfd}{%
+           family={Terasaki},
+           familyi={T\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=83edf0cc8810d781414c5ccdb81ac597}{%
+           family={Kondow},
+           familyi={K\bibinitperiod},
+           given={Tamotsu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1457c2f65add2b641e800104d1c58648}{%
+           family={Meinen},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03df546fae9883a61e19b61aa36eb979}{%
+           family={Leisner},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2259e65676199a015d83b00debda60ae}
+      \strng{fullhash}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{fullhashraw}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{bibnamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authorbibnamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authornamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authorfullhash}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{authorfullhashraw}{6938c6f54e2d40eed3237872eee6449a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{title}{Spatial distribution of ions in a linear octopole radio-frequency ion trap in the space-charge limit}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{053414}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.85.053414
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.85.053414
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.85.053414
       \endverb
     \endentry
     \entry{WinelandSideband}{article}{}{}
@@ -1389,6 +1498,45 @@
       \field{type}{phdthesis}
       \field{year}{2017}
     \endentry
+    \entry{Gerlich1992}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{hash=66a48bab4e57c0f5fc52ee79c5b68b0e}{%
+           family={Gerlich},
+           familyi={G\bibinitperiod},
+           given={Dieter},
+           giveni={D\bibinitperiod}}}%
+      }
+      \strng{namehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{fullhash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{fullhashraw}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{bibnamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorbibnamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authornamehash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorfullhash}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \strng{authorfullhashraw}{66a48bab4e57c0f5fc52ee79c5b68b0e}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Summary This chapter contains sections titled: Introduction Motion of Charged Particles in Fast Oscillatory Fields Experimental Applications and Tests of Several rf Devices Description of Several Instruments Studies of Ion Processes in RF Fields: A Sampling Conclusions and Future Developments}
+      \field{isbn}{9780470141397}
+      \field{month}{1}
+      \field{series}{Advances in Chemical Physics}
+      \field{title}{Inhomogeneous RF Fields: A Versatile Tool for the Study of Processes with Slow Ions}
+      \field{year}{1992}
+      \field{pages}{1\bibrangedash 176}
+      \range{pages}{176}
+      \verb{doi}
+      \verb 10.1002/9780470141397.ch1
+      \endverb
+      \verb{urlraw}
+      \verb https://doi.org/10.1002/9780470141397.ch1
+      \endverb
+      \verb{url}
+      \verb https://doi.org/10.1002/9780470141397.ch1
+      \endverb
+      \keyw{charged particles; fast oscillatory fields; adiabatic approximation; special field geometries; energy distributions}
+    \endentry
     \entry{MichaelIonIonHeating}{article}{}{}
       \name{author}{2}{}{%
         {{hash=47c08d1f3f21146048f15060a63740a2}{%
@@ -1831,6 +1979,76 @@
       \field{year}{2023}
       \verb{eprint}
       \verb 2311.13966
+      \endverb
+    \endentry
+    \entry{MajimaDensity}{article}{}{}
+      \name{author}{7}{}{%
+        {{hash=061cf8f05a3542526db55c853f29a1e7}{%
+           family={Majima},
+           familyi={M\bibinitperiod},
+           given={Takuya},
+           giveni={T\bibinitperiod}}}%
+        {{hash=ee8c55def4d33bc2d281f08772171a86}{%
+           family={Santambrogio},
+           familyi={S\bibinitperiod},
+           given={Gabriele},
+           giveni={G\bibinitperiod}}}%
+        {{hash=91bb15f6a829a8daf59bbf767e126931}{%
+           family={Bartels},
+           familyi={B\bibinitperiod},
+           given={Christof},
+           giveni={C\bibinitperiod}}}%
+        {{hash=2f2e9bcae4393de957c57bc5bb3a9bfd}{%
+           family={Terasaki},
+           familyi={T\bibinitperiod},
+           given={Akira},
+           giveni={A\bibinitperiod}}}%
+        {{hash=83edf0cc8810d781414c5ccdb81ac597}{%
+           family={Kondow},
+           familyi={K\bibinitperiod},
+           given={Tamotsu},
+           giveni={T\bibinitperiod}}}%
+        {{hash=1457c2f65add2b641e800104d1c58648}{%
+           family={Meinen},
+           familyi={M\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod}}}%
+        {{hash=03df546fae9883a61e19b61aa36eb979}{%
+           family={Leisner},
+           familyi={L\bibinitperiod},
+           given={Thomas},
+           giveni={T\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {American Physical Society}%
+      }
+      \strng{namehash}{2259e65676199a015d83b00debda60ae}
+      \strng{fullhash}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{fullhashraw}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{bibnamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authorbibnamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authornamehash}{2259e65676199a015d83b00debda60ae}
+      \strng{authorfullhash}{6938c6f54e2d40eed3237872eee6449a}
+      \strng{authorfullhashraw}{6938c6f54e2d40eed3237872eee6449a}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{issue}{5}
+      \field{journaltitle}{Phys. Rev. A}
+      \field{title}{Spatial distribution of ions in a linear octopole radio-frequency ion trap in the space-charge limit}
+      \field{volume}{85}
+      \field{year}{2012}
+      \field{pages}{053414}
+      \range{pages}{1}
+      \verb{doi}
+      \verb 10.1103/PhysRevA.85.053414
+      \endverb
+      \verb{urlraw}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.85.053414
+      \endverb
+      \verb{url}
+      \verb https://link.aps.org/doi/10.1103/PhysRevA.85.053414
       \endverb
     \endentry
     \entry{WinelandSideband}{article}{}{}

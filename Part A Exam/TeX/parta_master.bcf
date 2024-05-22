@@ -2390,11 +2390,13 @@
     <bcf:citekey order="14" intorder="2">Kjaer2021-lm</bcf:citekey>
     <bcf:citekey order="15" intorder="1">BlumelHeating</bcf:citekey>
     <bcf:citekey order="15" intorder="2">MichaelIonIonHeating</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">PenningTrap</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">DehmeltPenningCool</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">hou2022coherently</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">WeaklyCoupled</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">lenlereriksen2023testing</bcf:citekey>
+    <bcf:citekey order="16" intorder="1">MajimaDensity</bcf:citekey>
+    <bcf:citekey order="17" intorder="1">Gerlich1992</bcf:citekey>
+    <bcf:citekey order="18" intorder="1">PenningTrap</bcf:citekey>
+    <bcf:citekey order="18" intorder="2">DehmeltPenningCool</bcf:citekey>
+    <bcf:citekey order="19" intorder="1">hou2022coherently</bcf:citekey>
+    <bcf:citekey order="20" intorder="1">WeaklyCoupled</bcf:citekey>
+    <bcf:citekey order="21" intorder="1">lenlereriksen2023testing</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

@@ -91,8 +91,8 @@ In addition, as the number of ions in the storage device increases, ion-ion coll
 \subsection{Measuring the fill time of the octopole}
 Another characterization that has been performed, is testing how long it takes the octopole to reach the limit of the number of ions it can hold.
 In order to test this, the octopole is allowed to fill for a variable time, after which the ions are released, and the channeltron detector records the total number of ions.
-By doing this for increasing times we expect to see a behaviour where the number of ions increases linearly in time initially, until eventually space charge effects start to play a role.
-When these effects become relevant, the loading of ions will become slower as new ions arriving knock "old" ions out of the octopole, until eventually a steady state is realized.
+By doing this for increasing times, we expect to see a behaviour where the number of ions increases linearly in time initially, until space charge effects  eventually play a role.
+When these effects become relevant, the loading of ions will become slower as new ions arriving knock "old" ions out of the octopole, until a steady state is realized.
 An illustration of the experimental sequence can be seen on \cref{fig:storageSequence}. 
 
 \begin{figure}
@@ -103,20 +103,20 @@ An illustration of the experimental sequence can be seen on \cref{fig:storageSeq
     \label{fig:storageSequence}
 \end{figure}
 All measurements for this experiment were taken at an ion current of approx 300 ions/second, measured at the channeltron detector.
-The ion current measured at the detector usually varies within 10\% due to fluctuations in flow from the electrospray. Thus, any measurements of how long it takes to fill the octopole have to be adjusted for the ion flux during the loading phase.  This adjustment is done by multiplying the physical loading time by the ratio between the reference of 300 ions/s and the mean of the measured current before and after the experiment giving
+The ion current measured at the detector usually varies within 10\% due to fluctuations in flow from the electrospray. Thus, any measurements of how long it takes to fill the octopole have to be adjusted for the ion flux during the loading phase.  This adjustment is done by multiplying the physical loading time by the ratio between the reference of 300 ions/s and the mean of the measured current before and after the measurement giving
 \begin{equation}
     \tau'= \frac{I_{reference}}{I_{measured}}\tau,\quad I_{measured} = \frac{I_{before}+I_{after}}{2}.
 \end{equation}
-Results from the experiment with the time-axis adjsuted as described above can be seen on \cref{fig:fillTimeGraph}. From this we can make a very rough estimate of the ion current entering the octopole.
-The density of ions in an octopole, where space-charge effects are included, can be written \textcolor{red}{CITE MAJIMA}
+Results from the experiment with the time-axis adjsuted as described above can be seen on \cref{fig:fillTimeGraph}. From this, a very rough estimate of the ion current entering the octopole.
+The density of ions in an octopole, where space-charge effects are included, can be written \cite{MajimaDensity}
 \begin{equation}
     n(r) = \frac{144\epsilon_0 V_{RF}^2}{m\Omega^2r_0^4}\bigg(\frac{r}{r_0}\bigg)^4,
 \end{equation}
 where $V_{rf}$ is the RF voltage of the octopole (170V), $m$ is the mass of the ion (479 amu), $\Omega$ is the frequency of the octopole RF voltage ($2\pi\times2.7$MHz) and $r_0$ is half the distance between opposing octopole rods (2.75mm).
 
 
-In order to get the linear density one has to integrate this in the radial plane.
-It is of course important to ensure that we integrate out to the right distance from the center axis. Gerlich suggests that the ions can be stored out to $r = 0.8r_0$, by geometric considerations \textcolor{red}{GERLICH}. We use this as it is an easy bound to implement. However the cutoff radius of the ion cloud might become more complex to describe when we are in the 
+To obtain the linear density this has to be integrated this in the radial plane.
+Of course the ions within the trap are unlikely to go all the way out to the electrodes, so there is the question of how far one sohuld integrate. Gerlich suggests that the ions can be stored out to $r = 0.8r_0$, by geometric considerations \cite{Gerlich1992}. We use this as it is an easy bound to implement. However the cutoff radius of the ion cloud might become more complex to describe when we are in the 
 space-charge dominated regime \textcolor{red}{CITE MAJIMA}, as is the case when the octopole is full. We find the number of ions held in the octopole (length of 133mm) to be
 \begin{equation}
     N = \frac{48\pi\epsilon_0V_{RF}^2L}{m\Omega^2r_0^2}\bigg(\frac{4}{5}\bigg)^6\approx 7.77\times 10^8.
