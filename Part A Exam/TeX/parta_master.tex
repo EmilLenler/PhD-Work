@@ -18,7 +18,7 @@
 % Use memoir!
 \documentclass[%
 final,
-11pt,
+10pt,
 % openright,
 openany,
 twoside,
@@ -27,7 +27,7 @@ a4paper
 ]{memoir}
 
 % Global definition: Name of the project (e.g. for the headers)
-\newcommand{\projecttitle}{Towards trapping of molecular ions in a linear Paul Trap}
+\newcommand{\projecttitle}{Towards trapping and cooling of molecular ions in a linear Paul Trap}
 
 % Read the actual preamble
 \input{preamble}
@@ -103,11 +103,12 @@ a4paper
 \clearpage
 
 % Change the sorting of references to NAME-YEAR-TITLE (see preamble for details)
-\begin{refcontext}[sorting=nyt]
-  \raggedyright[4em] \printbibliography
+
+\begin{refcontext}[sorting = none]
+  %\raggedyright[4em] \printbibliography
   
   % If you really want to compress the bibliography, do this instead...
-  % \raggedyright[4em] {\addtolength{\beforechapskip}{-6\baselineskip}\printbibliography}
+  \raggedyright[4em] {\addtolength{\beforechapskip}{-6\baselineskip}\printbibliography}
 \end{refcontext}
 
 

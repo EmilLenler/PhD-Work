@@ -7,3 +7,15 @@ eigenproblem
 eigenmodes
 pseudopotential
 micromotion
+octopole
+electrospray
+octopoles
+Rabi
+Lamb-Dicke
+Fock
+endcap
+detune
+sideband
+mK
+detuning
+detuned

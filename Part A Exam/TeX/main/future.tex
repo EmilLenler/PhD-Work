@@ -7,17 +7,27 @@
 %%  Future work and outlook
 %% ============================================================================
 
-\chapter{Future Work}
+\chapter{Conclusion and outlook}
 \label{chap:future}
-The contents of the previous chapters show the fruits of the past two years of work, but of course there is still much to be done, in order to be able to start doing PRS experiments in our trap.
+In conclusion, we have derived the dynamics of systems consisting of one or two ions within a linear Paul trap, including their frequencies and motional modes. Importantly, we've found that if the charge-to-mass ratios of the ions differ significantly, their motions become largely uncoupled.
+
+We've given an overview of the electrospray setup, which will be used for bringing molecular ions into the Paul trap. Additionally, we've performed several measurements on the first octopole, in order to characterize its behaviour.
+In particular, we've found that loading fewer ions into the octopole results in cooler ions, and we've measured the life-time of ions stored in the octopole, finding that they may be stored there on the timescale of hours. This should allow us to fill the octopole with ions at the start of the day, and to keep using it as a secondary ion source, for experiments.
+
+Finally, we've discussed both Doppler and sideband laser cooling of two-ion systems, and how cooling becomes unfeasible if the ions' motion becomes uncoupled. In order to solve this issue, we have proposed a scheme, which couples the two motional modes by introducing an additional weak quadrupolar potential, which oscillates at the frequency difference of the two modes.
+We have presented an example simulation of Doppler cooling of a polyporphyrin cotrapped alongside Ba$^+$, which shows such a method will allow us to cool a molecular ion to the Doppler limit.
 
 
-Since January 2023, we have no longer been able to measure any ions at the last channeltron detector in the setup (see \cref{fig:esiDrawing}). We believe this is due to a mistake in the mounting of the push/pull feed-through of the first channeltron. There is a mesh with a circular hole below the detector mounted in front of the first channeltron, such that when the detector is pulled out of the ion beam, the ions will pass through the center of this hole, and experience symmetric surroundings, so as to avoid any deflection of the ion beam.
-However, measurements that have been performed show that the previous settings used for experiments would not have had the ions passing through the center of the hole in the mesh, but rather just past the edge. If even a small shift has happened it is possible that the ions are now simply hitting the mesh altogether, giving a reason for why the ions cannot reach the latter half of the experiment.
+For sideband cooling, we have shown that such a coupling field will cause the states of the two modes to oscillate in and out of entanglement over time, and that at specific times, the coupling field will have the effect of a SWAP gate, swapping the states of the two modes. This will allow for sideband cooling of all modes.
+
+
+There is of course still much work to be done.
+Since January 2024, we have no longer been able to measure any ions at the last channeltron detector in the setup (see \cref{fig:esiDrawing}). We believe this is due to a mistake in the mounting of the push/pull feed-through of the first channeltron.  Mounted on the front of the first channeltron, there is a mesh with a circular hole below the detector, such that when the detector is pulled out of the ion beam, the ions will pass through the center of this hole, and experience symmetric surroundings, so as to avoid any deflection of the ion beam.
+However, measurements show that the settings used for experiments would not have had the ions passing through the center of the hole in the mesh, but rather just past the edge. If even a small shift has happened it is possible that the ions are now simply hitting the mesh altogether, giving a reason for why the ions cannot reach the latter half of the experiment.
 
 The plan is to open up the channeltron over the course of the summer, in order to fix this issue, and obtain ions at the end of the setup once more.
 
 When we once again have ions all the way through, we are going to start mapping out how well ions are transferred from the first to the 2nd half of the setup, and try to determine optimal parameters for transferring a single ion to the end of the setup.
-Once we can reliably deliver one, or a few ions at the end of the setup, we are going to mount the octopole ion guide (see \cref{fig:fullSetup}) onto the cryogenic chamber, containing the linear Paul trap. We are then going to test protocols for moving ions through the ion guide, by attempting to move a Ba$^+$ ion to the end of the ion guide, and see if it can be brought back into the trap.
+Once we can reliably deliver one, or a few ions at the end of the setup, we are going to mount the octopole ion guide (see \cref{fig:fullSetup}) onto the cryogenic chamber, containing the linear Paul trap. We are then going to test protocols for moving ions through the ion guide, by attempting to move a Ba$^+$ ion to the end of the ion guide, and bringing it back into the trap.
 
-If all the above things work, all that is left is to connect all the parts of the setup together, and attempt to perform recoil spectroscopy on a molecular ion, which has a similar mass-to-charge ratio to barium.
+If all the above things work, all that is left is to connect all the parts of the setup, and attempt to perform recoil spectroscopy on a molecular ion, which has a similar mass-to-charge ratio to barium.
