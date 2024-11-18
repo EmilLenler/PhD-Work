@@ -105,7 +105,7 @@
 % Chapterstyle (modified from Rasmus Villemoes thesis)
 \usepackage{graphicx}
 \makechapterstyle{jrmbsc}{% requires graphicx package
-  \chapterstyle{default}
+  \chapterstyle{article}
   \renewcommand*{\chapnamefont}{%
     \normalfont\LARGE\color{black}\scshape\raggedleft}
   \renewcommand*{\chaptitlefont}{%
@@ -119,6 +119,7 @@
   }%
   \renewcommand*{\afterchapternum}{%
     \par\hspace{1.5cm}\color{black}\hrule\vskip\midchapskip}}
+  \setlength{\belowcaptionskip}{-10pt}
 
 % Use the new pagestyle and chapterstyle
 \pagestyle{jrmbsc}
@@ -231,7 +232,6 @@
 \usepackage{biblatex}
 
 % Actually apply the citation order (because bibliography sorted differently)
-\assignrefcontextentries[]{*}
 
 % Manual entries
 \addbibresource{bibliography.bib}
@@ -240,10 +240,7 @@
 % \addbibresource{library.bib}
 
 % Space in bibliography
-\setlength\bibitemsep{1.1\itemsep}
-
-% Change bib-order
-\DeclareNameAlias{sortname}{last-first}
+\setlength\bibitemsep{0\itemsep}
 
 % Referencing packages (needs to be loaded in this order!)
 % --> For references, use: \cref{}  or \Cref{} !
@@ -314,3 +311,4 @@
 % Specific things to be repeated often in the text
 \newcommand\teff{\ensuremath{T_{\textup{eff}}}\xspace}
 \newcommand\logg{\ensuremath{\log g}\xspace}
+

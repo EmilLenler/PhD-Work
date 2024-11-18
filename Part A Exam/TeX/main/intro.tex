@@ -9,35 +9,36 @@
 
 \chapter{Introduction}
 \label{chap:intro}
-In the 1950s Wolfgang Paul invented the so-called Paul trap, for trapping charged particles within a quadrupolar electromagnetic field \cite{PaulTrap}. In 1989, he would go on
+In the 1950s Wolfgang Paul invented the so-called Paul trap for trapping charged particles within a quadrupolar electromagnetic field \cite{PaulTrap}. In 1989, he would go on
  to receive the Nobel Prize in physics, alongside Hans Dehmelt, "for the development of the ion trap technique" \cite{NobelPrize.org}.
  With the many technological and scientific advancements since the Paul trap's conception, among which the laser is an especially important one,
- it is now possible to trap, and cool single ions to their motional ground state \cite{WinelandSideband}.
- Such cold ions pose many interesting possibilities for science, as they make good candidates for atomic clocks \cite{King2022},
+ it is now possible to trap, and cool single or even chains of ions to their motional ground state \cite{WinelandSideband,MonroeChain,WinelandChain}.
+ Such cold ions pose many interesting possibilities for science, as they make good candidates for atomic clocks \cite{King2022,ClockWineland,PTBClock},
  or the basis for quantum computers \cite{ZiracZoller,Kielpinski2002}.
 
-Paul traps are also used for the study of fluorescence of molecules in the gas phase \cite{Kjaer2021-lm},
+Paul traps are also used for the study of fluorescence of molecules in the gas phase \cite{Kjaer2021-lm,Gas1},
 where pulsed lasers can be used to excite large clouds of molecular ions, whose fluorescence spectrum may then be recorded and studied.
 However, as most molecules lack the necessary energy level structure for laser cooling, the temperature of these experiments are limited by their cryogenic cooling environment.
 
 
-The aim of my PhD thesis, is to expand our current setup, such that single molecular ions from an electrospray ionization source \cite{FennEsi} can be trapped in a linear Paul trap alongside a Ba$^+$ ion, and cooled to their motional ground state.
-In such a setup we would like to investigate the molecules using a method called photon recoil spectroscopy \cite{PRS}.
+The aim of my PhD thesis, is to expand the ion trap setup here in Aarhus, such that single molecular ions from an electrospray ionization source \cite{FennEsi} can be trapped in a linear Paul trap alongside a Ba$^+$ ion, and cooled to their motional ground state using different methods of laser cooling \cite{WinelandSideband,WinelandLaserCool,StefanSympa}.
+In such a setup we would like to perform spectroscopy on molecules using a method called unresolved photon recoil spectroscopy \cite{PRS}, which is a slight modification of regular photon recoil spectroscopy \cite{Recoil1,Recoil2}, with the difference that the motional sidebands cannot be resolved.
 
-This method functions by using the momentum kick associated with the molecule's absorption of light
-as a measure of whether absorption has occurred. Readout is performed by addressing an electronic transition of a Ba$^+$ atom, which is trapped alongside the molecule, with a laser, that is red detuned by exactly one of the motional frequencies of the collective ion motion. Thus, excitation can only occur if the motion of the ions has been excited by an absorption event.
+This method uses the momentum kick associated with the molecule's absorption of light
+as a measure of whether absorption has occurred, since absorption would excite the motional quantum state of the system. Readout is performed by driving an electronic transition of a Ba$^+$, which is trapped alongside the molecule, with a laser that is red detuned by exactly one of the motional frequencies of the collective ion motion. In such a case, excitation of the atom, can only happen at the cost of a phonon. This means, that if the system is in the motional ground state (i.e. the molecule has not been excited), excitation cannot occur, whereas if the system is not in the ground state (i.e. the molecule has been excited), it will be possible to drive the transition.
 
 
 Directly applying this method to two-ion systems with large mismatches in mass-to-charge ratio is challenging, since the motions of the ions are only very weakly coupled, and thus the absorption kick will predominantly excite the motion of the molecule, which is not sensitive to the readout performed by a laser on the 
-Ba$^+$ ion. Due to this issue I have been looking at, and developing, theory for how to transfer energy from one motional mode to another, to allow for efficient readout of the absorption kick.\medskip
+Ba$^+$ ion. Due to this issue we have been looking at, and developing, theory for how to transfer energy from one motional mode to another \cite{WeaklyCoupled,hou2022coherently}, to allow for efficient readout of the absorption kick.
+This coupling is also expected to be necessary in order to efficiently cool such systems to the ground state, as the same mechanisms that make readout difficult for recoil spectroscopy will make cooling highly inefficient.\\
 \newline
 \noindent\Large{\textbf{Outline of the report}}\newline
 \normalsize The report is divided into 5 different chapters. \Cref{chap:intro} is a brief introduction to the field, some of the challenges I face, and what I hope to accomplish with my PhD.
 
 \Cref{chap:LinTrap} describes the physics of trapping ions in a linear Paul trap and is split into two sections, the first describing the trapping of a single ion, while the latter derives the common motion of two ions in the trap.
 
-Next is \cref{chap:ESI} which describes the electrospray ionization source, which is the source of molecular ions for the experiment. The first section of this chapter is an overview of the setup and the second contains a characterization of one of the octopole guides within the setup.
+Next is \cref{chap:ESI} which describes the electrospray ionization source, which is the source of molecular ions for the experiment. The first section of the chapter is an overview of the setup, and the second contains a characterization of one of the octopole guides within the setup.
 
-\Cref{chap:Cooling} describes the laser cooling necessary for reaching the motional ground state of a two-ion system. The first section contains the theory for Doppler cooling, which allows the ions to reach a temperature of $\sim$1mK. The second section describes sideband cooling, which is necessary for cooling the motion of the system to its quantum mechanical ground state. Finally, the 3rd section of the chapter talks on how one can couple the motion of the ions by using an external field, in order to improve the cooling of systems where the two ions have large differences their mass-to-charge ratios.
+\Cref{chap:Cooling} describes the laser cooling necessary for reaching the motional ground state of a two-ion system, and is split into three sections. The first section contains the theory for Doppler cooling, which allows the ions to reach a temperature of $\sim$1mK. The second section describes sideband cooling, which is necessary for cooling the motion of the system to its quantum mechanical ground state. Finally, the 3rd section of the chapter talks on how one can couple the motion of the ions by using an external field, in order to improve the cooling of systems where the two ions have large differences in their mass-to-charge ratios.
 
-Finally, \cref{chap:future} gives a short plan of the work I plan to do in the latter half of my PhD studies here at Aarhus.
+Finally, \cref{chap:future} consists of a conclusion on the report, and provides an outlook on future work.
