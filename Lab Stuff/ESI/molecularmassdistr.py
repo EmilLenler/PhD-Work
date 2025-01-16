@@ -2,17 +2,15 @@ import numpy as np
 import matplotlib.pyplot as plt
 from scipy.special import binom
 
-maxIsoC = 28
+maxIsoC = 6
 maxIsoN = 2
-maxIsoO = 3
-maxIsoCl = 1
-nH = 31
+maxIsoO = 2
+nH = 14
 
 probIsoC = 0.01
 probIsoN = 0.003
 probIsoO = 0.001
-probIsoCl = 0.24
-
+ 
 
 mH = 1
 mC = 12
@@ -24,8 +22,6 @@ mNIso = 15
 mO = 16
 mOIso = 18
 
-mCl = 35
-mClIso = 37
 checksum =0
 probs = []
 masses = []
@@ -45,13 +41,11 @@ for nCIso in range(maxIsoC+1):
         for nOIso in range(maxIsoO+1):
             mOtot = nOIso*mOIso + (maxIsoO-nOIso) * mO
             pO = binom(maxIsoO,nOIso) * probIsoO**nOIso * (1-probIsoO)**(maxIsoO-nOIso)
-            for nClIso in range(maxIsoCl+1):
-                mCltot = nClIso*mClIso + (maxIsoCl-nClIso) * mCl
-                pCl = binom(maxIsoCl,nClIso) * probIsoCl**nClIso * (1-probIsoCl)**(maxIsoCl-nClIso)
-                p = pC*pN*pO*pCl
-                M = mCtot+mNtot+mCltot+mOtot+mHtot
-                probs.append(p)
-                masses.append(M)
+            p = pC*pN*pO
+            M = mCtot+mNtot+mOtot+mHtot
+            probs.append(p)
+            masses.append(M)
+
 print(np.sum(probs))
 
 #Add together isotopes that end up with the same masses
@@ -77,7 +71,7 @@ probsFiltered = np.array(pNew)[pNew>1e-7]
 massesFiltered = np.array(mNew)[pNew>1e-7]
 plt.xlabel('Mass / a.m.u.')
 plt.ylabel('Probability')
-plt.title('Rhodamine 6G mass distribution')
+plt.title('Lys mass distribution')
 
 plt.scatter(massesFiltered,probsFiltered)
 plt.show()
