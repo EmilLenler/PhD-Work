@@ -31,7 +31,7 @@ class CIT:
 
         #Since potential is an infinite sum, we loop until potential converges
         p0 = self.pn(0)
-        InitVal = 4 * (1/np.pi) * (np.iv(p0*r)/np.iv(p0*self.r0))*np.cos(p0*z)
+        InitVal = 4 * (1/np.pi) * (np.i0(p0*r)/np.i0(p0*self.r0))*np.cos(p0*z)
 
         #Initalize the CurrValues and NextValues array, 
         CurrValues = [InitVal]
@@ -42,7 +42,7 @@ class CIT:
 
 
         p1 = self.pn(1)
-        NextVal = 4 * (-1)/(3*np.pi) * (np.iv(p1*r)/np.iv(p1*self.r0)) * np.cos(p1*z)
+        NextVal = 4 * (-1)/(3*np.pi) * (np.i0(p1*r)/np.i0(p1*self.r0)) * np.cos(p1*z)
         NextValues.append(NextVal)
 
         #Determine potential using n = 0 --> 1
@@ -50,9 +50,9 @@ class CIT:
 
         #Start looping, increasing the number of terms in sum until a relative tolerance of tol is reached
         n=2
-        while np.abs((CurrentPotential-NextPotential)/CurrentPotential)>tol:
+        while n<11:#np.abs((CurrentPotential-NextPotential)/CurrentPotential)>tol:
             CurrValues.append(NextVal)
-            NextVal = 4*(-1)**n/((2*n+1)*np.pi) * (np.iv(self.pn(n)*r)/np.iv(self.pn(n)*self.r0)) * np.cos(self.pn(n)*z)
+            NextVal = 4*(-1)**n/((2*n+1)*np.pi) * (np.i0(self.pn(n)*r)/np.i0(self.pn(n)*self.r0)) * np.cos(self.pn(n)*z)
             
             NextValues.append(NextVal)
             CurrentPotential = np.sum(CurrValues)
@@ -61,4 +61,20 @@ class CIT:
             n+=1
         return NextPotential*V0
 
+    def Term(self,r,z,n):
+        #Return the nth term of the CIT potential at (r,z)
+        # r -- float with the radial coordinate at which potential is to be calcualted
+        # z -- float with the axial coordinate at which potential is to be calculated
+        # n -- integer with the term number
 
+        return 4*(-1)**n/((2*n+1)*np.pi) * (np.i0(self.pn(n)*r)/np.i0(self.pn(n)*self.r0)) * np.cos(self.pn(n)*z)
+    def CITPotentialV(self,r,z,V0,nmax,tol = 1e-3):
+        #Return the CIT potential at (r,z)
+        # r -- float with the radial coordinate at which potential is to be calcualted
+        # z -- float with the axial coordinate at which potential is to be calculated
+        # V0 -- float equal to potential difference between the cylinder wall and endcaps
+        # nmax -- integer with the maximum number of terms to be summed
+
+        ns = np.array(range(nmax))
+        terms = self.Term(r,z,ns)
+        return np.sum(terms)*V0
