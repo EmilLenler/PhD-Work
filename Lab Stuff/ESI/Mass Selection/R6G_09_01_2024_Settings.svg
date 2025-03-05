@@ -8,7 +8,10 @@
    version="1.1"
    id="svg1"
    inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
-   sodipodi:docname="CIT_Pulsing_04_11_2024.svg"
+   sodipodi:docname="R6G_09_01_2024_Settings.svg"
+   inkscape:export-filename="..\Time of flight\ToF Lys_R6G_28_02_2025.png"
+   inkscape:export-xdpi="141.11111"
+   inkscape:export-ydpi="141.11111"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -24,15 +27,16 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="3.175"
-     inkscape:cx="386.77165"
-     inkscape:cy="583.14961"
+     inkscape:zoom="1.5875"
+     inkscape:cx="274.01575"
+     inkscape:cy="188.0315"
      inkscape:window-width="1920"
      inkscape:window-height="1129"
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="layer1" />
+     inkscape:current-layer="layer1"
+     inkscape:export-bgcolor="#ffffffff" />
   <defs
      id="defs1">
     <clipPath
@@ -313,7 +317,12 @@
          id="tspan35"
          style="stroke-width:0"
          x="24.458338"
-         y="12.283322">54</tspan></text>
+         y="12.283322">70</tspan><tspan
+         sodipodi:role="line"
+         style="stroke-width:0"
+         x="24.458338"
+         y="14.92916"
+         id="tspan1" /></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -324,7 +333,7 @@
          id="tspan36"
          style="stroke-width:0"
          x="35.708332"
-         y="6.2833233">110</tspan></text>
+         y="6.2833233">70</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -335,7 +344,7 @@
          id="tspan35-6"
          style="stroke-width:0"
          x="45.697498"
-         y="10.974102">54</tspan></text>
+         y="10.974102">70</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -346,7 +355,7 @@
          id="tspan35-6-5"
          style="stroke-width:0"
          x="51.73708"
-         y="15.471996">45</tspan><tspan
+         y="15.471996">69</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0"
          x="51.73708"
@@ -362,7 +371,7 @@
          id="tspan38"
          style="stroke-width:0"
          x="68.250008"
-         y="17.283348">11</tspan><tspan
+         y="17.283348">10</tspan><tspan
          sodipodi:role="line"
          style="stroke-width:0"
          x="68.250008"
@@ -379,7 +388,7 @@
          id="tspan40"
          style="stroke-width:0"
          x="58.330162"
-         y="5.3178549">-30/200</tspan></text>
+         y="5.3178549">200/-10</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -390,18 +399,18 @@
          id="tspan42"
          style="stroke-width:0"
          x="72.916679"
-         y="4.949995">0 / -102</tspan></text>
+         y="4.949995">0 / -160</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
-       x="77.749992"
+       x="79.541656"
        y="18.950027"
        id="text43"><tspan
          sodipodi:role="line"
          id="tspan43"
          style="stroke-width:0"
-         x="77.749992"
-         y="18.950027">23/2</tspan></text>
+         x="79.541656"
+         y="18.950027">0</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -412,7 +421,7 @@
          id="tspan44"
          style="stroke-width:0"
          x="87.750015"
-         y="5.9916592">X/Y</tspan></text>
+         y="5.9916592">23</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -423,7 +432,7 @@
          id="tspan45"
          style="stroke-width:0"
          x="96.416679"
-         y="10.950009">23/</tspan></text>
+         y="10.950009">23</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -445,7 +454,7 @@
          id="tspan45-5"
          style="stroke-width:0"
          x="118.22091"
-         y="4.7928524">2000</tspan></text>
+         y="4.7928524">2100</tspan></text>
     <text
        xml:space="preserve"
        style="font-size:2.11667px;fill:#000000;fill-opacity:1;stroke:#000000;stroke-width:0;stroke-dasharray:none;stroke-opacity:1"
@@ -456,6 +465,6 @@
          id="tspan45-57"
          style="stroke-width:0"
          x="128.04175"
-         y="7.4365978">1850</tspan></text>
+         y="7.4365978">2000</tspan></text>
   </g>
 </svg>
